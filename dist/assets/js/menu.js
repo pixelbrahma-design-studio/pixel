@@ -83,7 +83,8 @@
   var overlapping = [];
   var io = null;
   function tone() {
-    var dark = overlapping.some(function (el) { return el.getAttribute("data-tone") === "dark"; });
+    var phone = window.matchMedia && window.matchMedia("(max-width: 700px)").matches;
+    var dark = overlapping.some(function (el) { return (phone && el.hasAttribute("data-tone-m") ? el.getAttribute("data-tone-m") : el.getAttribute("data-tone")) === "dark"; });
     header.classList.toggle("header--on-dark", dark);
   }
   function watch() {
@@ -115,6 +116,7 @@
   window.addEventListener("scroll", onScroll, { passive: true });
   window.addEventListener("resize", function () { window.clearTimeout(resizeTimer); resizeTimer = window.setTimeout(watch, 150); });
   window.addEventListener("pb:tone", tone);
+  window.addEventListener("resize", tone);
   watch();
   onScroll();
 })();

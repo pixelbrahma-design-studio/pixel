@@ -22,6 +22,9 @@ const pageImages = read("page-images.json");
 const IMG = require("./lib/img");
 let TONES = {};
 try { TONES = JSON.parse(fs.readFileSync(path.join(SRC, "assets/img/tones.json"), "utf8")); } catch (e) { /* run scripts/tone-scan.js */ }
+let TONES_M = {};
+try { TONES_M = JSON.parse(fs.readFileSync(path.join(SRC, "assets/img/tones-m.json"), "utf8")); } catch (e) { /* run scripts/tone-scan.js */ }
+const toneMOf = (key) => (TONES_M[key] === "dark" ? "dark" : "light");
 const toneOf = (p) => (p.kind === "home" ? "dark" : p.banner && TONES[p.banner] === "dark" ? "dark" : "light");
 
 const warnings = [];
@@ -208,8 +211,8 @@ function pbanner(p) {
   const crumbs = "";
   const lead = p.lead ? `<p class="pbanner__lead">${t(p.lead)}</p>` : "";
   const actions = p.compact ? "" : `<div class="pbanner__actions"><a class="btn" href="/contact-us/">Start a project</a><a class="btn btn--ghost" href="tel:${site.phones[0].tel}">Call ${site.phones[0].display}</a></div>`;
-  return `<section class="pbanner pbanner--${bv}${p.compact ? " pbanner--short" : ""}" id="top" data-tone="${tone}">
-<div class="pbanner__media">${IMG.pic(p.banner, { sizes: "100vw", loading: "eager", priority: true })}</div>
+  return `<section class="pbanner pbanner--${bv}${p.compact ? " pbanner--short" : ""}" id="top" data-tone="${tone}" data-tone-m="${toneMOf(p.banner)}">
+<div class="pbanner__media">${IMG.pic(p.banner, { sizes: BANNER_SIZES, loading: "eager", priority: true })}</div>
 <div class="wrap pbanner__inner"><div class="pbanner__card"><h1>${t(p.h1)}</h1>${lead}${actions}${crumbs}</div></div></section>`;
 }
 const HERO_SIZES = "100vw";
@@ -266,6 +269,8 @@ function smolSection() {
 
 /* ---------- Home: full-width banner slider (first section) ---------- */
 /* Each slide is just a title, one line of content and a button. Images are matched to the title. */
+/* on a phone the photo is cropped to the screen height, so it needs far more pixels than the screen is wide */
+const BANNER_SIZES = "(max-width: 700px) 300vw, 100vw";
 const BANNER = [
   { img: "banner-app", dark: true, h: "App Development", p: "Cross-platform apps for iOS, Android and the web, designed around real users and built to protect their data.", href: "/app-development/" },
   { img: "banner-web", h: "Website Design & Development", p: "Fast, secure, search-ready websites with a clear flow, custom design and clean code.", href: "/website/" },
@@ -274,13 +279,13 @@ const BANNER = [
 ];
 
 function banner() {
-  const bgs = BANNER.map((sl, i) => `<div class="banner__bg banner__bg--${i + 1}${i === 0 ? " is-active" : ""}">${IMG.pic(sl.img, { sizes: "100vw", loading: i === 0 ? "eager" : "lazy", priority: i === 0, alt: "", defer: i > 0 })}</div>`).join("");
-  const slides = BANNER.map((sl, i) => `<article class="slide${i === 0 ? " is-active" : ""}" id="slide-${i + 1}" role="group" aria-roledescription="slide" data-header="${sl.dark ? "dark" : "light"}" aria-label="${i + 1} of ${BANNER.length}: ${esc(sl.h)}">
+  const bgs = BANNER.map((sl, i) => `<div class="banner__bg banner__bg--${i + 1}${i === 0 ? " is-active" : ""}">${IMG.pic(sl.img, { sizes: BANNER_SIZES, loading: i === 0 ? "eager" : "lazy", priority: i === 0, alt: "", defer: i > 0 })}</div>`).join("");
+  const slides = BANNER.map((sl, i) => `<article class="slide${i === 0 ? " is-active" : ""}" id="slide-${i + 1}" role="group" aria-roledescription="slide" data-header="${sl.dark ? "dark" : "light"}" data-header-m="${toneMOf(sl.img)}" aria-label="${i + 1} of ${BANNER.length}: ${esc(sl.h)}">
 <h2 class="slide__title">${t(sl.h)}</h2><p class="slide__lead">${t(sl.p)}</p>
 <div class="slide__actions"><a class="btn" href="${sl.href}">Explore ${t(sl.h)}</a></div></article>`).join("");
   const dots = BANNER.map((sl, i) => `<button class="slider__dot${i === 0 ? " is-active" : ""}" type="button" data-slide="${i}" aria-label="0${i + 1}: ${esc(sl.h)}"${i === 0 ? ' aria-current="true"' : ""}>0${i + 1}</button>`).join("");
   const arrow = (d, label, path) => `<button class="slider__btn" type="button" data-dir="${d}" aria-label="${label}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="${path}" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`;
-  return `<section class="banner" id="top" data-tone="dark" aria-roledescription="carousel" aria-label="Our services">
+  return `<section class="banner" id="top" data-tone="dark" data-tone-m="${toneMOf(BANNER[0].img)}" aria-roledescription="carousel" aria-label="Our services">
 <div class="banner__media" aria-hidden="true">${bgs}</div>
 <div class="wrap banner__inner">
 <div class="banner__slides" id="slider-track" aria-live="off">${slides}</div>
@@ -496,7 +501,7 @@ ${canonical ? `<link rel="alternate" hreflang="en" href="${url}">\n<link rel="al
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preload" href="/assets/fonts/general-sans-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/general-sans-600.woff2" as="font" type="font/woff2" crossorigin>
-${p.kind === "home" ? IMG.preload("banner-app", "100vw") : p.banner ? IMG.preload(p.banner, HERO_SIZES) : ""}
+${p.kind === "home" ? IMG.preload("banner-app", BANNER_SIZES) : p.banner ? IMG.preload(p.banner, BANNER_SIZES) : ""}
 <script>${jsClassScript}</script>
 <style>${criticalCss}</style>
 <link rel="stylesheet" href="/assets/css/main.css?v=${mainVer}">

@@ -43,6 +43,7 @@
     else { img.addEventListener("load", activate, { once: true }); img.addEventListener("error", activate, { once: true }); }
     /* tell the header whether the photo behind it is dark (white logo) or light (original logo) */
     if (slides[index].getAttribute("data-header") === "dark") root.setAttribute("data-tone", "dark"); else root.removeAttribute("data-tone");
+    root.setAttribute("data-tone-m", slides[index].getAttribute("data-header-m") || "light");
     window.dispatchEvent(new Event("pb:tone"));
     dots.forEach(function (d, k) {
       var on = k === index;
