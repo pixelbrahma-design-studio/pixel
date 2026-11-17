@@ -4,6 +4,9 @@
 
 ## Main pages
 - [Home](https://pixelbrahma.com/): Pixelbrahma is a web design, app development, digital marketing and branding agency in Bengaluru, Kochi and Brampton, Canada, with 20+ years of experience.
+- [Web, app, marketing and branding services under one roof](https://pixelbrahma.com/services/): Explore Pixelbrahma services: website design, mobile app development, digital marketing and branding for businesses in Bengaluru, Kochi and Canada.
+- [Work we are proud of, across web, app and brand](https://pixelbrahma.com/work/): See websites, apps, social media posts, logos, brochures, leaflets, packaging and outdoor work created by Pixelbrahma for brands in India and Canada.
+- [A design and technology studio with 20+ years of experience](https://pixelbrahma.com/about/): Pixelbrahma Design Studio has created customer experiences for more than 20 years from offices in Bengaluru, Kochi and Brampton, Canada. Meet the studio.
 - [Let us talk about your project](https://pixelbrahma.com/contact-us/): Start a project with Pixelbrahma. Call or email our offices in Bengaluru, Kochi and Brampton, Canada, or send a brief using the contact form.
 
 ## App & Web Development

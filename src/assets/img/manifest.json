@@ -2872,5 +2872,446 @@
     "h": 1000
    }
   ]
+ },
+ "banner-services": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Creative studio desk with monitors, camera lenses and photography equipment",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-work": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Handwritten sketches and notes scattered across a wooden desk with a keyboard",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-p-app": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Hand holding a smartphone that shows a dashboard app",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-p-web": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Two monitors on a wooden desk in a web design workspace",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-p-digital": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Marketing team using laptops while a colleague presents at a whiteboard",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-p-brand": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Two people standing before a wall covered in printed logos and brand images",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-about": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Creative team collaborating with sticky notes",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-contact": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Smiling customer support colleague wearing a headset at a computer",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-privacy": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Laptop with a glowing screen on a dark wooden desk",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-terms": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Two people shaking hands over a signed document",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "why-logo": {
+  "w": 1600,
+  "h": 1280,
+  "alt": "Designer drawing a logo on a tablet with a stylus",
+  "variants": [
+   {
+    "w": 640,
+    "h": 512
+   },
+   {
+    "w": 1024,
+    "h": 819
+   },
+   {
+    "w": 1600,
+    "h": 1280
+   }
+  ]
+ },
+ "why-brochures": {
+  "w": 1600,
+  "h": 1280,
+  "alt": "Folded brochures and pamphlets stacked together",
+  "variants": [
+   {
+    "w": 640,
+    "h": 512
+   },
+   {
+    "w": 1024,
+    "h": 819
+   },
+   {
+    "w": 1600,
+    "h": 1280
+   }
+  ]
+ },
+ "why-leaflets": {
+  "w": 1600,
+  "h": 1280,
+  "alt": "Posters and printed artwork pinned to a wall",
+  "variants": [
+   {
+    "w": 640,
+    "h": 512
+   },
+   {
+    "w": 1024,
+    "h": 819
+   },
+   {
+    "w": 1600,
+    "h": 1280
+   }
+  ]
+ },
+ "why-magazine": {
+  "w": 1600,
+  "h": 1280,
+  "alt": "Open magazine with colourful pages on a table",
+  "variants": [
+   {
+    "w": 640,
+    "h": 512
+   },
+   {
+    "w": 1024,
+    "h": 819
+   },
+   {
+    "w": 1600,
+    "h": 1280
+   }
+  ]
+ },
+ "why-package": {
+  "w": 1600,
+  "h": 1280,
+  "alt": "Hands holding coffee cups and branded coffee bags",
+  "variants": [
+   {
+    "w": 640,
+    "h": 512
+   },
+   {
+    "w": 1024,
+    "h": 819
+   },
+   {
+    "w": 1600,
+    "h": 1280
+   }
+  ]
+ },
+ "why-inshop": {
+  "w": 1600,
+  "h": 1280,
+  "alt": "Clothing boutique interior with racks and wall branding",
+  "variants": [
+   {
+    "w": 640,
+    "h": 512
+   },
+   {
+    "w": 1024,
+    "h": 819
+   },
+   {
+    "w": 1600,
+    "h": 1280
+   }
+  ]
+ },
+ "why-outdoor": {
+  "w": 1600,
+  "h": 1280,
+  "alt": "Blank advertising billboard at a bus stop at night",
+  "variants": [
+   {
+    "w": 640,
+    "h": 512
+   },
+   {
+    "w": 1024,
+    "h": 819
+   },
+   {
+    "w": 1600,
+    "h": 1280
+   }
+  ]
+ },
+ "why-tvc": {
+  "w": 1600,
+  "h": 1280,
+  "alt": "Filmmaker setup with cameras, lenses and monitors",
+  "variants": [
+   {
+    "w": 640,
+    "h": 512
+   },
+   {
+    "w": 1024,
+    "h": 819
+   },
+   {
+    "w": 1600,
+    "h": 1280
+   }
+  ]
+ },
+ "why-services": {
+  "w": 1600,
+  "h": 1280,
+  "alt": "Analytics dashboard on a monitor showing performance charts",
+  "variants": [
+   {
+    "w": 640,
+    "h": 512
+   },
+   {
+    "w": 1024,
+    "h": 819
+   },
+   {
+    "w": 1600,
+    "h": 1280
+   }
+  ]
  }
 }

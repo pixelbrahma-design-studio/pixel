@@ -23,11 +23,6 @@
       "note": "Old WordPress slug; vehicle branding now covered on Outdoor"
     },
     {
-      "from": "/services",
-      "to": "/",
-      "note": "Old services page; home has a services section"
-    },
-    {
       "from": "/home",
       "to": "/",
       "note": "Old WordPress variant"

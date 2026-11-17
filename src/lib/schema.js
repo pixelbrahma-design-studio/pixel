@@ -101,7 +101,7 @@ function service(site, page, ctx) {
 
 function webpage(site, page) {
   const url = abs(site, page.path);
-  const type = page.path === "/contact-us/" ? "ContactPage" : page.path === "/" ? "WebPage" : "WebPage";
+  const type = page.path === "/contact-us/" ? "ContactPage" : page.path === "/about/" ? "AboutPage" : page.path === "/work/" || page.path === "/services/" ? "CollectionPage" : "WebPage";
   const node = {
     "@type": type,
     "@id": url + "#webpage",

@@ -1065,5 +1065,253 @@
       960,
       1600
     ]
+  },
+  "banner-services": {
+    "src": "external:unsplash",
+    "file": "banner-services.jpg",
+    "alt": "Creative studio desk with monitors, camera lenses and photography equipment",
+    "credit": "Unsplash contributor (photo id 1777019075773-a231fa4e4534)",
+    "source": "https://images.unsplash.com/photo-1777019075773-a231fa4e4534",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-work": {
+    "src": "external:unsplash",
+    "file": "banner-work.jpg",
+    "alt": "Handwritten sketches and notes scattered across a wooden desk with a keyboard",
+    "credit": "Unsplash contributor (photo id 1792830047526-e692ed52a905)",
+    "source": "https://images.unsplash.com/photo-1792830047526-e692ed52a905",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-p-app": {
+    "src": "external:unsplash",
+    "file": "banner-p-app.jpg",
+    "alt": "Hand holding a smartphone that shows a dashboard app",
+    "credit": "Unsplash contributor (photo id 1551650975-87deedd944c3)",
+    "source": "https://images.unsplash.com/photo-1551650975-87deedd944c3",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-p-web": {
+    "src": "external:unsplash",
+    "file": "banner-p-web.jpg",
+    "alt": "Two monitors on a wooden desk in a web design workspace",
+    "credit": "Unsplash contributor (photo id 1487338875411-8880f74114a2)",
+    "source": "https://images.unsplash.com/photo-1487338875411-8880f74114a2",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-p-digital": {
+    "src": "external:unsplash",
+    "file": "banner-p-digital.jpg",
+    "alt": "Marketing team using laptops while a colleague presents at a whiteboard",
+    "credit": "Unsplash contributor (photo id 1557804506-669a67965ba0)",
+    "source": "https://images.unsplash.com/photo-1557804506-669a67965ba0",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-p-brand": {
+    "src": "external:unsplash",
+    "file": "banner-p-brand.jpg",
+    "alt": "Two people standing before a wall covered in printed logos and brand images",
+    "credit": "Unsplash contributor (photo id 1613759612065-d5971d32ca49)",
+    "source": "https://images.unsplash.com/photo-1613759612065-d5971d32ca49",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-about": {
+    "src": "external:unsplash",
+    "file": "banner-about.jpg",
+    "alt": "Creative team collaborating with sticky notes",
+    "credit": "Unsplash contributor (photo id 1758691736843-90f58dce465e)",
+    "source": "https://images.unsplash.com/photo-1758691736843-90f58dce465e",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-contact": {
+    "src": "external:unsplash",
+    "file": "banner-contact.jpg",
+    "alt": "Smiling customer support colleague wearing a headset at a computer",
+    "credit": "Unsplash contributor (photo id 1766066014237-00645c74e9c6)",
+    "source": "https://images.unsplash.com/photo-1766066014237-00645c74e9c6",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-privacy": {
+    "src": "external:unsplash",
+    "file": "banner-privacy.jpg",
+    "alt": "Laptop with a glowing screen on a dark wooden desk",
+    "credit": "Unsplash contributor (photo id 1603302576837-37561b2e2302)",
+    "source": "https://images.unsplash.com/photo-1603302576837-37561b2e2302",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-terms": {
+    "src": "external:unsplash",
+    "file": "banner-terms.jpg",
+    "alt": "Two people shaking hands over a signed document",
+    "credit": "Unsplash contributor (photo id 1681505531034-8d67054e07f6)",
+    "source": "https://images.unsplash.com/photo-1681505531034-8d67054e07f6",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "why-logo": {
+    "src": "external:unsplash",
+    "file": "why-logo.jpg",
+    "alt": "Designer drawing a logo on a tablet with a stylus",
+    "credit": "Unsplash contributor (photo id 1748326650737-33500fdfda30)",
+    "source": "https://images.unsplash.com/photo-1748326650737-33500fdfda30",
+    "widths": [
+      640,
+      1024,
+      1600
+    ]
+  },
+  "why-brochures": {
+    "src": "external:unsplash",
+    "file": "why-brochures.jpg",
+    "alt": "Folded brochures and pamphlets stacked together",
+    "credit": "Unsplash contributor (photo id 1769893715447-8f12c382e49c)",
+    "source": "https://images.unsplash.com/photo-1769893715447-8f12c382e49c",
+    "widths": [
+      640,
+      1024,
+      1600
+    ]
+  },
+  "why-leaflets": {
+    "src": "external:unsplash",
+    "file": "why-leaflets.jpg",
+    "alt": "Posters and printed artwork pinned to a wall",
+    "credit": "Unsplash contributor (photo id 1775665422725-9b7baff5b2a8)",
+    "source": "https://images.unsplash.com/photo-1775665422725-9b7baff5b2a8",
+    "widths": [
+      640,
+      1024,
+      1600
+    ]
+  },
+  "why-magazine": {
+    "src": "external:unsplash",
+    "file": "why-magazine.jpg",
+    "alt": "Open magazine with colourful pages on a table",
+    "credit": "Unsplash contributor (photo id 1764002673517-fe61da14dc6e)",
+    "source": "https://images.unsplash.com/photo-1764002673517-fe61da14dc6e",
+    "widths": [
+      640,
+      1024,
+      1600
+    ]
+  },
+  "why-package": {
+    "src": "external:unsplash",
+    "file": "why-package.jpg",
+    "alt": "Hands holding coffee cups and branded coffee bags",
+    "credit": "Unsplash contributor (photo id 1633533452148-a9657d2c9a5f)",
+    "source": "https://images.unsplash.com/photo-1633533452148-a9657d2c9a5f",
+    "widths": [
+      640,
+      1024,
+      1600
+    ]
+  },
+  "why-inshop": {
+    "src": "external:unsplash",
+    "file": "why-inshop.jpg",
+    "alt": "Clothing boutique interior with racks and wall branding",
+    "credit": "Unsplash contributor (photo id 1777628530456-bb93d3a03faf)",
+    "source": "https://images.unsplash.com/photo-1777628530456-bb93d3a03faf",
+    "widths": [
+      640,
+      1024,
+      1600
+    ]
+  },
+  "why-outdoor": {
+    "src": "external:unsplash",
+    "file": "why-outdoor.jpg",
+    "alt": "Blank advertising billboard at a bus stop at night",
+    "credit": "Unsplash contributor (photo id 1635873432087-50eba4c4392d)",
+    "source": "https://images.unsplash.com/photo-1635873432087-50eba4c4392d",
+    "widths": [
+      640,
+      1024,
+      1600
+    ]
+  },
+  "why-tvc": {
+    "src": "external:unsplash",
+    "file": "why-tvc.jpg",
+    "alt": "Filmmaker setup with cameras, lenses and monitors",
+    "credit": "Unsplash contributor (photo id 1757845524683-611470b2d7ce)",
+    "source": "https://images.unsplash.com/photo-1757845524683-611470b2d7ce",
+    "widths": [
+      640,
+      1024,
+      1600
+    ]
+  },
+  "why-services": {
+    "src": "external:unsplash",
+    "file": "why-services.jpg",
+    "alt": "Analytics dashboard on a monitor showing performance charts",
+    "credit": "Unsplash contributor (photo id 1560472354-b33ff0c44a43)",
+    "source": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    "widths": [
+      640,
+      1024,
+      1600
+    ]
   }
 }

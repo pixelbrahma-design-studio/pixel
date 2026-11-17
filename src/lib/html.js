@@ -33,9 +33,9 @@ const GROUPS = [
 ];
 const PRIMARY = [
   ["Home", "/"],
-  ["Services", "/#services"],
-  ["Work", "/#work"],
-  ["About", "/#about"],
+  ["Services", "/services/"],
+  ["Work", "/work/"],
+  ["About", "/about/"],
   ["Contact", "/contact-us/"]
 ];
 const SLIM = PRIMARY.slice(1);
@@ -86,7 +86,7 @@ function mega(site, cur) {
 
 function footer(site, pages) {
   const year = new Date().getFullYear();
-  const core = [["Home", "/"], ["App Development", "/app-development/"], ["Website Design", "/website/"], ["Digital Marketing", "/digital-marketing/"], ["Branding", "/branding/"], ["Contact Us", "/contact-us/"]]
+  const core = [["Home", "/"], ["Our Services", "/services/"], ["Our Work", "/work/"], ["About Us", "/about/"], ["Contact Us", "/contact-us/"]]
     .map(([l, h]) => `<li><a href="${h}">${t(l)}</a></li>`).join("");
   const svc = GROUPS.map((g) => `<li class="footer__sub"><a href="${g.href}">${t(g.label)}</a>${g.items.length ? `<ul>${g.items.map((h) => `<li><a href="${h}">${SHORT[h]}</a></li>`).join("")}</ul>` : ""}</li>`).join("");
   const offices = site.offices.map((o) => `<address><strong>${o.city}</strong>${esc(address(o))}<br><a href="tel:${o.phone}">${o.phoneDisplay}</a></address>`).join("");
@@ -273,4 +273,4 @@ function ctaBand(site, opts = {}) {
   return `<section class="section" id="start"><div class="wrap"><div class="cta-card"><div class="reveal"><h2>${t(hd)}</h2><p>${t(p)}</p><div class="cta__actions"><a class="btn btn--lime" href="/contact-us/">Start a project</a><a class="btn btn--ghost" href="tel:${site.phones[0].tel}">Call ${site.phones[0].display}</a></div></div></div></div></section>`;
 }
 
-module.exports = { esc, t, stripComments, SHORT, GROUPS, PRIMARY, address, header, mega, footer, breadcrumbs, blocks, faqBlock, relatedBlock, metaStrip, ctaBand, socials, sec, head, heroArt, glyph };
+module.exports = { headSplit, esc, t, stripComments, SHORT, GROUPS, PRIMARY, address, header, mega, footer, breadcrumbs, blocks, faqBlock, relatedBlock, metaStrip, ctaBand, socials, sec, head, heroArt, glyph };

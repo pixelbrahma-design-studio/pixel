@@ -1,8 +1,8 @@
 /* Selected work: sideways slider with previous / next arrows. The track itself scrolls natively (swipe, trackpad, keyboard). */
 (function () {
   "use strict";
-  var root = document.querySelector("[data-work-slider]");
-  if (!root) return;
+  document.querySelectorAll("[data-work-slider]").forEach(init);
+  function init(root) {
   var track = root.querySelector(".work-track, .gscroll");
   var prev = root.querySelector('[data-work="-1"]');
   var next = root.querySelector('[data-work="1"]');
@@ -33,4 +33,5 @@
   }, { passive: true });
   window.addEventListener("resize", update);
   update();
+  }
 })();

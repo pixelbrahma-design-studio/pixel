@@ -14,7 +14,7 @@ const keys = Object.keys(manifest).filter((k) => k.startsWith("banner-") || k ==
     let sum = 0, n = 0;
     for (let y = 0; y < H; y++) for (let x = 0; x < info.width; x++) { if (x < info.width * 0.3 || x > info.width * 0.88) { sum += data[y * info.width + x]; n++; } }
     const lum = sum / n / 255;
-    out[k] = lum < 0.6 ? "dark" : "light";
+    out[k] = lum < 0.64 ? "dark" : "light";
     console.log(k.padEnd(18), lum.toFixed(2), out[k]);
   }
   fs.writeFileSync(path.join(dir, "tones.json"), JSON.stringify(out, null, 2));

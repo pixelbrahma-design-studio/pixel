@@ -13,5 +13,15 @@
   "banner-package": "light",
   "banner-inshop": "light",
   "banner-outdoor": "light",
-  "banner-tvc": "dark"
+  "banner-tvc": "dark",
+  "banner-services": "dark",
+  "banner-work": "dark",
+  "banner-p-app": "light",
+  "banner-p-web": "light",
+  "banner-p-digital": "dark",
+  "banner-p-brand": "light",
+  "banner-about": "dark",
+  "banner-contact": "dark",
+  "banner-privacy": "dark",
+  "banner-terms": "dark"
 }

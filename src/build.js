@@ -74,7 +74,7 @@ add({
   title: "Contact Pixelbrahma | Bengaluru, Kochi & Brampton Offices",
   description: "Start a project with Pixelbrahma. Call or email our offices in Bengaluru, Kochi and Brampton, Canada, or send a brief using the contact form.",
   keywords: "contact Pixelbrahma, design agency Bengaluru contact, design studio Kochi, design agency Brampton",
-  banner: "contact-bg", h1: "Let us talk about your project", eyebrow: "Contact",
+  banner: "banner-contact", h1: "Let us talk about your project", eyebrow: "Contact",
   lead: "Tell us what you need. We will reply with questions and a suggested next step.",
   answer: "You can reach Pixelbrahma by phone, email or the contact form, and visit our offices in Bengaluru, Kochi and Brampton, Canada.",
   glyph: "signal",
@@ -84,13 +84,61 @@ add({
     { q: "Can we meet online instead of in person?", a: "Yes. Most first conversations happen by video call, and we can arrange an in-person visit at any of our offices on request." }
   ]
 });
-legal.forEach((l) => add({ ...l, path: pth(l.slug), kind: "legal", navName: l.h1, og: "/assets/og/home.png", banner: "banner-brand", compact: true }));
+/* Services, Work and About: real pages behind the main menu */
+add({
+  slug: "services", path: "/services/", kind: "info", navName: "Services", banner: "banner-services", og: "/assets/og/services.png",
+  title: "Web, App, Marketing & Branding Services | Pixelbrahma",
+  description: "Explore Pixelbrahma services: website design, mobile app development, digital marketing and branding for businesses in Bengaluru, Kochi and Canada.",
+  keywords: "web design and app development services, digital marketing services, branding services, design agency Bengaluru, design agency Kochi, design agency Brampton",
+  h1: "Web, app, marketing and branding services under one roof",
+  lead: "Choose one service, or let us join them up so your product, your marketing and your brand pull in the same direction.",
+  answer: "Pixelbrahma is a design and technology studio that offers website design, mobile app development, digital marketing and branding, from offices in Bengaluru, Kochi and Brampton (Canada).",
+  related: ["/work/", "/about/", "/contact-us/"],
+  ui: { rel: "See our work or meet the studio", faq: "Pixelbrahma services FAQs", faqIntro: "Which services we offer, where we work and how projects start.", form: "Tell us which service you need" },
+  faq: [
+    { q: "Which services does Pixelbrahma offer?", a: "We offer website design and development, mobile app development, digital marketing (social media management and content creation) and branding (logo, brochures, leaflets, magazines, packaging, in-shop branding, outdoor and TV commercials)." },
+    { q: "Can I hire you for just one service?", a: "Yes. Many clients start with a single project, such as a logo or a website, and add other services later." },
+    { q: "Do you offer web design and app development in Bengaluru and Kochi?", a: "Yes. Our Kasturinagar studio in Bengaluru and our Kadavanthara team in Kochi design and build websites and apps for local and national clients." },
+    { q: "Do you work with businesses in Canada?", a: "Yes. Our Brampton office supports businesses in the Greater Toronto Area and across Canada." },
+    { q: "How do I choose where to start?", a: "Tell us your goal on a short call. We usually suggest starting with the service that removes your biggest blocker, whether that is a clear brand, a website or steady marketing." }
+  ]
+});
+add({
+  slug: "work", path: "/work/", kind: "info", navName: "Work", banner: "banner-work", og: "/assets/og/work.png",
+  title: "Our Work: Websites, Apps, Packaging & Branding | Pixelbrahma",
+  description: "See websites, apps, social media posts, logos, brochures, leaflets, packaging and outdoor work created by Pixelbrahma for brands in India and Canada.",
+  keywords: "design portfolio, website portfolio, logo design portfolio, packaging design portfolio, branding agency work, Pixelbrahma portfolio",
+  h1: "Work we are proud of, across web, app and brand",
+  lead: "A selection of websites, apps, social posts, logos, print and packaging we have created for brands in India and Canada.",
+  answer: "This page collects real projects by Pixelbrahma: live websites, app screens, social media creatives, logos, brochures, leaflets, magazine pages, packaging and outdoor designs.",
+  related: ["/services/", "/about/", "/contact-us/"],
+  ui: { rel: "Explore the services behind this work", faq: "Portfolio and project FAQs", faqIntro: "Questions about our projects, case studies and permissions.", form: "Start a project like these" },
+  faq: [
+    { q: "Can I see more work for my industry?", a: "Yes. Tell us your industry and we will share relevant examples and, where clients allow, a short walkthrough." },
+    { q: "Do you publish full case studies?", a: "Full case studies with goals and results are being prepared. Until then, you can see the finished work on this page and visit the live websites." },
+    { q: "Who owns the work you create?", a: "Ownership and usage rights are agreed in writing at the start of each project." },
+    { q: "Can you work in my industry?", a: "Our portfolio spans jewellery, paints and building materials, food, technology, healthcare and education, and we regularly learn new sectors." }
+  ]
+});
+add({
+  slug: "about", path: "/about/", kind: "info", navName: "About", banner: "banner-about", og: "/assets/og/about.png",
+  title: "About Pixelbrahma | Design & Technology Studio, 20+ Years",
+  description: "Pixelbrahma Design Studio has created customer experiences for more than 20 years from offices in Bengaluru, Kochi and Brampton, Canada. Meet the studio.",
+  keywords: "about Pixelbrahma, design studio Bengaluru, design studio Kochi, design agency Brampton, web design and branding agency, 20 years experience",
+  h1: "A design and technology studio with 20+ years of experience",
+  lead: "One team, three offices and a simple belief: ideas stand apart when design, code and brand work together.",
+  answer: "Pixelbrahma Design Studio Pvt Ltd is a design and technology studio with offices in Bengaluru, Kochi and Brampton (Canada) that has been creating customer experiences for more than 20 years.",
+  related: ["/services/", "/work/", "/contact-us/"],
+  ui: { rel: "Explore what we do", faq: "About Pixelbrahma FAQs", faqIntro: "Who we are, where we work and how we start a project.", form: "Say hello to the studio" },
+  faq: []
+});
+legal.forEach((l) => add({ ...l, path: pth(l.slug), kind: "legal", navName: l.h1, og: "/assets/og/home.png", banner: l.slug === "terms-of-service" ? "banner-terms" : "banner-privacy", compact: true }));
 add({ slug: "404", path: "/404.html", kind: "notfound", navName: "Page not found", title: "Page Not Found | Pixelbrahma", description: "The page you are looking for could not be found. Use the menu to visit our services, work or contact page.", h1: "Page not found", og: "/assets/og/home.png", noindex: true });
 
 /* Trails and children */
 pages.forEach((p) => {
   if (p.kind === "home") p.trail = [];
-  else if (p.kind === "parent" || p.kind === "service" || p.kind === "contact" || p.kind === "legal") p.trail = [{ name: "Home", href: "/" }, { name: p.navName, href: p.path }];
+  else if (p.kind === "parent" || p.kind === "service" || p.kind === "info" || p.kind === "contact" || p.kind === "legal") p.trail = [{ name: "Home", href: "/" }, { name: p.navName, href: p.path }];
   else if (p.kind === "child") p.trail = [{ name: "Home", href: "/" }, { name: byPath[p.parentPath].navName, href: p.parentPath }, { name: p.navName, href: p.path }];
   else p.trail = [];
 });
@@ -145,13 +193,13 @@ const INTRO_H = {
   "/digital-media-content-creation/": "What is digital content creation?", "/branding/": "What is branding?",
   "/logo/": "Why does your logo matter?", "/brochures/": "What makes a good brochure?", "/leaftlets/": "What is a leaflet for?",
   "/magazine/": "What goes into magazine design?", "/package-designs/": "Why does packaging design matter?",
-  "/inshop-branding/": "What is in-shop branding?", "/outdoor/": "What is outdoor branding?", "/tvc/": "What is a TVC?", "/contact-us/": "How can we help?"
+  "/inshop-branding/": "What is in-shop branding?", "/services/": "What does Pixelbrahma offer?", "/work/": "What kind of work do we make?", "/about/": "Who is Pixelbrahma?", "/outdoor/": "What is outdoor branding?", "/tvc/": "What is a TVC?", "/contact-us/": "How can we help?"
 };
 /* each page gets its own banner layout (a = card left, b = card right, c = wide bar, d = split panel) and its own section theme (0-3) */
 const LOOK = {
   "/app-development/": ["a", 0], "/website/": ["d", 1], "/digital-marketing/": ["c", 2], "/digital-media-managing/": ["b", 3], "/digital-media-content-creation/": ["a", 1],
   "/branding/": ["d", 2], "/logo/": ["b", 0], "/brochures/": ["c", 3], "/leaftlets/": ["a", 2], "/magazine/": ["d", 3], "/package-designs/": ["b", 1],
-  "/inshop-branding/": ["c", 0], "/outdoor/": ["d", 0], "/tvc/": ["b", 2], "/contact-us/": ["c", 1], "/privacy-policy/": ["a", 0], "/terms-of-service/": ["a", 0]
+  "/inshop-branding/": ["c", 0], "/outdoor/": ["d", 0], "/tvc/": ["b", 2], "/contact-us/": ["c", 1], "/services/": ["c", 1], "/work/": ["d", 2], "/about/": ["b", 3], "/privacy-policy/": ["a", 0], "/terms-of-service/": ["a", 0]
 };
 const lookOf = (p) => LOOK[p.path] || ["a", 0];
 function pbanner(p) {
@@ -179,8 +227,9 @@ function pintro(p) {
 function renderBlocks(p) {
   const motifName = require("./lib/motifs").BY_SLUG[p.slug];
   const theme = lookOf(p)[1];
+  const WHY = { "app-development": "svc-app", "website": "banner-web", "digital-marketing": "svc-digital", "branding": "svc-brand", "digital-media-managing": "svc-managing", "digital-media-content-creation": "svc-content", "logo": "why-logo", "brochures": "why-brochures", "leaftlets": "why-leaflets", "magazine": "why-magazine", "package-designs": "why-package", "inshop-branding": "why-inshop", "outdoor": "why-outdoor", "tvc": "why-tvc" };
   return (p.blocks || []).map((b, i) => {
-    const html = blocks[b.t]({ ...b, motif: motifName, banner: p.banner }, ctx);
+    const html = blocks[b.t]({ ...b, motif: motifName, banner: WHY[p.slug] || p.banner }, ctx);
     return (i + theme) % 3 === 1 && !["gallery", "sites", "cards", "prepare"].includes(b.t) ? html.replace('<section class="section ', '<section class="section section--cream ') : html;
   }).join("");
 }
@@ -189,6 +238,7 @@ function bodyInner(p) {
   if (p.kind === "home") return homeBody(p);
   if (p.kind === "contact") return contactBody(p);
   if (p.kind === "legal") return legalBody(p);
+  if (p.kind === "info") return infoBody(p);
   if (p.kind === "notfound") return notFoundBody();
   const nm = p.navName === "TVC" ? "TVC" : p.navName.toLowerCase();
   return pbanner(p) + pintro(p) + renderBlocks(p) + relatedBlock(p.related, ctx, p.ui && p.ui.rel) + faqBlock(p.faq, p.ui ? p.ui.faq : `${p.navName} questions answered`, p.ui ? p.ui.faqIntro : `What people ask us about ${nm}. Anything else, just get in touch.`) + startForm(p);
@@ -353,6 +403,41 @@ function contactBody(p) {
 <section class="section" id="offices"><div class="wrap">${H.head("Our offices", "Visit us in Bengaluru, Kochi or Brampton.")}<div class="offices">${offices}</div></div></section>` + faqBlock(p.faq, "Contact questions answered", "Quick answers before you get in touch.");
 }
 
+function galleryKeys(path) { const g = pageImages[path] && pageImages[path].gallery; return g ? (Array.isArray(g) ? g : g.keys) : []; }
+function officesInfo() {
+  const cards = site.offices.map((o) => `<article class="office reveal"><h3>${o.city}, ${o.country}</h3><address>${esc(H.address(o))}</address><dl><dt>Phone</dt><dd><a href="tel:${o.phone}">${o.phoneDisplay}</a></dd><dt>Email</dt><dd><a href="mailto:${site.email}">${site.email}</a></dd></dl><a class="city__link" href="/contact-us/#office-${o.id}">Map and directions &rarr;</a></article>`).join("");
+  return H.sec("sec-offices", "offices", H.headSplit("Our offices in Bengaluru, Kochi and Brampton", "Visit us, call us or start online. Teams in India and Canada work across time zones so your project keeps moving.") + `<div class="offices">${cards}</div>`);
+}
+function infoBody(p) {
+  const why = (banner) => blocks.sections({ t: "sections", id: "why", v: "whyx", h: p.slug === "about" ? "Why businesses work with Pixelbrahma" : "Why clients keep working with Pixelbrahma", intro: "One team, clear communication and more than 20 years of experience behind every project.", items: homeData.why.map((w, i) => ({ id: "why-" + (i + 1), h: w.h, p: w.p })), banner }, ctx);
+  const process = (h) => blocks.steps({ t: "steps", id: "process", h, intro: "A simple path from first conversation to a product that keeps improving.", items: homeData.process }, ctx);
+  const gal = (id, h, intro, path, extra = {}) => blocks.gallery({ t: "gallery", id, h, intro, keys: galleryKeys(path), name: extra.name, motif: extra.motif, logos: extra.logos }, ctx);
+  const book = ["/app-development/", "/website/"].map((x) => byPath[x]);
+  let out = pbanner(p) + pintro(p);
+  if (p.slug === "services") {
+    out += serviceRows({ services: homeData.services }) + blocks.deliverables({ t: "deliverables", id: "branding-services", h: "Eight ways we bring a brand to life", intro: "Start with a logo, or choose the format your next campaign needs." }, ctx)
+      + process("How every Pixelbrahma project runs") + why("why-services");
+  } else if (p.slug === "work") {
+    const sitesBlock = services.find((x) => x.slug === "website").blocks.find((b) => b.t === "sites");
+    out += blocks.sites({ ...sitesBlock, h: "Live websites we have designed and built" }, ctx)
+      + gal("social", "Social media posts and campaigns", "Creatives we have designed and managed for brands across industries.", "/digital-media-managing/", { name: "social media", motif: "social" })
+      + gal("apps", "App screens from real projects", "Login and onboarding screens for retail, field and customer apps.", "/app-development/", { name: "app", motif: "app" })
+      + gal("logos", "Logos and identities", "Marks we have designed for shops, manufacturers and service firms.", "/logo/", { logos: true })
+      + gal("brochures", "Brochures and company profiles", "Printed stories for manufacturers, retailers and institutions.", "/brochures/", { name: "brochure", motif: "brochure" })
+      + gal("leaflets", "Leaflets, flyers and posters", "Campaign pieces designed to be read in seconds.", "/leaftlets/", { name: "leaflet", motif: "leaflet" })
+      + gal("packaging", "Packaging and labels", "Paint tins and product packs designed to stand out on the shelf.", "/package-designs/", { name: "packaging", motif: "package" })
+      + gal("magazines", "Magazine and editorial pages", "Layouts with a strong editorial voice.", "/magazine/", { name: "magazine", motif: "magazine" })
+      + gal("outdoor-work", "Hoardings and vehicle branding", "Outdoor designs built to be understood in three seconds.", "/outdoor/", { name: "outdoor", motif: "outdoor" })
+      + brandsSection();
+  } else if (p.slug === "about") {
+    out += why("contact-bg") + process("How we work, in four steps") + officesInfo() + smolSection()
+      + blocks.list({ t: "list", id: "industries", h: "Industries we create work for", intro: "Our portfolio spans jewellery, paints, food, technology, healthcare and education.", items: homeData.industries.map((i) => i.h) }, ctx)
+      + brandsSection();
+    p.faq = homeData.faq.filter((f) => /services does|Canada|cost|start a project|Smolgoodi/.test(f.q)).slice(0, 5);
+  }
+  return out + relatedBlock(p.related, ctx, p.ui.rel) + faqBlock(p.faq, p.ui.faq, p.ui.faqIntro) + startForm(p);
+}
+
 function legalBody(p) {
   const ids = p.sections.map((x, i) => `s-${i + 1}`);
   const toc = p.sections.map((x, i) => `<li><a href="#${ids[i]}">${t(x.h)}</a></li>`).join("");
@@ -435,7 +520,7 @@ ${footer(site, pages)}
 <script src="/assets/js/consent.js" defer></script>
 ${hasForm ? '<script src="/assets/js/form.js" defer></script>' : ""}
 ${p.kind === "home" ? '<script src="/assets/js/slider.js" defer></script>' : ""}
-${p.kind === "home" ? '<script src="/assets/js/marquee.js" defer></script>' : ""}
+${p.kind === "home" || /data-marquee/.test(inner) ? '<script src="/assets/js/marquee.js" defer></script>' : ""}
 ${p.kind === "home" || /data-work-slider/.test(inner) ? '<script src="/assets/js/work-slider.js" defer></script>' : ""}
 </body>`;
   return `<!doctype html>\n<html lang="en">\n${head(p)}\n${body}\n</html>\n`;
@@ -557,7 +642,7 @@ function seoFiles() {
   const grp = (title, list) => `## ${title}\n${list.map(line).join("\n")}\n`;
   const kids = (slug) => pages.filter((p) => p.parent === slug);
   const offices = site.offices.map((o) => `- ${o.city}, ${o.country}: ${H.address(o)}. Phone ${o.phoneDisplay}.`).join("\n");
-  write("llms.txt", `# ${site.name}\n\n> ${site.legalName} is a design and technology studio with offices in Bengaluru, Kochi and Brampton (Canada). It builds apps and websites, runs digital marketing and creates brands. Tagline: ${site.tagline}. ${site.foundedNote}.\n\n${grp("Main pages", [byPath["/"], byPath["/contact-us/"]])}\n${grp("App & Web Development", [byPath["/app-development/"], byPath["/website/"]])}\n${grp("Digital Marketing", [byPath["/digital-marketing/"], ...kids("digital-marketing")])}\n${grp("Branding", [byPath["/branding/"], ...kids("branding")])}\n${grp("Legal", [byPath["/privacy-policy/"], byPath["/terms-of-service/"]])}\n## Locations\n${offices}\n\n## Contact\n- Email: ${site.email}\n- India: ${site.phones[0].display}\n- Canada: ${site.phones[1].display}\n- Facebook: ${site.socials.facebook}\n- YouTube: ${site.socials.youtube}\n\n## Related product\n- [Smolgoodi](${site.smolgoodi.url}): a product built by Pixelbrahma for home sellers in India.\n\n## Optional\n- [Full content](${site.url}/llms-full.txt)\n`);
+  write("llms.txt", `# ${site.name}\n\n> ${site.legalName} is a design and technology studio with offices in Bengaluru, Kochi and Brampton (Canada). It builds apps and websites, runs digital marketing and creates brands. Tagline: ${site.tagline}. ${site.foundedNote}.\n\n${grp("Main pages", [byPath["/"], byPath["/services/"], byPath["/work/"], byPath["/about/"], byPath["/contact-us/"]])}\n${grp("App & Web Development", [byPath["/app-development/"], byPath["/website/"]])}\n${grp("Digital Marketing", [byPath["/digital-marketing/"], ...kids("digital-marketing")])}\n${grp("Branding", [byPath["/branding/"], ...kids("branding")])}\n${grp("Legal", [byPath["/privacy-policy/"], byPath["/terms-of-service/"]])}\n## Locations\n${offices}\n\n## Contact\n- Email: ${site.email}\n- India: ${site.phones[0].display}\n- Canada: ${site.phones[1].display}\n- Facebook: ${site.socials.facebook}\n- YouTube: ${site.socials.youtube}\n\n## Related product\n- [Smolgoodi](${site.smolgoodi.url}): a product built by Pixelbrahma for home sellers in India.\n\n## Optional\n- [Full content](${site.url}/llms-full.txt)\n`);
 
   const full = indexable.filter((p) => p.answer).map((p) => `## ${stripComments(p.h1)}\nURL: ${site.url}${p.path}\n\n${stripComments(p.answer)}\n${(p.faq || []).map((f) => `\n**${stripComments(f.q)}**\n${stripComments(f.a)}`).join("\n")}\n`).join("\n---\n\n");
   write("llms-full.txt", `# ${site.name}: full content summary\n\nLast updated: ${site.lastUpdated}\n\n${full}`);

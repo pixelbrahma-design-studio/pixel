@@ -270,7 +270,7 @@
       "/digital-media-managing/",
       "/logo/"
     ],
-    "banner": "banner-app",
+    "banner": "banner-p-app",
     "ui": {
       "rel": "Pair your app with a website, social media or a logo",
       "faq": "Mobile app development FAQs",
@@ -559,7 +559,7 @@
       "/digital-media-managing/",
       "/logo/"
     ],
-    "banner": "banner-web",
+    "banner": "banner-p-web",
     "ui": {
       "rel": "Grow your website with apps, social media and branding",
       "faq": "Website design and development FAQs",
@@ -777,7 +777,7 @@
       "/digital-media-content-creation/",
       "/branding/"
     ],
-    "banner": "banner-digital",
+    "banner": "banner-p-digital",
     "ui": {
       "rel": "Go deeper with media managing, content creation or branding",
       "faq": "Digital marketing FAQs",
