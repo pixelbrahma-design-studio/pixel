@@ -7,6 +7,7 @@ const puppeteer = require("puppeteer-core"); const sharp = require("sharp");
   await pg.evaluateOnNewDocument(() => { try { localStorage.setItem("pb_consent", '{"analytics":false}'); } catch (e) {} });
   await pg.goto(url, { waitUntil: "networkidle0" });
   await pg.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 400) { window.scrollTo(0, y); await new Promise(r => setTimeout(r, 90)); } document.querySelectorAll(".reveal").forEach((e) => e.classList.add("is-visible")); window.scrollTo(0, 0); });
+  await pg.evaluate(async () => { document.querySelectorAll("img[loading=lazy]").forEach((i) => { i.loading = "eager"; }); const t = Date.now(); while (Date.now() - t < 9000 && [...document.images].some((i) => !i.complete)) await new Promise((r) => setTimeout(r, 200)); });
   await new Promise(r => setTimeout(r, 700));
   const buf = await pg.screenshot({ fullPage: true, type: "png" });
   const m = await sharp(buf).metadata(); let i = 0, cols = [];
