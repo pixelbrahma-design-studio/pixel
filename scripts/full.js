@@ -1,0 +1,10 @@
+const puppeteer = require("puppeteer-core"); const path = require("path");
+(async () => { const [,, url, w, out] = process.argv;
+  const b = await puppeteer.launch({ executablePath: "C:/Program Files/Google/Chrome/Application/chrome.exe", headless: true });
+  const pg = await b.newPage(); await pg.setViewport({ width: +w, height: 900 });
+  await pg.evaluateOnNewDocument(() => { localStorage.setItem("pb_consent", '{"analytics":false}'); });
+  await pg.goto(url, { waitUntil: "networkidle0" });
+  await pg.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 500) { window.scrollTo(0, y); await new Promise(r => setTimeout(r, 60)); } window.scrollTo(0, 0); document.querySelectorAll(".reveal").forEach((e) => e.classList.add("is-visible")); });
+  await new Promise(r => setTimeout(r, 600));
+  await pg.addStyleTag({ content: "main > section { content-visibility: visible !important; }" }); await new Promise(r => setTimeout(r, 800));
+  await pg.screenshot({ path: out, fullPage: true }); await b.close(); })();

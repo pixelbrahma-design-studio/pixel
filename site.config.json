@@ -1,0 +1,79 @@
+{
+  "name": "Pixelbrahma",
+  "legalName": "Pixelbrahma Design Studio Pvt Ltd",
+  "tagline": "Code, Pixels and Brands",
+  "url": "https://pixelbrahma.com",
+  "wwwUrl": "https://www.pixelbrahma.com",
+  "lastUpdated": "2026-11-12",
+  "foundedNote": "20+ years creating delightful customer experiences",
+  "email": "hello@pixelbrahma.com",
+  "emailNeedsConfirmation": true,
+  "formEndpoint": "https://formspree.io/f/TODO_REPLACE_WITH_ENDPOINT",
+  "analytics": {
+    "ga4MeasurementId": ""
+  },
+  "phones": [
+    {
+      "label": "India",
+      "display": "+91-97470 90058",
+      "tel": "+919747090058",
+      "region": "IN"
+    },
+    {
+      "label": "Canada",
+      "display": "+1 (437) 983-8387",
+      "tel": "+14379838387",
+      "region": "CA"
+    }
+  ],
+  "socials": {
+    "facebook": "https://www.facebook.com/pixelbrahma",
+    "youtube": "https://www.youtube.com/@PIXELBRAHMA"
+  },
+  "offices": [
+    {
+      "id": "bengaluru",
+      "city": "Bengaluru",
+      "country": "India",
+      "countryCode": "IN",
+      "street": "Kasturinagar",
+      "locality": "Bengaluru",
+      "region": "Karnataka",
+      "postal": "560043",
+      "phone": "+919747090058",
+      "phoneDisplay": "+91-97470 90058",
+      "addressNeedsConfirmation": "Full street address (building, road) not provided."
+    },
+    {
+      "id": "kochi",
+      "city": "Kochi",
+      "country": "India",
+      "countryCode": "IN",
+      "street": "Kadavanthara",
+      "locality": "Kochi",
+      "region": "Kerala",
+      "postal": "682020",
+      "phone": "+919747090058",
+      "phoneDisplay": "+91-97470 90058",
+      "addressNeedsConfirmation": "Full street address (building, road) not provided."
+    },
+    {
+      "id": "brampton",
+      "city": "Brampton",
+      "country": "Canada",
+      "countryCode": "CA",
+      "street": "105, 430 McMurchy Ave S",
+      "locality": "Brampton",
+      "region": "Ontario",
+      "postal": "",
+      "phone": "+14379838387",
+      "phoneDisplay": "+1 (437) 983-8387",
+      "addressNeedsConfirmation": "Postal code not provided."
+    }
+  ],
+  "smolgoodi": {
+    "url": "https://smolgoodi.in",
+    "color": "#E25410"
+  },
+  "whatsapp": "919747090058"
+}

@@ -1,0 +1,231 @@
+{
+  "/app-development/": {
+    "hero": "app-hero",
+    "gallery": {
+      "id": "our-work",
+      "h": "Apps we have designed",
+      "intro": "Login and onboarding screens from real projects.",
+      "keys": [
+        "app-1",
+        "app-2",
+        "app-3",
+        "app-4"
+      ]
+    },
+    "side": {
+      "key": "app-sec",
+      "h": "From idea to the App Store",
+      "p": "Whether it is a retail connect app, a field tool or a customer club, we start from the screens people touch every day."
+    }
+  },
+  "/website/": {
+    "hero": "website-hero"
+  },
+  "/digital-marketing/": {
+    "hero": "tile-digital",
+    "cardImages": {
+      "/digital-media-managing/": "svc-managing",
+      "/digital-media-content-creation/": "svc-content"
+    }
+  },
+  "/digital-media-managing/": {
+    "gallery": {
+      "id": "our-work",
+      "h": "Social media work",
+      "intro": "Posts and campaign creatives we have managed.",
+      "keys": [
+        "social-1",
+        "social-2",
+        "social-3",
+        "social-4",
+        "social-5",
+        "social-6",
+        "social-7",
+        "social-8",
+        "social-9"
+      ]
+    }
+  },
+  "/digital-media-content-creation/": {
+    "gallery": {
+      "id": "our-work",
+      "h": "Content we have created",
+      "intro": "Posts, graphics and video thumbnails.",
+      "keys": [
+        "content-1",
+        "content-2",
+        "content-3",
+        "content-4",
+        "content-5",
+        "content-6"
+      ]
+    }
+  },
+  "/branding/": {
+    "hero": "tile-brand"
+  },
+  "/logo/": {
+    "thumb": "logo-enigma",
+    "gallery": [
+      "logo-lenkara",
+      "logo-hbc",
+      "logo-k",
+      "logo-arab",
+      "logo-vibe",
+      "logo-indus",
+      "logo-grand-marine",
+      "logo-combinaadan",
+      "logo-enigma",
+      "logo-decor-club",
+      "logo-uniwood",
+      "logo-francoat",
+      "logo-chungath"
+    ]
+  },
+  "/brochures/": {
+    "thumb": "brochure-3",
+    "gallery": [
+      "brochure-1",
+      "brochure-2",
+      "brochure-3",
+      "brochure-4",
+      "brochure-5",
+      "brochure-6"
+    ]
+  },
+  "/leaftlets/": {
+    "thumb": "leaflet-chungath",
+    "gallery": [
+      "leaflet-booklet",
+      "leaflet-lenkara",
+      "leaflet-chungath",
+      "leaflet-niraa",
+      "leaflet-llc",
+      "leaflet-blood",
+      "leaflet-hardwood",
+      "leaflet-we",
+      "leaflet-uniwood"
+    ]
+  },
+  "/magazine/": {
+    "thumb": "magazine-5",
+    "gallery": [
+      "magazine-1",
+      "magazine-2",
+      "magazine-3",
+      "magazine-4",
+      "magazine-5"
+    ]
+  },
+  "/package-designs/": {
+    "thumb": "pack-4",
+    "gallery": [
+      "pack-1",
+      "pack-2",
+      "pack-3",
+      "pack-4",
+      "pack-5"
+    ]
+  },
+  "/inshop-branding/": {
+    "thumb": "shop-2",
+    "gallery": [
+      "shop-1",
+      "shop-2",
+      "shop-3"
+    ]
+  },
+  "/outdoor/": {
+    "thumb": "outdoor-3",
+    "gallery": [
+      "outdoor-1",
+      "outdoor-2",
+      "outdoor-3",
+      "outdoor-4"
+    ]
+  },
+  "/tvc/": {
+    "thumb": "tvc-1",
+    "gallery": [
+      "tvc-1"
+    ]
+  },
+  "/contact-us/": {
+    "hero": "contact-bg"
+  },
+  "clients": [
+    "c-amd",
+    "c-interface",
+    "c-yubi",
+    "c-spice-story",
+    "c-biotraptor",
+    "c-chungath",
+    "c-wri",
+    "c-leroc",
+    "logo-lenkara",
+    "logo-hbc",
+    "logo-arab",
+    "logo-vibe",
+    "logo-indus",
+    "logo-grand-marine",
+    "logo-decor-club",
+    "logo-uniwood",
+    "logo-francoat"
+  ],
+  "work": [
+    {
+      "key": "web-6",
+      "h": "Website design and development",
+      "p": "Business websites for kitchens, travel, tech and more.",
+      "href": "/website/#our-work"
+    },
+    {
+      "key": "pack-3",
+      "h": "Package design",
+      "p": "Paint tins and product packaging that stand out on shelves.",
+      "href": "/package-designs/"
+    },
+    {
+      "key": "leaflet-chungath",
+      "h": "Leaflet and poster design",
+      "p": "Campaign leaflets and posters for retail and jewellery brands.",
+      "href": "/leaftlets/"
+    },
+    {
+      "key": "app-1",
+      "h": "Mobile app design",
+      "p": "Login and onboarding screens for business apps.",
+      "href": "/app-development/#our-work"
+    },
+    {
+      "key": "logo-enigma",
+      "h": "Logo design and brand identity",
+      "p": "Logos that make businesses recognisable.",
+      "href": "/logo/"
+    },
+    {
+      "key": "brochure-5",
+      "h": "Brochure design",
+      "p": "Company profile and product brochures.",
+      "href": "/brochures/"
+    },
+    {
+      "key": "outdoor-3",
+      "h": "Outdoor advertising",
+      "p": "Hoardings, vehicle branding and shop signage.",
+      "href": "/outdoor/"
+    },
+    {
+      "key": "magazine-5",
+      "h": "Magazine design",
+      "p": "Editorial layouts for print and digital.",
+      "href": "/magazine/"
+    },
+    {
+      "key": "social-6",
+      "h": "Social media marketing",
+      "p": "Campaign posts for social channels.",
+      "href": "/digital-media-managing/"
+    }
+  ]
+}

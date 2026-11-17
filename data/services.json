@@ -1,0 +1,1251 @@
+[
+  {
+    "slug": "app-development",
+    "kind": "service",
+    "title": "Mobile App Development for iOS, Android & Web | Pixelbrahma",
+    "description": "Cross-platform mobile app development with custom UI/UX and strong data security. Pixelbrahma builds iOS, Android and web apps in Bengaluru, Kochi, Canada.",
+    "keywords": "mobile app development company, cross-platform app development, iOS and Android app development Bengaluru, mobile app development company Bengaluru, mobile app development company Kochi, mobile app development company Canada",
+    "h1": "Mobile app development for iOS, Android and the web",
+    "eyebrow": "App & Web / App Development",
+    "lead": "Custom apps that feel native on every screen, are designed around the people using them and are built to protect their data.",
+    "answer": "Pixelbrahma develops cross-platform apps that run on iOS, Android and the web from a shared product design, so you reach more users without paying for three separate builds.",
+    "glyph": "phone",
+    "schema": {
+      "name": "Mobile App Development",
+      "serviceType": "Mobile app development"
+    },
+    "blocks": [
+      {
+        "t": "list",
+        "id": "what-we-build",
+        "h": "What we build",
+        "intro": "These are the kinds of apps we are commonly asked to create.",
+        "items": [
+          "Customer apps for ordering, booking and loyalty",
+          "Internal tools that replace spreadsheets and chat threads",
+          "Marketplace and storefront apps for small sellers",
+          "Companion apps for an existing website or service",
+          "Prototypes that test an idea before full investment"
+        ]
+      },
+      {
+        "t": "cards",
+        "id": "platforms",
+        "h": "Platforms we ship to",
+        "items": [
+          {
+            "h": "iOS",
+            "p": "Apps prepared for the Apple App Store, following Apple's interface and review guidelines."
+          },
+          {
+            "h": "Android",
+            "p": "Apps prepared for Google Play across a wide range of screen sizes and devices."
+          },
+          {
+            "h": "Web",
+            "p": "Browser-based versions so users can reach the same product without an install."
+          }
+        ]
+      },
+      {
+        "t": "sections",
+        "id": "craft",
+        "h": "Design and security",
+        "items": [
+          {
+            "id": "uiux",
+            "h": "Custom UI/UX",
+            "p": "We design interfaces from user journeys, not from templates. Every screen is tested against a simple question: can a first-time user finish the task without help?",
+            "points": [
+              "User-flow maps and clickable prototypes",
+              "A reusable component library",
+              "Accessible colour, type and touch targets"
+            ]
+          },
+          {
+            "id": "security",
+            "h": "Enhanced data security",
+            "p": "Security is part of the architecture, not a final checklist. We plan how data is stored, transmitted and accessed before development begins.",
+            "points": [
+              "Encrypted connections and careful handling of credentials",
+              "Role-based access where users have different permissions",
+              "Dependency updates and a review before release"
+            ]
+          }
+        ]
+      },
+      {
+        "t": "steps",
+        "id": "process",
+        "h": "Our app development process",
+        "items": [
+          {
+            "h": "Discovery workshop",
+            "p": "We map users, goals and constraints, then agree a first release that is small enough to ship."
+          },
+          {
+            "h": "Prototype",
+            "p": "A clickable prototype lets you and real users try the core journey before code is written."
+          },
+          {
+            "h": "Sprints",
+            "p": "Short build cycles end with a working build on your device and a review call."
+          },
+          {
+            "h": "Store release",
+            "p": "We prepare listings, assets and submissions, and support you through review."
+          },
+          {
+            "h": "Improve",
+            "p": "Analytics and feedback feed a prioritised list for the next release."
+          }
+        ]
+      },
+      {
+        "t": "table",
+        "id": "engagement",
+        "h": "Engagement models",
+        "intro": "Choose the structure that suits how you like to work.",
+        "head": [
+          "Model",
+          "Best for",
+          "How it works"
+        ],
+        "rows": [
+          [
+            "Fixed scope",
+            "A clearly defined first release",
+            "Agreed deliverables and timeline for a set price"
+          ],
+          [
+            "Monthly team",
+            "Products that evolve continuously",
+            "A dedicated block of design and engineering time each month"
+          ],
+          [
+            "Prototype first",
+            "Ideas that need validating",
+            "A short design sprint ending in a testable prototype"
+          ]
+        ]
+      },
+      {
+        "t": "prose",
+        "id": "stack",
+        "h": "Technology stack",
+        "ps": [
+          "We choose tools to fit your product, team and budget rather than the other way round. <!-- TODO: confirm and list the technologies Pixelbrahma wants to name publicly (frameworks, languages, backend, hosting). -->",
+          "Your project proposal names every technology used, so you are never locked into something you did not choose."
+        ]
+      },
+      {
+        "t": "sections",
+        "id": "why",
+        "h": "Why startups and brands pick Pixelbrahma to build their app",
+        "intro": "What you can expect when you hire us for mobile app development.",
+        "items": [
+          {
+            "id": "why-1",
+            "h": "One team from idea to store",
+            "p": "Strategy, UI/UX design, development, testing and store release are handled by one team, so nothing is lost between a designer and a developer."
+          },
+          {
+            "id": "why-2",
+            "h": "Built for iOS, Android and the web",
+            "p": "Cross-platform engineering keeps your launch faster and your maintenance simpler, while the interface still feels native on every device."
+          },
+          {
+            "id": "why-3",
+            "h": "Security from the first sprint",
+            "p": "Authentication, encrypted data, role-based access and dependency checks are planned from the start instead of added at the end."
+          },
+          {
+            "id": "why-4",
+            "h": "Plain-language communication",
+            "p": "You get regular demos, a clear milestone plan and honest advice about what to build first and what can wait."
+          }
+        ],
+        "v": "whyx"
+      },
+      {
+        "t": "list",
+        "id": "industries",
+        "h": "Apps we build for retail, food, healthcare and tech businesses",
+        "intro": "Our portfolio spans jewellery, paints, food, technology, healthcare and education.",
+        "items": [
+          "Jewellery and retail brands that need a reliable mobile app",
+          "Paints, building materials and manufacturing companies that need a reliable mobile app",
+          "Food, beverage and hospitality businesses that need a reliable mobile app",
+          "Technology start-ups and software companies that need a reliable mobile app",
+          "Healthcare, education and service providers that need a reliable mobile app",
+          "Home sellers and small businesses that need a reliable mobile app"
+        ]
+      },
+      {
+        "t": "mistakes",
+        "id": "mistakes",
+        "h": "Mistakes to avoid when planning a mobile app",
+        "intro": "Short, practical lessons from projects like yours.",
+        "items": [
+          {
+            "h": "Building every feature in version one",
+            "p": "Launch a small first release around one core journey, then add features once real users show what they need."
+          },
+          {
+            "h": "Skipping the prototype",
+            "p": "Test a clickable prototype with real users before writing code, so expensive changes happen on paper."
+          },
+          {
+            "h": "Treating security as a final checklist",
+            "p": "Plan sign-in, data storage and permissions in the first sprint and review dependencies before every release."
+          }
+        ]
+      },
+      {
+        "t": "prepare",
+        "id": "prepare",
+        "h": "What to prepare before we start on a mobile app",
+        "intro": "Having these ready lets us give you a sharper estimate and a faster first draft.",
+        "items": [
+          "A one-page description of the problem the app solves",
+          "Examples of apps you like and apps you want to avoid",
+          "Your brand colours, logo and any existing content",
+          "Who will approve designs and builds on your side"
+        ]
+      },
+      {
+        "t": "factors",
+        "id": "cost",
+        "h": "What decides the cost of mobile app development",
+        "p": "We never quote blindly. After a short discovery call we send a written estimate that lists exactly what is included, so you can compare it with confidence.",
+        "items": [
+          "The number of screens, features and user roles in the app",
+          "Design depth: from template-based layouts to fully custom work",
+          "Content: whether you supply copy and images or we create them",
+          "Timeline: urgent launches need more people working in parallel",
+          "Support: a one-off delivery or an ongoing monthly retainer"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do I need separate apps for iPhone and Android?",
+        "a": "Not necessarily. A cross-platform approach lets one shared codebase and design system serve both, which usually reduces cost and keeps the experience consistent."
+      },
+      {
+        "q": "Can you design the app and build it?",
+        "a": "Yes. Our UI/UX designers and engineers work together, so what is designed is what gets built."
+      },
+      {
+        "q": "How do you protect user data?",
+        "a": "We plan encryption, access control and safe storage during architecture, and review dependencies and permissions before every release."
+      },
+      {
+        "q": "Will you help publish to the App Store and Google Play?",
+        "a": "Yes. We prepare store listings and assets, handle submissions and guide you through any review feedback."
+      },
+      {
+        "q": "What happens after launch?",
+        "a": "You can continue with a monthly team or a maintenance plan covering updates, fixes and improvements."
+      },
+      {
+        "q": "How much does mobile app development cost in India?",
+        "a": "The cost depends on the number of screens, the features, the integrations and whether you need an admin panel. We scope every app after a short discovery call and send a written estimate, so you know the range before any design work starts."
+      },
+      {
+        "q": "How long does it take to build a mobile app?",
+        "a": "A focused first version usually takes a few months from wireframes to store release, and larger products take longer. We agree a milestone plan up front so you can see progress at every stage."
+      },
+      {
+        "q": "Which technologies do you use for cross-platform app development?",
+        "a": "We choose the stack that fits your product, using cross-platform frameworks where they give you one codebase for iOS and Android and native code where performance demands it."
+      },
+      {
+        "q": "Do you build apps for startups in Bengaluru, Kochi and Canada?",
+        "a": "Yes. Our teams in Bengaluru, Kochi and Brampton work with startups and established brands, and most projects run through video calls with regular demos."
+      }
+    ],
+    "related": [
+      "/website/",
+      "/digital-media-managing/",
+      "/logo/"
+    ],
+    "banner": "banner-app",
+    "ui": {
+      "rel": "Pair your app with a website, social media or a logo",
+      "faq": "Mobile app development FAQs",
+      "faqIntro": "Costs, timelines, technology and store release, answered.",
+      "form": "Tell us about your app idea"
+    }
+  },
+  {
+    "slug": "website",
+    "kind": "service",
+    "title": "Website Design & Development Services | Pixelbrahma",
+    "description": "Custom website design and development with user-friendly flow, fast performance, SEO-ready code and advanced security from Pixelbrahma in India and Canada.",
+    "keywords": "website design and development company, custom website development Bengaluru, website developers Kochi, website design and development company Bengaluru, website design and development company Kochi, website design and development company Canada",
+    "h1": "Website design and development that earns attention",
+    "eyebrow": "App & Web / Website",
+    "lead": "Hand-crafted websites that load quickly, read clearly and give search engines and AI assistants exactly what they need.",
+    "answer": "Pixelbrahma designs and develops custom websites with a user-friendly flow, clean code and advanced security, so visitors understand your business quickly and search engines can index it properly.",
+    "glyph": "window",
+    "schema": {
+      "name": "Website Design & Development",
+      "serviceType": "Website design and development"
+    },
+    "blocks": [
+      {
+        "t": "sections",
+        "id": "pillars",
+        "h": "What goes into a Pixelbrahma website",
+        "items": [
+          {
+            "id": "design",
+            "h": "Custom design",
+            "p": "Your site is designed around your brand and your visitors' questions. We lay out each page so the next step is always obvious.",
+            "points": [
+              "Page layouts built from your content, not a stock theme",
+              "A design system you can extend later",
+              "Mobile-first layouts tested on real devices"
+            ]
+          },
+          {
+            "id": "performance",
+            "h": "Performance",
+            "p": "Speed is part of design. We keep pages light, optimise images and avoid unneeded scripts so the site feels instant.",
+            "points": [
+              "Compressed modern image formats",
+              "Minimal JavaScript",
+              "Core Web Vitals checked before launch"
+            ]
+          },
+          {
+            "id": "seo-ready",
+            "h": "SEO-ready builds",
+            "p": "Search visibility starts in the code. Every page ships with clear headings, descriptive metadata and structured data.",
+            "points": [
+              "One topic per page with a clear H1",
+              "Schema markup for your business and services",
+              "XML sitemap and robots rules"
+            ]
+          },
+          {
+            "id": "security",
+            "h": "Security and maintenance",
+            "p": "Fewer moving parts mean fewer weak points. We harden the site and agree who looks after it once it is live.",
+            "points": [
+              "Security headers and safe form handling",
+              "Backups and update routines",
+              "A clear contact for fixes"
+            ]
+          }
+        ]
+      },
+      {
+        "t": "sites",
+        "id": "our-work",
+        "h": "Websites we have designed and built",
+        "intro": "A selection of live websites for manufacturers, jewellers, food brands and technology companies. Click any site to visit it.",
+        "items": [
+          {
+            "key": "site-proarc",
+            "name": "Proarc",
+            "url": "https://proarc.ae/"
+          },
+          {
+            "key": "site-biotraptor",
+            "name": "BioTraptor",
+            "url": "https://www.biotraptor.com/"
+          },
+          {
+            "key": "site-ebisu",
+            "name": "Ebisu Ventures",
+            "url": "https://ebisuventures.com/"
+          },
+          {
+            "key": "site-spicestory",
+            "name": "Spice Story",
+            "url": "https://spicestoryworld.com/"
+          },
+          {
+            "key": "site-icpl",
+            "name": "ICPL India",
+            "url": "https://icplindia.com/"
+          },
+          {
+            "key": "site-saivishram",
+            "name": "Sai Vishram",
+            "url": "https://saivishram.com/"
+          },
+          {
+            "key": "site-uniwood",
+            "name": "Uniwood Products",
+            "url": "https://www.uniwoodproducts.com/"
+          },
+          {
+            "key": "site-ochri",
+            "name": "Ochri",
+            "url": "https://ochri.com/"
+          },
+          {
+            "key": "site-promac",
+            "name": "Promac India",
+            "url": "https://promacindia.com/"
+          },
+          {
+            "key": "site-chungath",
+            "name": "Chungath Jewellery",
+            "url": "https://www.chungathjewellery.com/"
+          }
+        ]
+      },
+      {
+        "t": "steps",
+        "id": "process",
+        "h": "From brief to launch",
+        "items": [
+          {
+            "h": "Plan the structure",
+            "p": "We list pages, goals and calls to action, and agree the content you will supply."
+          },
+          {
+            "h": "Design the look",
+            "p": "You review layouts for key pages and approve a direction before full build."
+          },
+          {
+            "h": "Develop and test",
+            "p": "We code the site, then test speed, accessibility, forms and links."
+          },
+          {
+            "h": "Launch and hand over",
+            "p": "We set up hosting and redirects, then walk you through how to update content."
+          }
+        ]
+      },
+      {
+        "t": "prose",
+        "id": "static-or-cms",
+        "h": "Static site or content management system?",
+        "ps": [
+          "If your content changes rarely, a hand-coded static site is the fastest and safest option. If a team updates content weekly, we can connect an editing tool so non-developers can publish without touching code.",
+          "We recommend the lighter option first and explain the trade-offs in plain language."
+        ]
+      },
+      {
+        "t": "sections",
+        "id": "why",
+        "h": "What makes a Pixelbrahma website faster, safer and easier to find",
+        "intro": "What you can expect when you hire us for website design and development.",
+        "items": [
+          {
+            "id": "why-1",
+            "h": "Designed around your visitors",
+            "p": "We start with who is visiting and what they need to do, then shape the layout, copy and calls to action around it."
+          },
+          {
+            "id": "why-2",
+            "h": "Fast, clean, hand-written code",
+            "p": "Lightweight pages, optimised images and no unnecessary plugins keep load times low on phones and weak connections."
+          },
+          {
+            "id": "why-3",
+            "h": "SEO and AI-search ready",
+            "p": "Semantic HTML, structured data, sensible URLs and clear headings help Google and AI assistants understand and recommend your pages."
+          },
+          {
+            "id": "why-4",
+            "h": "Secure and easy to maintain",
+            "p": "Security headers, safe forms and a simple publishing workflow mean the site stays protected and easy to update."
+          }
+        ],
+        "v": "whyx"
+      },
+      {
+        "t": "list",
+        "id": "industries",
+        "h": "Websites for jewellers, manufacturers, food brands and start-ups",
+        "intro": "Our portfolio spans jewellery, paints, food, technology, healthcare and education.",
+        "items": [
+          "Jewellery and retail brands that need a fast, search-ready website",
+          "Paints, building materials and manufacturing companies that need a fast, search-ready website",
+          "Food, beverage and hospitality businesses that need a fast, search-ready website",
+          "Technology start-ups and software companies that need a fast, search-ready website",
+          "Healthcare, education and service providers that need a fast, search-ready website",
+          "Home sellers and small businesses that need a fast, search-ready website"
+        ]
+      },
+      {
+        "t": "mistakes",
+        "id": "mistakes",
+        "h": "Mistakes to avoid when planning a website",
+        "intro": "Short, practical lessons from projects like yours.",
+        "items": [
+          {
+            "h": "Starting with a template and fitting content later",
+            "p": "Write the key pages first, then design around the real content and the action each visitor should take."
+          },
+          {
+            "h": "Ignoring page speed on mobile",
+            "p": "Compress images, limit scripts and test on a mid-range phone, because most visitors will arrive that way."
+          },
+          {
+            "h": "Leaving SEO until after launch",
+            "p": "Plan page titles, headings, URLs and structured data during design so the site can be indexed properly from day one."
+          }
+        ]
+      },
+      {
+        "t": "prepare",
+        "id": "prepare",
+        "h": "What to prepare before we start on a website",
+        "intro": "Having these ready lets us give you a sharper estimate and a faster first draft.",
+        "items": [
+          "A list of the pages you think you need",
+          "Logo, brand colours and photographs you already own",
+          "Text for the main pages, or a brief for us to write it",
+          "Access to your domain name and hosting, if you have them"
+        ]
+      },
+      {
+        "t": "factors",
+        "id": "cost",
+        "h": "What decides the cost of website design and development",
+        "p": "We never quote blindly. After a short discovery call we send a written estimate that lists exactly what is included, so you can compare it with confidence.",
+        "items": [
+          "The number of pages, templates and features, such as booking or online payments",
+          "Design depth: from template-based layouts to fully custom work",
+          "Content: whether you supply copy and images or we create them",
+          "Timeline: urgent launches need more people working in parallel",
+          "Support: a one-off delivery or an ongoing monthly retainer"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long does a website project take?",
+        "a": "It depends on the number of pages and how quickly content arrives. We confirm a schedule in the proposal once the sitemap is agreed."
+      },
+      {
+        "q": "Will my site rank on Google?",
+        "a": "We build the technical and on-page foundations that make ranking possible. Rankings themselves depend on competition, content and links, so we never promise a position."
+      },
+      {
+        "q": "Can I update the site myself?",
+        "a": "Yes. We can structure content so you can edit text and images, or we can maintain it for you."
+      },
+      {
+        "q": "Do you redesign existing WordPress sites?",
+        "a": "Yes. We map your current URLs and set up redirects so you keep the search value you have already earned."
+      },
+      {
+        "q": "How much does a website cost?",
+        "a": "A landing page, a business website and an online store need very different amounts of design and development. We quote after a short discovery call, based on page count, features and content, and we put the scope in writing."
+      },
+      {
+        "q": "Do you build mobile-friendly and fast websites?",
+        "a": "Every website we build is responsive, tested on real phones and tuned for speed, because slow or cramped pages lose visitors and rankings."
+      },
+      {
+        "q": "Is SEO included in your website design service?",
+        "a": "Yes. Clean semantic code, fast loading, proper titles and descriptions, structured data and a sensible URL structure are part of every build, so search engines can understand and index the site."
+      },
+      {
+        "q": "Do you build websites for businesses in Canada and India?",
+        "a": "Yes. We design and develop websites for businesses in Bengaluru, Kochi, the Greater Toronto Area and beyond, and can write copy and set up local SEO for each market."
+      }
+    ],
+    "related": [
+      "/app-development/",
+      "/digital-media-managing/",
+      "/logo/"
+    ],
+    "banner": "banner-web",
+    "ui": {
+      "rel": "Grow your website with apps, social media and branding",
+      "faq": "Website design and development FAQs",
+      "faqIntro": "Pricing, SEO, speed and updates, answered.",
+      "form": "Request a website quote"
+    }
+  },
+  {
+    "slug": "digital-marketing",
+    "kind": "parent",
+    "group": "digital",
+    "title": "Digital Marketing Agency in Bengaluru, Kochi & Canada",
+    "description": "Pixelbrahma runs social and digital campaigns and creates the content behind them, helping brands in India and Canada grow awareness, traffic and sales.",
+    "keywords": "digital marketing agency, digital marketing company Bengaluru, digital marketing Kochi, digital marketing Brampton, digital marketing agency Bengaluru, digital marketing agency Kochi, digital marketing agency Canada",
+    "h1": "Digital marketing that builds awareness and drives action",
+    "eyebrow": "Services / Digital Marketing",
+    "lead": "Strategy, management and creative from one team, so every post, ad and video points toward the same business goal.",
+    "answer": "Pixelbrahma is a digital marketing agency with offices in Bengaluru, Kochi and Brampton that plans and manages your online channels and produces the content that makes them work.",
+    "glyph": "signal",
+    "schema": {
+      "name": "Digital Marketing",
+      "serviceType": "Digital marketing"
+    },
+    "blocks": [
+      {
+        "t": "cards",
+        "id": "services",
+        "h": "Our two digital marketing services",
+        "items": [
+          {
+            "h": "Digital Media Managing",
+            "p": "Strategy, platform management, campaign optimisation and analytics, run as a steady monthly rhythm.",
+            "href": "/digital-media-managing/",
+            "cta": "See media managing"
+          },
+          {
+            "h": "Digital Media Content Creation",
+            "p": "Creative content, storytelling, video production and platform-specific posts that people want to watch and share.",
+            "href": "/digital-media-content-creation/",
+            "cta": "See content creation"
+          }
+        ]
+      },
+      {
+        "t": "sections",
+        "id": "about",
+        "h": "What good digital marketing achieves",
+        "items": [
+          {
+            "id": "traffic",
+            "h": "Targeted traffic and SEO",
+            "p": "Search optimisation and well-aimed campaigns bring people who are already looking for what you offer."
+          },
+          {
+            "id": "experience",
+            "h": "User experience and conversions",
+            "p": "Marketing only pays off when the landing page is clear. We look at the whole path from first view to enquiry."
+          },
+          {
+            "id": "awareness",
+            "h": "Brand awareness and engagement",
+            "p": "Consistent, recognisable content makes your brand familiar and invites conversation."
+          },
+          {
+            "id": "growth",
+            "h": "Long-term growth",
+            "p": "We review results monthly and shift effort toward what works, so gains compound over time."
+          }
+        ]
+      },
+      {
+        "t": "steps",
+        "id": "process",
+        "h": "How we run your digital marketing, month by month",
+        "items": [
+          {
+            "h": "Audit",
+            "p": "We review your channels, audience and competitors."
+          },
+          {
+            "h": "Plan",
+            "p": "A simple strategy sets goals, channels and a content calendar."
+          },
+          {
+            "h": "Publish and promote",
+            "p": "We create, schedule and run campaigns on agreed platforms."
+          },
+          {
+            "h": "Report and refine",
+            "p": "Clear monthly reports show what changed and what we do next."
+          }
+        ]
+      },
+      {
+        "t": "sections",
+        "id": "why",
+        "h": "Why brands trust Pixelbrahma with their digital marketing",
+        "intro": "What you can expect when you hire us for digital marketing.",
+        "items": [
+          {
+            "id": "why-1",
+            "h": "Strategy before posting",
+            "p": "We agree goals, audiences and channels first, so every post and campaign has a job to do."
+          },
+          {
+            "id": "why-2",
+            "h": "Creative and media under one roof",
+            "p": "The people who plan your channels also make the content, so the message stays consistent from idea to publish."
+          },
+          {
+            "id": "why-3",
+            "h": "Reporting you can act on",
+            "p": "Monthly reports focus on the numbers that matter to your goals and end with clear next steps."
+          },
+          {
+            "id": "why-4",
+            "h": "Local insight in India and Canada",
+            "p": "Our offices in Bengaluru, Kochi and Brampton help us tune timing, language and tone for each market."
+          }
+        ],
+        "v": "whyx"
+      },
+      {
+        "t": "list",
+        "id": "industries",
+        "h": "Digital marketing for brands in retail, food, jewellery and technology",
+        "intro": "Our portfolio spans jewellery, paints, food, technology, healthcare and education.",
+        "items": [
+          "Jewellery and retail brands that need steady, measurable online growth",
+          "Paints, building materials and manufacturing companies that need steady, measurable online growth",
+          "Food, beverage and hospitality businesses that need steady, measurable online growth",
+          "Technology start-ups and software companies that need steady, measurable online growth",
+          "Healthcare, education and service providers that need steady, measurable online growth",
+          "Home sellers and small businesses that need steady, measurable online growth"
+        ]
+      },
+      {
+        "t": "mistakes",
+        "id": "mistakes",
+        "h": "Mistakes to avoid when planning a digital marketing campaign",
+        "intro": "Short, practical lessons from projects like yours.",
+        "items": [
+          {
+            "h": "Posting on every platform at once",
+            "p": "Pick the two or three channels where your customers already spend time and do them well."
+          },
+          {
+            "h": "Measuring likes instead of results",
+            "p": "Agree goals such as enquiries or sales first, then track the numbers that show progress towards them."
+          },
+          {
+            "h": "Changing strategy every few weeks",
+            "p": "Give each plan a full cycle, review the data monthly and adjust one thing at a time."
+          }
+        ]
+      },
+      {
+        "t": "prepare",
+        "id": "prepare",
+        "h": "What to prepare before we start on a digital marketing campaign",
+        "intro": "Having these ready lets us give you a sharper estimate and a faster first draft.",
+        "items": [
+          "Your top business goal for the next six months",
+          "A short description of your best customers",
+          "Brand assets, product photos and past campaign material",
+          "Logins or view access for your existing channels"
+        ]
+      },
+      {
+        "t": "factors",
+        "id": "cost",
+        "h": "What decides the cost of digital marketing",
+        "p": "We never quote blindly. After a short discovery call we send a written estimate that lists exactly what is included, so you can compare it with confidence.",
+        "items": [
+          "The channels you want to run and how often you need to publish",
+          "Design depth: from template-based layouts to fully custom work",
+          "Content: whether you supply copy and images or we create them",
+          "Timeline: urgent launches need more people working in parallel",
+          "Support: a one-off delivery or an ongoing monthly retainer"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "What does a digital marketing agency do?",
+        "a": "It plans, runs and measures your online promotion, including social media, paid campaigns, content and search, so more of the right people find and trust your brand."
+      },
+      {
+        "q": "Do I need both media managing and content creation?",
+        "a": "They work best together, but you can start with one. Managing keeps channels active and measured, while content creation supplies the creative."
+      },
+      {
+        "q": "Can you market to audiences in both India and Canada?",
+        "a": "Yes. We have teams in both countries and can adapt messaging, timing and channels for each market."
+      },
+      {
+        "q": "How soon will I see results?",
+        "a": "Paid campaigns can show early signals within weeks, while organic growth builds over months. We set realistic expectations in the plan."
+      },
+      {
+        "q": "Which digital marketing services do you offer?",
+        "a": "We offer digital media managing (strategy, platform management, campaign optimisation and analytics) and digital media content creation (creative, video and platform-specific posts)."
+      },
+      {
+        "q": "Do you run Instagram, Facebook, LinkedIn and YouTube marketing?",
+        "a": "Yes. We plan and publish content on the platforms where your customers spend time, and we recommend the right mix instead of posting everywhere."
+      },
+      {
+        "q": "How do you measure digital marketing results?",
+        "a": "We agree the goals first, such as reach, enquiries or sales, then report the matching numbers every month with a clear note on what to do next."
+      }
+    ],
+    "related": [
+      "/digital-media-managing/",
+      "/digital-media-content-creation/",
+      "/branding/"
+    ],
+    "banner": "banner-digital",
+    "ui": {
+      "rel": "Go deeper with media managing, content creation or branding",
+      "faq": "Digital marketing FAQs",
+      "faqIntro": "Services, platforms and results, answered.",
+      "form": "Plan your digital marketing with us"
+    }
+  },
+  {
+    "slug": "digital-media-managing",
+    "kind": "child",
+    "group": "digital",
+    "parent": "digital-marketing",
+    "title": "Social Media Management & Ad Campaigns | Pixelbrahma",
+    "description": "Digital media managing from Pixelbrahma: strategy, platform management, campaign optimisation and monthly analytics for brands in India and Canada.",
+    "keywords": "social media management services, social media marketing agency Bengaluru, campaign management Kochi, social media management company Bengaluru, social media management company Kochi, social media management company Canada",
+    "h1": "Digital media managing, from strategy to monthly insight",
+    "eyebrow": "Digital Marketing / Digital Media Managing",
+    "lead": "We run your channels with a plan, a calendar and numbers that show what is working.",
+    "answer": "Digital media managing means planning, running and measuring your social and paid channels, and Pixelbrahma handles all four parts: strategy, platform management, campaign optimisation and analytics.",
+    "glyph": "chart",
+    "schema": {
+      "name": "Digital Media Managing",
+      "serviceType": "Social media management and campaign optimisation"
+    },
+    "blocks": [
+      {
+        "t": "sections",
+        "id": "services",
+        "h": "The four parts of media managing",
+        "items": [
+          {
+            "id": "strategy",
+            "h": "Strategy development",
+            "p": "We begin with your goals and audience, then choose channels, themes and a posting rhythm you can sustain.",
+            "points": [
+              "Goal and audience definition",
+              "Competitor and channel review",
+              "A written plan with a content calendar"
+            ]
+          },
+          {
+            "id": "platform-management",
+            "h": "Platform management",
+            "p": "We keep your profiles current, scheduled and consistent in voice, and respond to your community.",
+            "points": [
+              "Profile setup and optimisation",
+              "Scheduling and publishing",
+              "Comment and message monitoring"
+            ]
+          },
+          {
+            "id": "campaign-optimisation",
+            "h": "Campaign optimisation",
+            "p": "Paid campaigns are tested and refined continuously, so budget moves toward the audiences and creatives that respond.",
+            "points": [
+              "Audience and creative testing",
+              "Budget and bid adjustments",
+              "Landing page recommendations"
+            ]
+          },
+          {
+            "id": "analytics",
+            "h": "Analytics and insights",
+            "p": "Every month you receive a report that explains results in plain language and sets the next priorities.",
+            "points": [
+              "Channel performance summary",
+              "What we learned",
+              "What we will do next month"
+            ]
+          }
+        ]
+      },
+      {
+        "t": "table",
+        "id": "kpis",
+        "h": "Reporting explained: the KPIs we track",
+        "intro": "We agree which measures matter to your goals and report them every month.",
+        "head": [
+          "Measure",
+          "What it tells you",
+          "Goal it supports"
+        ],
+        "rows": [
+          [
+            "Reach and impressions",
+            "How many people saw your content",
+            "Awareness"
+          ],
+          [
+            "Engagement rate",
+            "How many people reacted, commented or shared",
+            "Community and brand affinity"
+          ],
+          [
+            "Click-through rate",
+            "How many viewers took the next step",
+            "Traffic"
+          ],
+          [
+            "Cost per lead",
+            "What each enquiry costs in ad spend",
+            "Lead generation"
+          ],
+          [
+            "Conversion rate",
+            "How many visitors became customers or enquiries",
+            "Revenue"
+          ]
+        ]
+      },
+      {
+        "t": "sections",
+        "id": "why",
+        "h": "Why Pixelbrahma is a dependable social media management company",
+        "intro": "What you can expect when you hire us for social media management.",
+        "items": [
+          {
+            "id": "why-1",
+            "h": "A plan and a calendar",
+            "p": "We build a content calendar around your goals, seasons and launches, so your channels never go quiet."
+          },
+          {
+            "id": "why-2",
+            "h": "Community care",
+            "p": "We respond to comments and messages in your brand's voice and pass real leads to your team quickly."
+          },
+          {
+            "id": "why-3",
+            "h": "Paid campaigns that are watched daily",
+            "p": "Budgets, audiences and creatives are tested and adjusted, with spend reported openly."
+          },
+          {
+            "id": "why-4",
+            "h": "Transparent monthly analytics",
+            "p": "Reach, engagement, enquiries and cost per result are explained in plain language every month."
+          }
+        ],
+        "v": "whyx"
+      },
+      {
+        "t": "list",
+        "id": "industries",
+        "h": "Social media management for local shops, manufacturers and start-ups",
+        "intro": "Our portfolio spans jewellery, paints, food, technology, healthcare and education.",
+        "items": [
+          "Jewellery and retail brands that need consistent, well-run social channels",
+          "Paints, building materials and manufacturing companies that need consistent, well-run social channels",
+          "Food, beverage and hospitality businesses that need consistent, well-run social channels",
+          "Technology start-ups and software companies that need consistent, well-run social channels",
+          "Healthcare, education and service providers that need consistent, well-run social channels",
+          "Home sellers and small businesses that need consistent, well-run social channels"
+        ]
+      },
+      {
+        "t": "mistakes",
+        "id": "mistakes",
+        "h": "Mistakes to avoid when planning social media management",
+        "intro": "Short, practical lessons from projects like yours.",
+        "items": [
+          {
+            "h": "Posting without a calendar",
+            "p": "Plan a month at a time around launches, offers and festivals so channels stay active and consistent."
+          },
+          {
+            "h": "Ignoring comments and messages",
+            "p": "Reply quickly in your brand voice and pass real enquiries to your sales team the same day."
+          },
+          {
+            "h": "Boosting posts without a target",
+            "p": "Set an audience, a budget and a goal for every paid campaign and review cost per result weekly."
+          }
+        ]
+      },
+      {
+        "t": "prepare",
+        "id": "prepare",
+        "h": "What to prepare before we start on social media management",
+        "intro": "Having these ready lets us give you a sharper estimate and a faster first draft.",
+        "items": [
+          "Admin access to your social media accounts",
+          "Your brand guide, logo and a folder of approved images",
+          "A list of products, offers and dates to promote",
+          "One person who can approve posts quickly"
+        ]
+      },
+      {
+        "t": "factors",
+        "id": "cost",
+        "h": "What decides the cost of social media management",
+        "p": "We never quote blindly. After a short discovery call we send a written estimate that lists exactly what is included, so you can compare it with confidence.",
+        "items": [
+          "The number of platforms, the posting frequency and the ad budget under management",
+          "Design depth: from template-based layouts to fully custom work",
+          "Content: whether you supply copy and images or we create them",
+          "Timeline: urgent launches need more people working in parallel",
+          "Support: a one-off delivery or an ongoing monthly retainer"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Which platforms do you manage?",
+        "a": "We agree the platforms in your strategy based on where your audience spends time. Common choices include Facebook, Instagram, YouTube and LinkedIn."
+      },
+      {
+        "q": "Do you manage ad budgets?",
+        "a": "Yes. Ad spend is paid directly to the platform from your account, and we manage and optimise it for you."
+      },
+      {
+        "q": "What will I see in the monthly report?",
+        "a": "A short summary of performance against your goals, the main lessons and the plan for the following month."
+      },
+      {
+        "q": "Can you work with content we already have?",
+        "a": "Yes. We can schedule and optimise your existing content, or pair this service with our content creation team."
+      },
+      {
+        "q": "How much does social media management cost?",
+        "a": "Pricing depends on the number of platforms, the posting frequency and whether paid campaigns are included. We send a written proposal after understanding your goals."
+      },
+      {
+        "q": "Do you run Facebook and Instagram ads?",
+        "a": "Yes. We set up, monitor and optimise paid campaigns, test creatives and audiences and report cost per result in plain language."
+      },
+      {
+        "q": "Can you manage social media for businesses in Kochi, Bengaluru and Canada?",
+        "a": "Yes. We manage channels for brands in all three regions and adapt the tone, timing and language to each audience."
+      },
+      {
+        "q": "What do you need from us to get started?",
+        "a": "Your brand assets, access to your channels, a short brief on your goals and customers, and a named contact who can approve posts quickly."
+      }
+    ],
+    "related": [
+      "/digital-media-content-creation/",
+      "/website/",
+      "/logo/"
+    ],
+    "banner": "banner-managing",
+    "ui": {
+      "rel": "Add content, a website or a brand refresh to your channels",
+      "faq": "Social media management FAQs",
+      "faqIntro": "Platforms, ads, reports and onboarding, answered.",
+      "form": "Get a social media management plan"
+    }
+  },
+  {
+    "slug": "digital-media-content-creation",
+    "kind": "child",
+    "group": "digital",
+    "parent": "digital-marketing",
+    "title": "Digital Content Creation & Video Production | Pixelbrahma",
+    "description": "Pixelbrahma creates on-brand content for digital channels: creative development, storytelling, video production and platform-specific posts in India, Canada.",
+    "keywords": "digital content creation agency, video production company Bengaluru, content creators Kochi, digital content creation agency Bengaluru, digital content creation agency Kochi, digital content creation agency Canada",
+    "h1": "Content creation that tells your brand story on every platform",
+    "eyebrow": "Digital Marketing / Content Creation",
+    "lead": "Images, words and video made to fit each platform and still sound unmistakably like you.",
+    "answer": "Digital media content creation is the making of the posts, videos and stories your channels publish, and Pixelbrahma produces them in-house so the creative stays aligned with your brand and strategy.",
+    "glyph": "play",
+    "schema": {
+      "name": "Digital Media Content Creation",
+      "serviceType": "Digital content creation and video production"
+    },
+    "blocks": [
+      {
+        "t": "sections",
+        "id": "services",
+        "h": "What we create",
+        "items": [
+          {
+            "id": "creative-content",
+            "h": "Creative content development",
+            "p": "We generate ideas from your audience's questions and your business strengths, then turn them into a repeatable set of formats.",
+            "points": [
+              "Content pillars and themes",
+              "Graphics, carousels and short posts",
+              "Captions and copy in your voice"
+            ]
+          },
+          {
+            "id": "storytelling",
+            "h": "Storytelling and branding",
+            "p": "Good content connects facts to feeling. We shape the story of your product, people and purpose so it stays consistent over time.",
+            "points": [
+              "Brand story and tone guide",
+              "Customer and founder stories",
+              "Visual style applied across posts"
+            ]
+          },
+          {
+            "id": "video-production",
+            "h": "Video production",
+            "p": "From short vertical clips to longer explainers, we plan, shoot and edit video that holds attention.",
+            "points": [
+              "Scripting and storyboards",
+              "Shooting and editing",
+              "Captions and platform cut-downs"
+            ]
+          },
+          {
+            "id": "platform-content",
+            "h": "Platform-specific content",
+            "p": "Each channel has its own shape. We adapt sizes, length and style so content feels native wherever it appears.",
+            "points": [
+              "Format guidelines per platform",
+              "Thumbnails and cover images",
+              "Variants for testing"
+            ]
+          }
+        ]
+      },
+      {
+        "t": "steps",
+        "id": "workflow",
+        "h": "Our content workflow",
+        "items": [
+          {
+            "h": "Brief",
+            "p": "We confirm goals, audience and the key message of the month."
+          },
+          {
+            "h": "Concept",
+            "p": "You choose from a short list of ideas and formats."
+          },
+          {
+            "h": "Produce",
+            "p": "We write, design, shoot and edit the approved pieces."
+          },
+          {
+            "h": "Approve",
+            "p": "You review in one batch and request changes."
+          },
+          {
+            "h": "Publish and learn",
+            "p": "Content goes live and performance guides the next brief."
+          }
+        ]
+      },
+      {
+        "t": "sections",
+        "id": "why",
+        "h": "Why brands choose Pixelbrahma's content creation team",
+        "intro": "What you can expect when you hire us for digital content creation.",
+        "items": [
+          {
+            "id": "why-1",
+            "h": "On-brand by default",
+            "p": "Designers, writers and editors work from your brand guide, so every post sounds and looks like you."
+          },
+          {
+            "id": "why-2",
+            "h": "Made for each platform",
+            "p": "Formats, lengths and hooks are matched to Instagram, Facebook, LinkedIn, YouTube and the web."
+          },
+          {
+            "id": "why-3",
+            "h": "Video, photo and graphics in-house",
+            "p": "Concept, shoot, edit and finish stay with one team, which keeps quality high and turnaround short."
+          },
+          {
+            "id": "why-4",
+            "h": "Planned in batches",
+            "p": "We produce content in monthly batches so approvals are simple and the calendar stays full."
+          }
+        ],
+        "v": "whyx"
+      },
+      {
+        "t": "list",
+        "id": "industries",
+        "h": "Content creation for retail, food, jewellery and healthcare brands",
+        "intro": "Our portfolio spans jewellery, paints, food, technology, healthcare and education.",
+        "items": [
+          "Jewellery and retail brands that need scroll-stopping content",
+          "Paints, building materials and manufacturing companies that need scroll-stopping content",
+          "Food, beverage and hospitality businesses that need scroll-stopping content",
+          "Technology start-ups and software companies that need scroll-stopping content",
+          "Healthcare, education and service providers that need scroll-stopping content",
+          "Home sellers and small businesses that need scroll-stopping content"
+        ]
+      },
+      {
+        "t": "mistakes",
+        "id": "mistakes",
+        "h": "Mistakes to avoid when planning digital content",
+        "intro": "Short, practical lessons from projects like yours.",
+        "items": [
+          {
+            "h": "Reusing one format everywhere",
+            "p": "Shape each piece for the platform: short video for reels, carousels for learning, clean graphics for announcements."
+          },
+          {
+            "h": "Making content with no clear message",
+            "p": "Start every piece with one idea and one action you want the viewer to take."
+          },
+          {
+            "h": "Running out of content mid-month",
+            "p": "Produce in monthly batches so approvals are simple and the calendar always has a buffer."
+          }
+        ]
+      },
+      {
+        "t": "prepare",
+        "id": "prepare",
+        "h": "What to prepare before we start on digital content",
+        "intro": "Having these ready lets us give you a sharper estimate and a faster first draft.",
+        "items": [
+          "Your brand guide or examples of the look you want",
+          "Product samples or locations we can shoot",
+          "Key messages and offers for the next month",
+          "Approval contacts and turnaround expectations"
+        ]
+      },
+      {
+        "t": "factors",
+        "id": "cost",
+        "h": "What decides the cost of content creation",
+        "p": "We never quote blindly. After a short discovery call we send a written estimate that lists exactly what is included, so you can compare it with confidence.",
+        "items": [
+          "The formats you need, such as posts, reels or films, and the monthly volume",
+          "Design depth: from template-based layouts to fully custom work",
+          "Content: whether you supply copy and images or we create them",
+          "Timeline: urgent launches need more people working in parallel",
+          "Support: a one-off delivery or an ongoing monthly retainer"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do you shoot video on location?",
+        "a": "Yes, where it suits the project. We plan the shoot, crew and schedule with you in advance. <!-- TODO: confirm locations and equipment for shoots -->"
+      },
+      {
+        "q": "Can you match our existing brand style?",
+        "a": "Yes. We follow your brand guidelines, or help you create them through our branding service."
+      },
+      {
+        "q": "How many revisions are included?",
+        "a": "The proposal states the number of revision rounds per piece so you know what to expect."
+      },
+      {
+        "q": "Can content be made in regional languages?",
+        "a": "We can discuss this for your project. <!-- TODO: confirm which languages Pixelbrahma supports -->"
+      },
+      {
+        "q": "What kinds of content do you create for social media?",
+        "a": "Static posts, carousels, short videos, reels, stories, product shots and campaign creatives, all designed for the platform they will run on."
+      },
+      {
+        "q": "Do you produce video for brands in Bengaluru and Kochi?",
+        "a": "Yes. Our team plans, shoots and edits brand videos, product films and social video, and works with scripts, voice-over and music."
+      },
+      {
+        "q": "Can you create a monthly content calendar?",
+        "a": "Yes. We plan topics, formats and posting dates a month ahead, so the content stays consistent and you can approve it in advance."
+      }
+    ],
+    "related": [
+      "/digital-media-managing/",
+      "/tvc/",
+      "/logo/"
+    ],
+    "banner": "banner-content",
+    "ui": {
+      "rel": "Put your content to work with media managing, TVC or logo design",
+      "faq": "Content creation FAQs",
+      "faqIntro": "Formats, video, revisions and languages, answered.",
+      "form": "Brief us on your next content batch"
+    }
+  }
+]

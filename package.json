@@ -1,0 +1,23 @@
+{
+  "name": "pixelbrahma-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static site for Pixelbrahma Design Studio Pvt Ltd",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node src/build.js && node scripts/make-local.js",
+    "check": "node scripts/check-links.js",
+    "serve": "node scripts/serve.js",
+    "images": "node scripts/process-images.js",
+    "test": "npm run build && npm run check"
+  },
+  "devDependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "chrome-launcher": "^1.2.3",
+    "html-validate": "^11.21.0",
+    "lighthouse": "^13.6.0",
+    "puppeteer-core": "^25.17.0",
+    "sharp": "^0.35.5"
+  }
+}

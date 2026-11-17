@@ -1,0 +1,23 @@
+const puppeteer = require("puppeteer-core");
+(async () => {
+  const b = await puppeteer.launch({ executablePath: "C:/Program Files/Google/Chrome/Application/chrome.exe", headless: true });
+  const pg = await b.newPage(); await pg.setViewport({ width: 1440, height: 900 });
+  await pg.evaluateOnNewDocument(() => localStorage.setItem("pb_consent", '{"analytics":false}'));
+  await pg.goto("http://localhost:4173/", { waitUntil: "networkidle0" }); await new Promise(r => setTimeout(r, 800));
+  const vis = () => pg.evaluate(() => { const h = document.getElementById("header"); const d = (s) => getComputedStyle(h.querySelector(s)).display; return { cls: h.className, dark: d(".logo__img:not(.logo__img--light)"), light: d(".logo__img--light"), burger: getComputedStyle(h.querySelector(".burger")).backgroundColor }; });
+  const ok = (c, m) => console.log((c ? "PASS " : "FAIL ") + m);
+  let v = await vis(); ok(v.dark === "none" && v.light === "block" && /255, 255, 255/.test(v.burger), "slide 1 (dark photo): white logo + white burger " + JSON.stringify(v));
+  await pg.click('.slider__dot[data-slide="1"]'); await new Promise(r => setTimeout(r, 400));
+  v = await vis(); ok(v.dark === "block" && v.light === "none" && /30, 30, 31/.test(v.burger), "slide 2 (light photo): original logo + dark burger " + JSON.stringify(v));
+  await pg.click('.slider__dot[data-slide="2"]'); await new Promise(r => setTimeout(r, 400));
+  v = await vis(); ok(v.light === "block", "slide 3 (dark photo): white logo");
+  await pg.evaluate(() => window.scrollTo({ top: 1500, behavior: "instant" })); await new Promise(r => setTimeout(r, 600));
+  v = await vis(); ok(v.dark === "block" && v.light === "none" && /30, 30, 31/.test(v.burger), "scrolled onto a white section: original logo + dark burger");
+  await pg.evaluate(() => { document.getElementById("work").setAttribute("data-tone", "dark"); window.scrollTo({ top: document.getElementById("work").getBoundingClientRect().top + window.scrollY + 100, behavior: "instant" }); }); await new Promise(r => setTimeout(r, 600));
+  v = await vis(); ok(v.light === "block", "any section marked data-tone=dark turns the header white");
+  await pg.setViewport({ width: 1440, height: 420 }); await new Promise(r => setTimeout(r, 300));
+  await pg.evaluate(() => window.scrollTo({ top: document.body.scrollHeight, behavior: "instant" })); await new Promise(r => setTimeout(r, 700));
+  v = await vis(); ok(v.light === "block" && v.dark === "none" && /255, 255, 255/.test(v.burger), "over the black footer: white logo + white burger " + JSON.stringify(v));
+  const bs = await pg.evaluate(() => getComputedStyle(document.querySelector(".burger")).boxShadow); ok(bs === "none", "burger has no white border/ring");
+  await b.close();
+})();

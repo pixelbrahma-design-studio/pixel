@@ -1,0 +1,195 @@
+{
+  "slug": "",
+  "title": "Web, App, Marketing & Branding Agency | Pixelbrahma",
+  "description": "Pixelbrahma is a web design, app development, digital marketing and branding agency in Bengaluru, Kochi and Brampton, Canada, with 20+ years of experience.",
+  "keywords": "web design company Bengaluru, app development company Kochi, digital marketing agency India, branding agency Canada, website development, mobile app development, social media marketing, logo design",
+  "h1": "Web Design, App Development, Digital Marketing and Branding Agency",
+  "lead": "For 20+ years we have been creating delightful customer experiences. One studio for your product, your marketing and your brand.",
+  "answer": "Pixelbrahma is a design and technology studio with offices in Bengaluru, Kochi and Brampton that builds apps and websites, runs digital marketing and creates brands. With more than 20 years of experience, we help startups and growing businesses in India and Canada with web design, mobile app development, social media marketing and branding.",
+  "services": [
+    {
+      "h": "App Development",
+      "p": "Cross-platform mobile apps for iOS, Android and the web, designed around real users and built to keep their data safe.",
+      "href": "/app-development/",
+      "tag": "App",
+      "more": "From the first wireframe to the App Store and Google Play release, our teams in Bengaluru, Kochi and Brampton design, develop and secure apps that feel native on every screen."
+    },
+    {
+      "h": "Website Design & Development",
+      "p": "Custom websites that load fast, read clearly and give search engines and AI assistants exactly what they need.",
+      "href": "/website/",
+      "tag": "Web",
+      "more": "Business websites, landing pages and online stores built with clean code, advanced security and SEO-ready structure, so visitors understand you quickly and search engines can index every page."
+    },
+    {
+      "h": "Digital Marketing",
+      "p": "Social media management, content creation and campaigns that bring the right customers to your brand.",
+      "href": "/digital-marketing/",
+      "tag": "Pixels",
+      "more": "We plan, publish and optimise social media content and campaigns so your brand reaches the right audience, keeps its audience engaged and grows steadily."
+    },
+    {
+      "h": "Branding",
+      "p": "Logo design, brand identity, packaging, print, outdoor and TV advertising that make your business unmistakable.",
+      "href": "/branding/",
+      "tag": "Brands",
+      "more": "A strong brand starts with a clear logo and identity and carries through brochures, leaflets, packaging, shop branding, hoardings and TV commercials."
+    }
+  ],
+  "process": [
+    {
+      "h": "Discover",
+      "p": "We learn your audience, goals and constraints.",
+      "points": [
+        "Goals and audience call",
+        "Competitor and channel review",
+        "Scope, plan and timeline"
+      ]
+    },
+    {
+      "h": "Design",
+      "p": "We shape the idea, the experience and the visual system.",
+      "points": [
+        "Wireframes and prototypes",
+        "Visual direction and identity",
+        "Review and refine with you"
+      ]
+    },
+    {
+      "h": "Build and launch",
+      "p": "We develop, test and release with care.",
+      "points": [
+        "Development sprints and production",
+        "Testing and security checks",
+        "Launch and handover"
+      ]
+    },
+    {
+      "h": "Grow",
+      "p": "We measure, learn and keep improving.",
+      "points": [
+        "Analytics and monthly reporting",
+        "Content and campaign updates",
+        "Ongoing improvements"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "h": "Case study placeholder: App & Web",
+      "p": "A real project summary will appear here.",
+      "href": "/website/"
+    },
+    {
+      "h": "Case study placeholder: Marketing",
+      "p": "A real campaign result will appear here.",
+      "href": "/digital-marketing/"
+    },
+    {
+      "h": "Case study placeholder: Branding",
+      "p": "A real identity project will appear here.",
+      "href": "/branding/"
+    }
+  ],
+  "why": [
+    {
+      "h": "One partner, three disciplines",
+      "p": "Product, marketing and brand are planned together, so nothing is lost between agencies."
+    },
+    {
+      "h": "Two decades of craft",
+      "p": "We have been creating customer experiences for more than 20 years."
+    },
+    {
+      "h": "Presence in India and Canada",
+      "p": "Teams in Bengaluru, Kochi and Brampton can support markets on both sides."
+    },
+    {
+      "h": "Plain, honest communication",
+      "p": "We explain choices simply and never promise results that depend on things we cannot control."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What services does Pixelbrahma offer?",
+      "a": "Pixelbrahma offers website design and development, mobile app development, digital marketing (social media management and content creation) and branding, including logo design, brochures, leaflets, magazines, package design, in-shop branding, outdoor advertising and TV commercials."
+    },
+    {
+      "q": "Do you offer web design and app development in Bengaluru and Kochi?",
+      "a": "Yes. Our studios in Kasturinagar, Bengaluru and Kadavanthara, Kochi design and build websites and mobile apps for businesses across India."
+    },
+    {
+      "q": "Do you work with businesses in Canada?",
+      "a": "Yes. Our Brampton office supports businesses in the Greater Toronto Area and across Canada with web design, app development, digital marketing and branding."
+    },
+    {
+      "q": "How much does a website, app or branding project cost?",
+      "a": "The cost depends on scope, features and timeline. Send a short brief through the contact form and we will reply with questions and a price range once we understand the goal."
+    },
+    {
+      "q": "What does a branding project include?",
+      "a": "A branding project can include positioning, a logo and identity system, and the materials that carry it, such as brochures, leaflets, magazines, packaging, in-shop branding, outdoor advertising and TV commercials."
+    },
+    {
+      "q": "Can you manage our social media and run ads?",
+      "a": "Yes. Our digital media managing service covers strategy, platform management, campaign optimisation and monthly analytics, and our content team creates the posts, graphics and videos."
+    },
+    {
+      "q": "How do I start a project with Pixelbrahma?",
+      "a": "Send a short brief using the contact form or call us. We will reply with questions and a suggested scope."
+    },
+    {
+      "q": "Do you design logos and brand identity?",
+      "a": "Yes. Our logo design service creates a logo, colour palette, typography and a short usage guide, and we can extend the identity into brochures, packaging, signage and more."
+    },
+    {
+      "q": "Can you create brochures, leaflets and packaging?",
+      "a": "Yes. We design brochures, leaflets, magazines and product packaging, and supply print-ready artwork for your printer."
+    },
+    {
+      "q": "Do you offer outdoor advertising and TV commercial production?",
+      "a": "Yes. We design hoardings, banners and vehicle branding, and we develop and guide the production of TV commercials and video ads."
+    },
+    {
+      "q": "What is Smolgoodi?",
+      "a": "Smolgoodi is a product built by Pixelbrahma that helps home sellers in India list products and take orders through a shareable link, with orders arriving on WhatsApp."
+    }
+  ],
+  "industries": [
+    {
+      "h": "Jewellery and retail",
+      "p": "Logos, campaign leaflets, magazine advertisements and in-shop branding for jewellery and retail brands.",
+      "href": "/branding/",
+      "cta": "Branding services",
+      "img": "ind-jewellery"
+    },
+    {
+      "h": "Paints, flooring and interiors",
+      "p": "Package design, brochures and catalogues for paint, flooring and home-interior brands.",
+      "href": "/package-designs/",
+      "cta": "Package design",
+      "img": "ind-paint"
+    },
+    {
+      "h": "Food and beverage",
+      "p": "Packaging, shop branding and outdoor advertising for food and tea brands.",
+      "href": "/inshop-branding/",
+      "cta": "In-shop branding",
+      "img": "ind-food"
+    },
+    {
+      "h": "Technology and electronics",
+      "p": "Websites, mobile apps and social media management for technology and electronics companies.",
+      "href": "/website/",
+      "cta": "Website design",
+      "img": "ind-tech"
+    },
+    {
+      "h": "Healthcare and education",
+      "p": "Awareness posters, social media content and leaflets for hospitals and institutes.",
+      "href": "/digital-media-content-creation/",
+      "cta": "Content creation",
+      "img": "ind-health"
+    }
+  ]
+}

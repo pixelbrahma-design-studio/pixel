@@ -1,0 +1,167 @@
+{
+  "canonicalHost": "pixelbrahma.com",
+  "wwwHost": "www.pixelbrahma.com",
+  "exact": [
+    {
+      "from": "/app-web-development",
+      "to": "/app-development/",
+      "note": "Page removed; app development is the closest match"
+    },
+    {
+      "from": "/digital-media",
+      "to": "/digital-marketing/",
+      "note": "Old WordPress slug"
+    },
+    {
+      "from": "/app",
+      "to": "/app-development/",
+      "note": "Old WordPress slug"
+    },
+    {
+      "from": "/vehicle-branding",
+      "to": "/outdoor/",
+      "note": "Old WordPress slug; vehicle branding now covered on Outdoor"
+    },
+    {
+      "from": "/services",
+      "to": "/",
+      "note": "Old services page; home has a services section"
+    },
+    {
+      "from": "/home",
+      "to": "/",
+      "note": "Old WordPress variant"
+    },
+    {
+      "from": "/home-final",
+      "to": "/",
+      "note": "Old WordPress variant"
+    },
+    {
+      "from": "/new-home",
+      "to": "/",
+      "note": "Old WordPress variant"
+    },
+    {
+      "from": "/dummy",
+      "to": "/",
+      "note": "Old test page"
+    },
+    {
+      "from": "/sample-page",
+      "to": "/",
+      "note": "WordPress default page"
+    },
+    {
+      "from": "/wri",
+      "to": "/app-development/",
+      "note": "Old app project page; the work now appears in the gallery on /app-development/"
+    },
+    {
+      "from": "/pixcam",
+      "to": "/app-development/",
+      "note": "Old app project page; the work now appears in the gallery on /app-development/"
+    },
+    {
+      "from": "/uniwood-products",
+      "to": "/app-development/",
+      "note": "Old app project page; the work now appears in the gallery on /app-development/"
+    },
+    {
+      "from": "/amd-retail-connect",
+      "to": "/app-development/",
+      "note": "Old app project page; the work now appears in the gallery on /app-development/"
+    },
+    {
+      "from": "/shop",
+      "to": "/",
+      "note": "WooCommerce leftovers"
+    },
+    {
+      "from": "/cart",
+      "to": "/",
+      "note": "WooCommerce leftovers"
+    },
+    {
+      "from": "/checkout",
+      "to": "/",
+      "note": "WooCommerce leftovers"
+    },
+    {
+      "from": "/my-account",
+      "to": "/",
+      "note": "WooCommerce leftovers"
+    },
+    {
+      "from": "/feed",
+      "to": "/",
+      "note": "RSS feed retired"
+    },
+    {
+      "from": "/wp-admin",
+      "to": "/",
+      "note": "WordPress admin retired"
+    },
+    {
+      "from": "/wp-login.php",
+      "to": "/",
+      "note": "WordPress login retired"
+    },
+    {
+      "from": "/xmlrpc.php",
+      "to": "/",
+      "note": "XML-RPC retired"
+    }
+  ],
+  "prefix": [
+    {
+      "from": "/author",
+      "to": "/",
+      "note": "Author archives, including /author/zeud5cngbagffb5cs4fwp15926/"
+    },
+    {
+      "from": "/category",
+      "to": "/",
+      "note": "Category archives"
+    },
+    {
+      "from": "/tag",
+      "to": "/",
+      "note": "Tag archives"
+    },
+    {
+      "from": "/feed",
+      "to": "/",
+      "note": "Feeds"
+    },
+    {
+      "from": "/comments/feed",
+      "to": "/",
+      "note": "Comment feeds"
+    },
+    {
+      "from": "/wp-admin",
+      "to": "/",
+      "note": "WordPress admin"
+    },
+    {
+      "from": "/wp-content",
+      "to": "/",
+      "note": "WordPress uploads and plugins"
+    },
+    {
+      "from": "/wp-includes",
+      "to": "/",
+      "note": "WordPress core"
+    },
+    {
+      "from": "/wp-json",
+      "to": "/",
+      "note": "WordPress REST API"
+    }
+  ],
+  "queryP": {
+    "to": "/",
+    "note": "Old /?p=123 post IDs"
+  }
+}

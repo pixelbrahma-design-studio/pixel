@@ -1,0 +1,1069 @@
+{
+  "_note": "All images come from the live pixelbrahma.com media library (backup uploads). src is the path under wp-content/uploads. Alt text is descriptive of what is visible; improve with real project context.",
+  "home-hero": {
+    "src": "2024/12/Home-image-2.webp",
+    "alt": "Person working on a laptop on the moon with Earth in the distance"
+  },
+  "tile-app": {
+    "src": "2024/10/home.jpg",
+    "alt": "Smartphone surrounded by gears and security icons"
+  },
+  "tile-digital": {
+    "src": "2024/12/view-tasty-sweet-glazed-donuts-scaled.webp",
+    "alt": "Glazed donuts on a cake stand, a social media content example"
+  },
+  "tile-brand": {
+    "src": "2024/12/Hero-image.png",
+    "alt": "Yellow cup of tea on a yellow background"
+  },
+  "app-image": {
+    "src": "2024/10/APP-image3.png",
+    "alt": "Hand tapping a phone screen inside the letters APP"
+  },
+  "web-image": {
+    "src": "2024/10/web-image-1.png",
+    "alt": "Laptop screen between the letters W and B"
+  },
+  "app-hero": {
+    "src": "2024/10/App-devleopment_hero.png",
+    "alt": "Fingertip touching a glowing digital interface"
+  },
+  "app-sec": {
+    "src": "2024/10/App-dev-Sec.2.png",
+    "alt": "Hands holding a smartphone next to a laptop showing an app"
+  },
+  "website-hero": {
+    "src": "2023/06/pexels-picjumbocom-196644-scaled.jpg",
+    "alt": "Notebook with wireframe sketches next to a smartphone"
+  },
+  "c-amd": {
+    "src": "2024/10/1-1.png",
+    "alt": "AMD logo"
+  },
+  "c-interface": {
+    "src": "external:local",
+    "file": "new-icpl.png",
+    "alt": "ICPL India logo"
+  },
+  "c-yubi": {
+    "src": "2024/10/3-1.png",
+    "alt": "Yubi logo"
+  },
+  "c-spice-story": {
+    "src": "external:local",
+    "file": "new-spicestory.svg",
+    "alt": "Spice Story logo"
+  },
+  "c-biotraptor": {
+    "src": "external:local",
+    "file": "new-biotraptor.png",
+    "alt": "Bio Traptor logo"
+  },
+  "c-chungath": {
+    "src": "external:local",
+    "file": "new-chungath.png",
+    "alt": "Chungath Jewellery logo"
+  },
+  "c-wri": {
+    "src": "2024/10/7.png",
+    "alt": "WRI India logo"
+  },
+  "c-leroc": {
+    "src": "2024/10/8.png",
+    "alt": "Leroc logo"
+  },
+  "logo-lenkara": {
+    "src": "2022/07/WhatsApp-Image-2022-07-19-at-10.06.02-AM.jpeg",
+    "alt": "Lenkara logo design"
+  },
+  "logo-hbc": {
+    "src": "2022/07/WhatsApp-Image-2022-07-19-at-10.06.04-AM.jpeg",
+    "alt": "HBC rainbow logo design"
+  },
+  "logo-k": {
+    "src": "2022/07/WhatsApp-Image-2022-07-19-at-10.06.05-AM-1.jpeg",
+    "alt": "Ornate K monogram logo design"
+  },
+  "logo-arab": {
+    "src": "2022/07/WhatsApp-Image-2022-07-19-at-10.06.05-AM-2.jpeg",
+    "alt": "Arab Air Conditioning and Refrigeration logo design"
+  },
+  "logo-vibe": {
+    "src": "2022/07/WhatsApp-Image-2022-07-19-at-10.06.05-AM.jpeg",
+    "alt": "Vibe wordmark logo design"
+  },
+  "logo-indus": {
+    "src": "2022/07/WhatsApp-Image-2022-07-19-at-10.06.06-AM-1.jpeg",
+    "alt": "Indus Motors logo design"
+  },
+  "logo-grand-marine": {
+    "src": "2022/07/WhatsApp-Image-2022-07-19-at-10.06.06-AM.jpeg",
+    "alt": "Grand Marine Foods logo design"
+  },
+  "logo-combinaadan": {
+    "src": "2022/07/WhatsApp-Image-2022-07-19-at-10.06.07-AM-1.jpeg",
+    "alt": "Combinaadan traditional food logo design"
+  },
+  "logo-enigma": {
+    "src": "2022/07/WhatsApp-Image-2022-07-19-at-10.06.08-AM-1.jpeg",
+    "alt": "HBC Enigma luxury range logo design"
+  },
+  "logo-decor-club": {
+    "src": "2022/07/WhatsApp-Image-2022-07-19-at-10.06.08-AM.jpeg",
+    "alt": "Decor Club illustrated logo design"
+  },
+  "logo-uniwood": {
+    "src": "2022/07/WhatsApp-Image-2022-07-19-at-10.06.09-AM-1.jpeg",
+    "alt": "Uniwood kitchens, wardrobes, living logo design"
+  },
+  "logo-francoat": {
+    "src": "2022/07/WhatsApp-Image-2022-07-19-at-10.06.09-AM.jpeg",
+    "alt": "Francoat italic wordmark logo design"
+  },
+  "logo-chungath": {
+    "src": "2022/07/WhatsApp-Image-2022-07-19-at-10.06.10-AM.jpeg",
+    "alt": "Chungath Jewellery logo design"
+  },
+  "brochure-1": {
+    "src": "2023/06/Green-Illustrative-Minimalist-World-Environment-Day-Document-A4-1-1.png",
+    "alt": "Brochure for an air conditioning and refrigeration company"
+  },
+  "brochure-2": {
+    "src": "2023/06/Green-Illustrative-Minimalist-World-Environment-Day-Document-A4-4-1.png",
+    "alt": "Safety boots product brochure page"
+  },
+  "brochure-3": {
+    "src": "2023/06/Green-Illustrative-Minimalist-World-Environment-Day-Document-A4-3-min.png",
+    "alt": "Engineered hardwood flooring catalogue cover"
+  },
+  "brochure-4": {
+    "src": "2023/06/Green-Illustrative-Minimalist-World-Environment-Day-Document-A4-5-1.png",
+    "alt": "Paint brand brochure with colourful splashes"
+  },
+  "brochure-5": {
+    "src": "2023/06/Green-Illustrative-Minimalist-World-Environment-Day-Document-A4-6-1.png",
+    "alt": "Home furniture brochure with the headline Truly Stylish"
+  },
+  "brochure-6": {
+    "src": "2023/06/Green-Illustrative-Minimalist-World-Environment-Day-Document-A4-2.png",
+    "alt": "Kitchen cabinetry brochure with an illustrated orange cover"
+  },
+  "leaflet-booklet": {
+    "src": "2022/11/Booklet-1.jpg",
+    "alt": "Paint colour booklet with an illustrated house"
+  },
+  "leaflet-lenkara": {
+    "src": "2022/11/Lenkara-1.jpg",
+    "alt": "Institute admissions flyer with a portrait of a woman in jewellery"
+  },
+  "leaflet-chungath": {
+    "src": "2022/11/Chungath-1.jpg",
+    "alt": "Chungath Jewellery anniversary leaflet in Malayalam"
+  },
+  "leaflet-niraa": {
+    "src": "2022/11/Niraat-1.jpg",
+    "alt": "Tea brand flyer with product packs on a green background"
+  },
+  "leaflet-llc": {
+    "src": "2022/11/LLC-1.jpg",
+    "alt": "Business services flyer with a city skyline"
+  },
+  "leaflet-blood": {
+    "src": "2022/11/Blood-Donor-Day-1.jpg",
+    "alt": "World Blood Donor Day awareness poster"
+  },
+  "leaflet-hardwood": {
+    "src": "2023/06/Green-Illustrative-Minimalist-World-Environment-Day-Document-A4-3.png",
+    "alt": "Engineered hardwood flooring leaflet"
+  },
+  "leaflet-we": {
+    "src": "2023/06/Green-Illustrative-Minimalist-World-Environment-Day-Document-A4-6-1-1.png",
+    "alt": "One-stop business solutions leaflet with a city skyline"
+  },
+  "leaflet-uniwood": {
+    "src": "2023/06/Green-Illustrative-Minimalist-World-Environment-Day-Document-A4-2-1-1.png",
+    "alt": "Hardwood flooring leaflet with a dog on a wooden floor"
+  },
+  "magazine-1": {
+    "src": "2023/08/62f07fff76925e8be97c3725b0be33be-e1691390008211.jpg",
+    "alt": "Jewellery magazine advertisement with a portrait in gold jewellery"
+  },
+  "magazine-2": {
+    "src": "2023/08/E85BifFVUAACxpg.jpg",
+    "alt": "Magazine advertisement for traditional gold jewellery"
+  },
+  "magazine-3": {
+    "src": "2023/08/Untitled-1-scaled-e1691389969722.jpg",
+    "alt": "Hardwood engineered flooring magazine advertisement"
+  },
+  "magazine-4": {
+    "src": "2023/08/WhatsApp-Image-2023-05-11-at-15.57.49-e1691389947962.jpeg",
+    "alt": "Interior design magazine page with room photographs"
+  },
+  "magazine-5": {
+    "src": "2023/08/magazine.png",
+    "alt": "Magazine cover with a woman in traditional gold jewellery"
+  },
+  "pack-1": {
+    "src": "2023/06/1-3.png",
+    "alt": "Sleek Spectra interior paint tin design"
+  },
+  "pack-2": {
+    "src": "2023/06/17.png",
+    "alt": "Climex Plus paint tin design"
+  },
+  "pack-3": {
+    "src": "2023/06/22.png",
+    "alt": "Sleek Neo paint tin design"
+  },
+  "pack-4": {
+    "src": "2023/06/23.png",
+    "alt": "Enigma luxury interior emulsion tin design"
+  },
+  "pack-5": {
+    "src": "2023/06/Sleek-XT-pack.png",
+    "alt": "Sleek XT wood finish pack design"
+  },
+  "shop-1": {
+    "src": "2023/06/Green-Illustrative-Minimalist-World-Environment-Day-Document-A4-1-2-1.png",
+    "alt": "Green shopfront signboard for a tea brand in Malayalam"
+  },
+  "shop-2": {
+    "src": "2023/06/Green-Illustrative-Minimalist-World-Environment-Day-Document-A4-3-1-1.png",
+    "alt": "Round yellow in-shop hanging wobbler for a tea brand"
+  },
+  "shop-3": {
+    "src": "2023/06/Green-Illustrative-Minimalist-World-Environment-Day-Document-A4-4-1-1.png",
+    "alt": "Yellow shelf strip branding for a tea brand"
+  },
+  "outdoor-1": {
+    "src": "2023/08/WhatsApp-Image-2022-02-19-at-5.57.46-PM-e1691390657720.jpeg",
+    "alt": "Hardwood flooring poster mounted on a wall"
+  },
+  "outdoor-2": {
+    "src": "2023/06/1-4-1-e1691390738815.png",
+    "alt": "Delivery van with tea brand vehicle branding"
+  },
+  "outdoor-3": {
+    "src": "2023/08/hoarding-01.jpg",
+    "alt": "Roadside hoarding for a tea brand against a blue sky"
+  },
+  "outdoor-4": {
+    "src": "2023/06/2-4-1-e1691390552565.png",
+    "alt": "Red bus with vehicle branding inside a depot"
+  },
+  "tvc-1": {
+    "src": "2022/10/TVC-1.jpg",
+    "alt": "Frame from a jewellery television commercial showing a woman in traditional jewellery"
+  },
+  "web-1": {
+    "src": "2024/10/Untitled-design-52.png",
+    "alt": "Website for a smart mosquito trap product"
+  },
+  "web-2": {
+    "src": "2024/12/Untitled-design-54.png",
+    "alt": "Website homepage for an electronics connectors distributor"
+  },
+  "web-3": {
+    "src": "2024/10/Untitled-design-2024-10-10T111447.198.png",
+    "alt": "Real estate website hero with a city skyline"
+  },
+  "web-4": {
+    "src": "2024/10/Untitled-design-2024-10-10T111717.103.png",
+    "alt": "Travel website with a beach activity photograph"
+  },
+  "web-5": {
+    "src": "2024/12/Untitled-design-2024-12-26T175210.257.png",
+    "alt": "Technology company website with a circuit board header"
+  },
+  "web-6": {
+    "src": "2023/06/6-2.png",
+    "alt": "Kitchen and interiors company website"
+  },
+  "web-7": {
+    "src": "2023/06/4-2.png",
+    "alt": "Food products website showing chutney jars"
+  },
+  "web-8": {
+    "src": "2023/06/2-5.png",
+    "alt": "Hospital health assessment package web banner"
+  },
+  "app-1": {
+    "src": "2023/10/Amd-800x580-1.png",
+    "alt": "AMD Retail Connect app login screen"
+  },
+  "app-2": {
+    "src": "2023/10/wri-800x580-1.png",
+    "alt": "WRI India app login screen on a green background"
+  },
+  "app-3": {
+    "src": "2023/10/Uni-800x580-1.png",
+    "alt": "Uniwood app login screen with phone number field"
+  },
+  "app-4": {
+    "src": "2023/10/Pixcam-800x580-1.png",
+    "alt": "Pixcam app welcome and login screen"
+  },
+  "social-1": {
+    "src": "2022/07/WhatsApp-Image-2022-07-26-at-7.23.56-PM.jpeg",
+    "alt": "Social media post for a processor brand showing a racing team"
+  },
+  "social-2": {
+    "src": "2022/07/WhatsApp-Image-2022-07-26-at-7.23.57-PM-1.jpeg",
+    "alt": "Sponsored social post for laptop processors"
+  },
+  "social-3": {
+    "src": "2022/07/WhatsApp-Image-2022-07-26-at-7.23.57-PM.jpeg",
+    "alt": "Sponsored social post about helping your team rise"
+  },
+  "social-4": {
+    "src": "2022/07/WhatsApp-Image-2022-07-26-at-7.23.59-PM-1.jpeg",
+    "alt": "Social post preview for a performance flyer"
+  },
+  "social-5": {
+    "src": "2022/07/WhatsApp-Image-2022-07-26-at-7.24.00-PM.jpeg",
+    "alt": "Social carousel post for a processor brand"
+  },
+  "social-6": {
+    "src": "2023/02/11.png",
+    "alt": "Best tractor of the year social post"
+  },
+  "social-7": {
+    "src": "2023/02/Capture.png",
+    "alt": "Tractor finance scheme social post"
+  },
+  "social-8": {
+    "src": "2023/02/FB-3.png",
+    "alt": "Facebook post about a kabaddi practice session"
+  },
+  "social-9": {
+    "src": "2023/02/Search-3.png",
+    "alt": "Search advertisement for engineered wood flooring"
+  },
+  "content-1": {
+    "src": "2023/06/99999-e1687934487437.png",
+    "alt": "Jewellery brand video thumbnail with a woman in a pink gown on a beach"
+  },
+  "content-2": {
+    "src": "2023/02/Facebook.png",
+    "alt": "Facebook post for a modular kitchen brand"
+  },
+  "content-3": {
+    "src": "2023/02/Insta.png",
+    "alt": "Instagram grid of branded posts for a wood products brand"
+  },
+  "content-4": {
+    "src": "2023/06/oooo2-1-e1687934722595.png",
+    "alt": "Hospital blood donation awareness social post"
+  },
+  "content-5": {
+    "src": "2023/06/WhatsApp-Image-2023-06-28-at-11.51.28.jpeg",
+    "alt": "Hardwood engineered flooring social post"
+  },
+  "content-6": {
+    "src": "2023/06/ooo-1-e1687934976359.png",
+    "alt": "Hospital patient review social post"
+  },
+  "contact-bg": {
+    "src": "2023/06/contact-us-classic-bg-1.jpg",
+    "alt": "Colleagues in a meeting around a table"
+  },
+  "banner-app": {
+    "src": "external:unsplash",
+    "file": "banner-app.jpg",
+    "alt": "Hand holding a smartphone on a white desk next to a coffee cup and notebooks",
+    "credit": "Yura Fresh on Unsplash",
+    "source": "https://unsplash.com/photos/person-holding-space-gray-iphone-x-e31c488d69e2",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-web": {
+    "src": "external:unsplash",
+    "file": "banner-web.jpg",
+    "alt": "MacBook showing website code on a bright designer desk by a window",
+    "credit": "Christopher Gower on Unsplash",
+    "source": "https://unsplash.com/photos/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-c5249f4df085",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-digital": {
+    "src": "external:unsplash",
+    "file": "banner-digital.jpg",
+    "alt": "Laptop on a sunny desk showing a marketing analytics chart",
+    "credit": "Ngital on Unsplash",
+    "source": "https://unsplash.com/photos/laptop-with-charts-on-a-desk-by-a-sunny-window-afec19012b45",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-brand": {
+    "src": "external:unsplash",
+    "file": "banner-brand.jpg",
+    "alt": "Brand identity stationery set with an orange logo card, letterheads and business cards",
+    "credit": "Rochelle Lee on Unsplash",
+    "source": "https://unsplash.com/photos/orange-card-with-one-logo-surrounded-by-other-cards-2b4f16a33758",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "svc-app": {
+    "src": "external:unsplash",
+    "file": "svc-app.jpg",
+    "alt": "Team sketching website and app wireframes on paper with sticky notes",
+    "credit": "UX Indonesia on Unsplash",
+    "source": "https://unsplash.com/photos/person-writing-on-white-paper",
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "svc-digital": {
+    "src": "external:unsplash",
+    "file": "svc-digital.jpg",
+    "alt": "Marketing team working together around a table of laptops",
+    "credit": "Marvin Meyer on Unsplash",
+    "source": "https://unsplash.com/photos/people-sitting-down-near-table-with-assorted-laptop-computers",
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "svc-brand": {
+    "src": "external:unsplash",
+    "file": "svc-brand.jpg",
+    "alt": "Brand identity collateral: logo tags, stickers and cards laid out on an open magazine",
+    "credit": "Brands&People on Unsplash",
+    "source": "https://unsplash.com/photos/yellow-and-white-labeled-can-ae5e90f9b9eb",
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "smol-hero": {
+    "src": "external:smolgoodi",
+    "file": "smol-hero.jpg",
+    "alt": "A home seller smiling as she packs an order in her kitchen",
+    "credit": "Smolgoodi (smolgoodi.in)",
+    "source": "https://smolgoodi.in",
+    "widths": [
+      480,
+      960,
+      1080
+    ]
+  },
+  "smol-how": {
+    "src": "external:smolgoodi",
+    "file": "smol-how.png",
+    "alt": "A home seller packing jars of pickle into a paper bag",
+    "credit": "Smolgoodi (smolgoodi.in)",
+    "source": "https://smolgoodi.in",
+    "widths": [
+      480,
+      960,
+      1080
+    ]
+  },
+  "smol-logo": {
+    "src": "external:smolgoodi",
+    "file": "smol-logo.png",
+    "alt": "Smolgoodi logo",
+    "credit": "Smolgoodi (smolgoodi.in)",
+    "source": "https://smolgoodi.in",
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "cl-c-amd": {
+    "src": "external:local",
+    "file": "c-amd.png",
+    "alt": "AMD logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-c-interface": {
+    "src": "external:local",
+    "file": "new-icpl.png",
+    "alt": "ICPL India logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-c-yubi": {
+    "src": "external:local",
+    "file": "c-yubi.png",
+    "alt": "Yubi logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-c-spice-story": {
+    "src": "external:local",
+    "file": "new-spicestory.svg",
+    "alt": "Spice Story logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-c-biotraptor": {
+    "src": "external:local",
+    "file": "new-biotraptor.png",
+    "alt": "Bio Traptor logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-c-chungath": {
+    "src": "external:local",
+    "file": "new-chungath.png",
+    "alt": "Chungath Jewellery logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-c-wri": {
+    "src": "external:local",
+    "file": "c-wri.png",
+    "alt": "WRI India logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-c-leroc": {
+    "src": "external:local",
+    "file": "c-leroc.png",
+    "alt": "Leroc logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-logo-lenkara": {
+    "src": "external:local",
+    "file": "logo-lenkara.jpeg",
+    "alt": "Lenkara logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-logo-hbc": {
+    "src": "external:local",
+    "file": "logo-hbc.jpeg",
+    "alt": "HBC rainbow logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-logo-arab": {
+    "src": "external:local",
+    "file": "logo-arab.jpeg",
+    "alt": "Arab Air Conditioning and Refrigeration logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-logo-vibe": {
+    "src": "external:local",
+    "file": "logo-vibe.jpeg",
+    "alt": "Vibe wordmark logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-logo-indus": {
+    "src": "external:local",
+    "file": "logo-indus.jpeg",
+    "alt": "Indus Motors logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-logo-grand-marine": {
+    "src": "external:local",
+    "file": "logo-grand-marine.jpeg",
+    "alt": "Grand Marine Foods logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-logo-decor-club": {
+    "src": "external:local",
+    "file": "logo-decor-club.jpeg",
+    "alt": "Decor Club illustrated logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-logo-uniwood": {
+    "src": "external:local",
+    "file": "logo-uniwood.jpeg",
+    "alt": "Uniwood kitchens, wardrobes, living logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "cl-logo-francoat": {
+    "src": "external:local",
+    "file": "logo-francoat.jpeg",
+    "alt": "Francoat italic wordmark logo",
+    "trim": true,
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
+  },
+  "ind-jewellery": {
+    "src": "external:unsplash",
+    "file": "ind-jewellery.jpg",
+    "alt": "Gold necklace and earrings displayed on a teal jewellery bust",
+    "credit": "PRAHANT STUDIO on Unsplash",
+    "source": "https://unsplash.com/photos/a-necklace-and-earring-on-display-on-a-mannequin-b05b50922362",
+    "widths": [
+      640,
+      1024,
+      1600
+    ]
+  },
+  "ind-paint": {
+    "src": "external:unsplash",
+    "file": "ind-paint.jpg",
+    "alt": "Colour wheel of paint swatches on a concrete surface",
+    "credit": "Annie Spratt on Unsplash",
+    "source": "https://unsplash.com/photos/red-yellow-and-green-paper-36375bd7132c",
+    "widths": [
+      640,
+      1024,
+      1600
+    ]
+  },
+  "ind-tech": {
+    "src": "external:unsplash",
+    "file": "ind-tech.jpg",
+    "alt": "Close-up of a colourful electronic circuit board",
+    "credit": "Umberto on Unsplash",
+    "source": "https://unsplash.com/photos/blue-circuit-board-e32931084e23",
+    "widths": [
+      640,
+      1024,
+      1600,
+      2000
+    ]
+  },
+  "ind-food": {
+    "src": "external:unsplash",
+    "file": "ind-food.jpg",
+    "alt": "Steaming cup of tea on a saucer against a dark background",
+    "credit": "Matheus Bardemaker on Unsplash",
+    "source": "https://unsplash.com/photos/white-ceramic-cup-on-white-ceramic-saucer-8110cc8f1986",
+    "widths": [
+      640,
+      1024,
+      1600
+    ]
+  },
+  "ind-health": {
+    "src": "external:unsplash",
+    "file": "ind-health.jpg",
+    "alt": "Black stethoscope on a light blue background",
+    "credit": "Etactics Inc on Unsplash",
+    "source": "https://unsplash.com/photos/a-black-medical-stethoscope-on-a-light-blue-background-16ebe4906441",
+    "widths": [
+      640,
+      1024,
+      1600
+    ]
+  },
+  "banner-managing": {
+    "src": "external:unsplash",
+    "file": "banner-managing.jpg",
+    "alt": "Smartphone screen with a Social Media folder of app icons",
+    "credit": "Unsplash contributor (photo id 1675352161865-27816c76141a)",
+    "source": "https://images.unsplash.com/photo-1675352161865-27816c76141a",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-content": {
+    "src": "external:unsplash",
+    "file": "banner-content.jpg",
+    "alt": "Content creator desk with laptop, camera and editing controls",
+    "credit": "Unsplash contributor (photo id 1636971828014-0f3493cba88a)",
+    "source": "https://images.unsplash.com/photo-1636971828014-0f3493cba88a",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-logo": {
+    "src": "external:unsplash",
+    "file": "banner-logo.jpg",
+    "alt": "Hand sketching a logo design on tracing paper",
+    "credit": "Unsplash contributor (photo id 1498075702571-ecb018f3752d)",
+    "source": "https://images.unsplash.com/photo-1498075702571-ecb018f3752d",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-brochures": {
+    "src": "external:unsplash",
+    "file": "banner-brochures.jpg",
+    "alt": "Design books and printed brochures laid out on a white surface",
+    "credit": "Unsplash contributor (photo id 1658863025658-4a259cc68fc9)",
+    "source": "https://images.unsplash.com/photo-1658863025658-4a259cc68fc9",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-leaflets": {
+    "src": "external:unsplash",
+    "file": "banner-leaflets.jpg",
+    "alt": "Hands exchanging a printed flyer on the street",
+    "credit": "Unsplash contributor (photo id 1563097013-a1df1d1fd1c7)",
+    "source": "https://images.unsplash.com/photo-1563097013-a1df1d1fd1c7",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-magazine": {
+    "src": "external:unsplash",
+    "file": "banner-magazine.jpg",
+    "alt": "Magazines displayed on a rack",
+    "credit": "Unsplash contributor (photo id 1760302356448-d3385b5e6272)",
+    "source": "https://images.unsplash.com/photo-1760302356448-d3385b5e6272",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-package": {
+    "src": "external:unsplash",
+    "file": "banner-package.jpg",
+    "alt": "Pink and green product packaging boxes arranged in rows",
+    "credit": "Unsplash contributor (photo id 1617825295690-28ae56c56135)",
+    "source": "https://images.unsplash.com/photo-1617825295690-28ae56c56135",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-inshop": {
+    "src": "external:unsplash",
+    "file": "banner-inshop.jpg",
+    "alt": "Bright modern retail store interior with display counters",
+    "credit": "Unsplash contributor (photo id 1771033834141-023d630b3965)",
+    "source": "https://images.unsplash.com/photo-1771033834141-023d630b3965",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-outdoor": {
+    "src": "external:unsplash",
+    "file": "banner-outdoor.jpg",
+    "alt": "Roadside billboard at sunset above a city road",
+    "credit": "Unsplash contributor (photo id 1699480114704-ac153307d2a0)",
+    "source": "https://images.unsplash.com/photo-1699480114704-ac153307d2a0",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-tvc": {
+    "src": "external:unsplash",
+    "file": "banner-tvc.jpg",
+    "alt": "Film camera and stage light in a dark studio",
+    "credit": "Unsplash contributor (photo id 1625690303837-654c9666d2d0)",
+    "source": "https://images.unsplash.com/photo-1625690303837-654c9666d2d0",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "svc-web": {
+    "src": "external:unsplash",
+    "file": "svc-web.jpg",
+    "alt": "MacBook showing website code on a bright designer desk by a window",
+    "credit": "Christopher Gower on Unsplash",
+    "source": "https://unsplash.com/photos/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-c5249f4df085",
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "site-proarc": {
+    "src": "external:local",
+    "file": "site-proarc.jpg",
+    "alt": "Homepage of the Proarc website, designed and developed by Pixelbrahma",
+    "credit": "Screenshot of https://proarc.ae/ (client website)",
+    "source": "https://proarc.ae/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920
+    ]
+  },
+  "site-biotraptor": {
+    "src": "external:local",
+    "file": "site-biotraptor.jpg",
+    "alt": "Homepage of the BioTraptor website, designed and developed by Pixelbrahma",
+    "credit": "Screenshot of https://www.biotraptor.com/ (client website)",
+    "source": "https://www.biotraptor.com/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920
+    ]
+  },
+  "site-ebisu": {
+    "src": "external:local",
+    "file": "site-ebisu.jpg",
+    "alt": "Homepage of the Ebisu Ventures website, designed and developed by Pixelbrahma",
+    "credit": "Screenshot of https://ebisuventures.com/ (client website)",
+    "source": "https://ebisuventures.com/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920
+    ]
+  },
+  "site-spicestory": {
+    "src": "external:local",
+    "file": "site-spicestory.jpg",
+    "alt": "Homepage of the Spice Story website, designed and developed by Pixelbrahma",
+    "credit": "Screenshot of https://spicestoryworld.com/ (client website)",
+    "source": "https://spicestoryworld.com/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920
+    ]
+  },
+  "site-icpl": {
+    "src": "external:local",
+    "file": "site-icpl.jpg",
+    "alt": "Homepage of the ICPL India website, designed and developed by Pixelbrahma",
+    "credit": "Screenshot of https://icplindia.com/ (client website)",
+    "source": "https://icplindia.com/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920
+    ]
+  },
+  "site-saivishram": {
+    "src": "external:local",
+    "file": "site-saivishram.jpg",
+    "alt": "Homepage of the Sai Vishram website, designed and developed by Pixelbrahma",
+    "credit": "Screenshot of https://saivishram.com/ (client website)",
+    "source": "https://saivishram.com/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920
+    ]
+  },
+  "site-uniwood": {
+    "src": "external:local",
+    "file": "site-uniwood.jpg",
+    "alt": "Homepage of the Uniwood Products website, designed and developed by Pixelbrahma",
+    "credit": "Screenshot of https://www.uniwoodproducts.com/ (client website)",
+    "source": "https://www.uniwoodproducts.com/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920
+    ]
+  },
+  "site-ochri": {
+    "src": "external:local",
+    "file": "site-ochri.jpg",
+    "alt": "Homepage of the Ochri website, designed and developed by Pixelbrahma",
+    "credit": "Screenshot of https://ochri.com/ (client website)",
+    "source": "https://ochri.com/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920
+    ]
+  },
+  "site-promac": {
+    "src": "external:local",
+    "file": "site-promac.jpg",
+    "alt": "Homepage of the Promac India website, designed and developed by Pixelbrahma",
+    "credit": "Screenshot of https://promacindia.com/ (client website)",
+    "source": "https://promacindia.com/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920
+    ]
+  },
+  "site-chungath": {
+    "src": "external:local",
+    "file": "site-chungath.jpg",
+    "alt": "Homepage of the Chungath Jewellery website, designed and developed by Pixelbrahma",
+    "credit": "Screenshot of https://www.chungathjewellery.com/ (client website)",
+    "source": "https://www.chungathjewellery.com/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920
+    ]
+  },
+  "svc-managing": {
+    "src": "external:unsplash",
+    "file": "svc-managing.jpg",
+    "alt": "Analytics dashboard tiles showing performance metrics on a monitor",
+    "credit": "Unsplash contributor (photo id 1526628953301-3e589a6a8b74)",
+    "source": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74",
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "svc-content": {
+    "src": "external:unsplash",
+    "file": "svc-content.jpg",
+    "alt": "Content creator recording at a desk with a microphone and laptop",
+    "credit": "Unsplash contributor (photo id 1673767298248-b128f17f89af)",
+    "source": "https://images.unsplash.com/photo-1673767298248-b128f17f89af",
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  }
+}

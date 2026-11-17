@@ -1,0 +1,2876 @@
+{
+ "home-hero": {
+  "w": 1920,
+  "h": 1134,
+  "alt": "Person working on a laptop on the moon with Earth in the distance",
+  "variants": [
+   {
+    "w": 480,
+    "h": 284
+   },
+   {
+    "w": 960,
+    "h": 567
+   },
+   {
+    "w": 1440,
+    "h": 851
+   },
+   {
+    "w": 1600,
+    "h": 945
+   }
+  ]
+ },
+ "tile-app": {
+  "w": 2000,
+  "h": 1139,
+  "alt": "Smartphone surrounded by gears and security icons",
+  "variants": [
+   {
+    "w": 480,
+    "h": 273
+   },
+   {
+    "w": 960,
+    "h": 547
+   },
+   {
+    "w": 1440,
+    "h": 820
+   },
+   {
+    "w": 1600,
+    "h": 911
+   }
+  ]
+ },
+ "tile-digital": {
+  "w": 2560,
+  "h": 1435,
+  "alt": "Glazed donuts on a cake stand, a social media content example",
+  "variants": [
+   {
+    "w": 480,
+    "h": 269
+   },
+   {
+    "w": 960,
+    "h": 538
+   },
+   {
+    "w": 1440,
+    "h": 807
+   },
+   {
+    "w": 1600,
+    "h": 897
+   }
+  ]
+ },
+ "tile-brand": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Yellow cup of tea on a yellow background",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   },
+   {
+    "w": 1600,
+    "h": 900
+   }
+  ]
+ },
+ "app-image": {
+  "w": 476,
+  "h": 652,
+  "alt": "Hand tapping a phone screen inside the letters APP",
+  "variants": [
+   {
+    "w": 476,
+    "h": 652
+   },
+   {
+    "w": 952,
+    "h": 1304
+   }
+  ]
+ },
+ "web-image": {
+  "w": 476,
+  "h": 652,
+  "alt": "Laptop screen between the letters W and B",
+  "variants": [
+   {
+    "w": 476,
+    "h": 652
+   },
+   {
+    "w": 952,
+    "h": 1304
+   }
+  ]
+ },
+ "app-hero": {
+  "w": 1920,
+  "h": 600,
+  "alt": "Fingertip touching a glowing digital interface",
+  "variants": [
+   {
+    "w": 480,
+    "h": 150
+   },
+   {
+    "w": 960,
+    "h": 300
+   },
+   {
+    "w": 1440,
+    "h": 450
+   },
+   {
+    "w": 1600,
+    "h": 500
+   }
+  ]
+ },
+ "app-sec": {
+  "w": 600,
+  "h": 500,
+  "alt": "Hands holding a smartphone next to a laptop showing an app",
+  "variants": [
+   {
+    "w": 480,
+    "h": 400
+   },
+   {
+    "w": 600,
+    "h": 500
+   },
+   {
+    "w": 1200,
+    "h": 1000
+   }
+  ]
+ },
+ "website-hero": {
+  "w": 2560,
+  "h": 1707,
+  "alt": "Notebook with wireframe sketches next to a smartphone",
+  "variants": [
+   {
+    "w": 480,
+    "h": 320
+   },
+   {
+    "w": 960,
+    "h": 640
+   },
+   {
+    "w": 1440,
+    "h": 960
+   },
+   {
+    "w": 1600,
+    "h": 1067
+   }
+  ]
+ },
+ "c-amd": {
+  "w": 232,
+  "h": 110,
+  "alt": "AMD logo",
+  "variants": [
+   {
+    "w": 232,
+    "h": 110
+   },
+   {
+    "w": 464,
+    "h": 220
+   }
+  ]
+ },
+ "c-interface": {
+  "w": 1667,
+  "h": 834,
+  "alt": "ICPL India logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 240
+   },
+   {
+    "w": 960,
+    "h": 480
+   },
+   {
+    "w": 1440,
+    "h": 720
+   },
+   {
+    "w": 1600,
+    "h": 800
+   }
+  ]
+ },
+ "c-yubi": {
+  "w": 232,
+  "h": 110,
+  "alt": "Yubi logo",
+  "variants": [
+   {
+    "w": 232,
+    "h": 110
+   },
+   {
+    "w": 464,
+    "h": 220
+   }
+  ]
+ },
+ "c-spice-story": {
+  "w": 425,
+  "h": 150,
+  "alt": "Spice Story logo",
+  "variants": [
+   {
+    "w": 425,
+    "h": 150
+   },
+   {
+    "w": 850,
+    "h": 300
+   }
+  ]
+ },
+ "c-biotraptor": {
+  "w": 400,
+  "h": 120,
+  "alt": "Bio Traptor logo",
+  "variants": [
+   {
+    "w": 400,
+    "h": 120
+   },
+   {
+    "w": 800,
+    "h": 240
+   }
+  ]
+ },
+ "c-chungath": {
+  "w": 946,
+  "h": 293,
+  "alt": "Chungath Jewellery logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 149
+   },
+   {
+    "w": 946,
+    "h": 293
+   },
+   {
+    "w": 1400,
+    "h": 434
+   }
+  ]
+ },
+ "c-wri": {
+  "w": 232,
+  "h": 110,
+  "alt": "WRI India logo",
+  "variants": [
+   {
+    "w": 232,
+    "h": 110
+   },
+   {
+    "w": 464,
+    "h": 220
+   }
+  ]
+ },
+ "c-leroc": {
+  "w": 232,
+  "h": 110,
+  "alt": "Leroc logo",
+  "variants": [
+   {
+    "w": 232,
+    "h": 110
+   },
+   {
+    "w": 464,
+    "h": 220
+   }
+  ]
+ },
+ "logo-lenkara": {
+  "w": 600,
+  "h": 600,
+  "alt": "Lenkara logo design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "logo-hbc": {
+  "w": 600,
+  "h": 600,
+  "alt": "HBC rainbow logo design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "logo-k": {
+  "w": 600,
+  "h": 600,
+  "alt": "Ornate K monogram logo design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "logo-arab": {
+  "w": 600,
+  "h": 600,
+  "alt": "Arab Air Conditioning and Refrigeration logo design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "logo-vibe": {
+  "w": 600,
+  "h": 600,
+  "alt": "Vibe wordmark logo design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "logo-indus": {
+  "w": 600,
+  "h": 600,
+  "alt": "Indus Motors logo design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "logo-grand-marine": {
+  "w": 600,
+  "h": 600,
+  "alt": "Grand Marine Foods logo design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "logo-combinaadan": {
+  "w": 600,
+  "h": 600,
+  "alt": "Combinaadan traditional food logo design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "logo-enigma": {
+  "w": 600,
+  "h": 600,
+  "alt": "HBC Enigma luxury range logo design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "logo-decor-club": {
+  "w": 600,
+  "h": 600,
+  "alt": "Decor Club illustrated logo design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "logo-uniwood": {
+  "w": 600,
+  "h": 600,
+  "alt": "Uniwood kitchens, wardrobes, living logo design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "logo-francoat": {
+  "w": 600,
+  "h": 600,
+  "alt": "Francoat italic wordmark logo design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "logo-chungath": {
+  "w": 600,
+  "h": 600,
+  "alt": "Chungath Jewellery logo design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "brochure-1": {
+  "w": 2268,
+  "h": 2343,
+  "alt": "Brochure for an air conditioning and refrigeration company",
+  "variants": [
+   {
+    "w": 480,
+    "h": 496
+   },
+   {
+    "w": 960,
+    "h": 992
+   },
+   {
+    "w": 1440,
+    "h": 1488
+   },
+   {
+    "w": 1600,
+    "h": 1653
+   }
+  ]
+ },
+ "brochure-2": {
+  "w": 2268,
+  "h": 2343,
+  "alt": "Safety boots product brochure page",
+  "variants": [
+   {
+    "w": 480,
+    "h": 496
+   },
+   {
+    "w": 960,
+    "h": 992
+   },
+   {
+    "w": 1440,
+    "h": 1488
+   },
+   {
+    "w": 1600,
+    "h": 1653
+   }
+  ]
+ },
+ "brochure-3": {
+  "w": 2268,
+  "h": 2343,
+  "alt": "Engineered hardwood flooring catalogue cover",
+  "variants": [
+   {
+    "w": 480,
+    "h": 496
+   },
+   {
+    "w": 960,
+    "h": 992
+   },
+   {
+    "w": 1440,
+    "h": 1488
+   },
+   {
+    "w": 1600,
+    "h": 1653
+   }
+  ]
+ },
+ "brochure-4": {
+  "w": 2268,
+  "h": 2343,
+  "alt": "Paint brand brochure with colourful splashes",
+  "variants": [
+   {
+    "w": 480,
+    "h": 496
+   },
+   {
+    "w": 960,
+    "h": 992
+   },
+   {
+    "w": 1440,
+    "h": 1488
+   },
+   {
+    "w": 1600,
+    "h": 1653
+   }
+  ]
+ },
+ "brochure-5": {
+  "w": 2268,
+  "h": 2343,
+  "alt": "Home furniture brochure with the headline Truly Stylish",
+  "variants": [
+   {
+    "w": 480,
+    "h": 496
+   },
+   {
+    "w": 960,
+    "h": 992
+   },
+   {
+    "w": 1440,
+    "h": 1488
+   },
+   {
+    "w": 1600,
+    "h": 1653
+   }
+  ]
+ },
+ "brochure-6": {
+  "w": 2268,
+  "h": 2343,
+  "alt": "Kitchen cabinetry brochure with an illustrated orange cover",
+  "variants": [
+   {
+    "w": 480,
+    "h": 496
+   },
+   {
+    "w": 960,
+    "h": 992
+   },
+   {
+    "w": 1440,
+    "h": 1488
+   },
+   {
+    "w": 1600,
+    "h": 1653
+   }
+  ]
+ },
+ "leaflet-booklet": {
+  "w": 600,
+  "h": 600,
+  "alt": "Paint colour booklet with an illustrated house",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "leaflet-lenkara": {
+  "w": 600,
+  "h": 600,
+  "alt": "Institute admissions flyer with a portrait of a woman in jewellery",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "leaflet-chungath": {
+  "w": 600,
+  "h": 600,
+  "alt": "Chungath Jewellery anniversary leaflet in Malayalam",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "leaflet-niraa": {
+  "w": 600,
+  "h": 600,
+  "alt": "Tea brand flyer with product packs on a green background",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "leaflet-llc": {
+  "w": 600,
+  "h": 600,
+  "alt": "Business services flyer with a city skyline",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "leaflet-blood": {
+  "w": 600,
+  "h": 600,
+  "alt": "World Blood Donor Day awareness poster",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "leaflet-hardwood": {
+  "w": 2268,
+  "h": 2343,
+  "alt": "Engineered hardwood flooring leaflet",
+  "variants": [
+   {
+    "w": 480,
+    "h": 496
+   },
+   {
+    "w": 960,
+    "h": 992
+   },
+   {
+    "w": 1440,
+    "h": 1488
+   },
+   {
+    "w": 1600,
+    "h": 1653
+   }
+  ]
+ },
+ "leaflet-we": {
+  "w": 2268,
+  "h": 2343,
+  "alt": "One-stop business solutions leaflet with a city skyline",
+  "variants": [
+   {
+    "w": 480,
+    "h": 496
+   },
+   {
+    "w": 960,
+    "h": 992
+   },
+   {
+    "w": 1440,
+    "h": 1488
+   },
+   {
+    "w": 1600,
+    "h": 1653
+   }
+  ]
+ },
+ "leaflet-uniwood": {
+  "w": 2268,
+  "h": 2343,
+  "alt": "Hardwood flooring leaflet with a dog on a wooden floor",
+  "variants": [
+   {
+    "w": 480,
+    "h": 496
+   },
+   {
+    "w": 960,
+    "h": 992
+   },
+   {
+    "w": 1440,
+    "h": 1488
+   },
+   {
+    "w": 1600,
+    "h": 1653
+   }
+  ]
+ },
+ "magazine-1": {
+  "w": 734,
+  "h": 736,
+  "alt": "Jewellery magazine advertisement with a portrait in gold jewellery",
+  "variants": [
+   {
+    "w": 480,
+    "h": 481
+   },
+   {
+    "w": 734,
+    "h": 736
+   },
+   {
+    "w": 1400,
+    "h": 1404
+   }
+  ]
+ },
+ "magazine-2": {
+  "w": 526,
+  "h": 526,
+  "alt": "Magazine advertisement for traditional gold jewellery",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 526,
+    "h": 526
+   },
+   {
+    "w": 1052,
+    "h": 1052
+   }
+  ]
+ },
+ "magazine-3": {
+  "w": 1970,
+  "h": 1965,
+  "alt": "Hardwood engineered flooring magazine advertisement",
+  "variants": [
+   {
+    "w": 480,
+    "h": 479
+   },
+   {
+    "w": 960,
+    "h": 958
+   },
+   {
+    "w": 1440,
+    "h": 1436
+   },
+   {
+    "w": 1600,
+    "h": 1596
+   }
+  ]
+ },
+ "magazine-4": {
+  "w": 934,
+  "h": 897,
+  "alt": "Interior design magazine page with room photographs",
+  "variants": [
+   {
+    "w": 480,
+    "h": 461
+   },
+   {
+    "w": 934,
+    "h": 897
+   },
+   {
+    "w": 1400,
+    "h": 1345
+   }
+  ]
+ },
+ "magazine-5": {
+  "w": 800,
+  "h": 580,
+  "alt": "Magazine cover with a woman in traditional gold jewellery",
+  "variants": [
+   {
+    "w": 480,
+    "h": 348
+   },
+   {
+    "w": 800,
+    "h": 580
+   },
+   {
+    "w": 1400,
+    "h": 1015
+   }
+  ]
+ },
+ "pack-1": {
+  "w": 591,
+  "h": 591,
+  "alt": "Sleek Spectra interior paint tin design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 591,
+    "h": 591
+   },
+   {
+    "w": 1182,
+    "h": 1182
+   }
+  ]
+ },
+ "pack-2": {
+  "w": 591,
+  "h": 591,
+  "alt": "Climex Plus paint tin design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 591,
+    "h": 591
+   },
+   {
+    "w": 1182,
+    "h": 1182
+   }
+  ]
+ },
+ "pack-3": {
+  "w": 591,
+  "h": 591,
+  "alt": "Sleek Neo paint tin design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 591,
+    "h": 591
+   },
+   {
+    "w": 1182,
+    "h": 1182
+   }
+  ]
+ },
+ "pack-4": {
+  "w": 591,
+  "h": 591,
+  "alt": "Enigma luxury interior emulsion tin design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 591,
+    "h": 591
+   },
+   {
+    "w": 1182,
+    "h": 1182
+   }
+  ]
+ },
+ "pack-5": {
+  "w": 699,
+  "h": 591,
+  "alt": "Sleek XT wood finish pack design",
+  "variants": [
+   {
+    "w": 480,
+    "h": 406
+   },
+   {
+    "w": 699,
+    "h": 591
+   },
+   {
+    "w": 1398,
+    "h": 1182
+   }
+  ]
+ },
+ "shop-1": {
+  "w": 2268,
+  "h": 2343,
+  "alt": "Green shopfront signboard for a tea brand in Malayalam",
+  "variants": [
+   {
+    "w": 480,
+    "h": 496
+   },
+   {
+    "w": 960,
+    "h": 992
+   },
+   {
+    "w": 1440,
+    "h": 1488
+   },
+   {
+    "w": 1600,
+    "h": 1653
+   }
+  ]
+ },
+ "shop-2": {
+  "w": 2268,
+  "h": 2343,
+  "alt": "Round yellow in-shop hanging wobbler for a tea brand",
+  "variants": [
+   {
+    "w": 480,
+    "h": 496
+   },
+   {
+    "w": 960,
+    "h": 992
+   },
+   {
+    "w": 1440,
+    "h": 1488
+   },
+   {
+    "w": 1600,
+    "h": 1653
+   }
+  ]
+ },
+ "shop-3": {
+  "w": 2268,
+  "h": 2343,
+  "alt": "Yellow shelf strip branding for a tea brand",
+  "variants": [
+   {
+    "w": 480,
+    "h": 496
+   },
+   {
+    "w": 960,
+    "h": 992
+   },
+   {
+    "w": 1440,
+    "h": 1488
+   },
+   {
+    "w": 1600,
+    "h": 1653
+   }
+  ]
+ },
+ "outdoor-1": {
+  "w": 472,
+  "h": 328,
+  "alt": "Hardwood flooring poster mounted on a wall",
+  "variants": [
+   {
+    "w": 472,
+    "h": 328
+   },
+   {
+    "w": 944,
+    "h": 656
+   }
+  ]
+ },
+ "outdoor-2": {
+  "w": 2266,
+  "h": 1569,
+  "alt": "Delivery van with tea brand vehicle branding",
+  "variants": [
+   {
+    "w": 480,
+    "h": 332
+   },
+   {
+    "w": 960,
+    "h": 665
+   },
+   {
+    "w": 1440,
+    "h": 997
+   },
+   {
+    "w": 1600,
+    "h": 1108
+   }
+  ]
+ },
+ "outdoor-3": {
+  "w": 500,
+  "h": 344,
+  "alt": "Roadside hoarding for a tea brand against a blue sky",
+  "variants": [
+   {
+    "w": 480,
+    "h": 330
+   },
+   {
+    "w": 500,
+    "h": 344
+   },
+   {
+    "w": 1000,
+    "h": 688
+   }
+  ]
+ },
+ "outdoor-4": {
+  "w": 2266,
+  "h": 1200,
+  "alt": "Red bus with vehicle branding inside a depot",
+  "variants": [
+   {
+    "w": 480,
+    "h": 254
+   },
+   {
+    "w": 960,
+    "h": 508
+   },
+   {
+    "w": 1440,
+    "h": 763
+   },
+   {
+    "w": 1600,
+    "h": 847
+   }
+  ]
+ },
+ "tvc-1": {
+  "w": 600,
+  "h": 600,
+  "alt": "Frame from a jewellery television commercial showing a woman in traditional jewellery",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "web-1": {
+  "w": 2048,
+  "h": 1536,
+  "alt": "Website for a smart mosquito trap product",
+  "variants": [
+   {
+    "w": 480,
+    "h": 360
+   },
+   {
+    "w": 960,
+    "h": 720
+   },
+   {
+    "w": 1440,
+    "h": 1080
+   },
+   {
+    "w": 1600,
+    "h": 1200
+   }
+  ]
+ },
+ "web-2": {
+  "w": 2048,
+  "h": 1536,
+  "alt": "Website homepage for an electronics connectors distributor",
+  "variants": [
+   {
+    "w": 480,
+    "h": 360
+   },
+   {
+    "w": 960,
+    "h": 720
+   },
+   {
+    "w": 1440,
+    "h": 1080
+   },
+   {
+    "w": 1600,
+    "h": 1200
+   }
+  ]
+ },
+ "web-3": {
+  "w": 2048,
+  "h": 1536,
+  "alt": "Real estate website hero with a city skyline",
+  "variants": [
+   {
+    "w": 480,
+    "h": 360
+   },
+   {
+    "w": 960,
+    "h": 720
+   },
+   {
+    "w": 1440,
+    "h": 1080
+   },
+   {
+    "w": 1600,
+    "h": 1200
+   }
+  ]
+ },
+ "web-4": {
+  "w": 2048,
+  "h": 1536,
+  "alt": "Travel website with a beach activity photograph",
+  "variants": [
+   {
+    "w": 480,
+    "h": 360
+   },
+   {
+    "w": 960,
+    "h": 720
+   },
+   {
+    "w": 1440,
+    "h": 1080
+   },
+   {
+    "w": 1600,
+    "h": 1200
+   }
+  ]
+ },
+ "web-5": {
+  "w": 2048,
+  "h": 1536,
+  "alt": "Technology company website with a circuit board header",
+  "variants": [
+   {
+    "w": 480,
+    "h": 360
+   },
+   {
+    "w": 960,
+    "h": 720
+   },
+   {
+    "w": 1440,
+    "h": 1080
+   },
+   {
+    "w": 1600,
+    "h": 1200
+   }
+  ]
+ },
+ "web-6": {
+  "w": 2268,
+  "h": 1701,
+  "alt": "Kitchen and interiors company website",
+  "variants": [
+   {
+    "w": 480,
+    "h": 360
+   },
+   {
+    "w": 960,
+    "h": 720
+   },
+   {
+    "w": 1440,
+    "h": 1080
+   },
+   {
+    "w": 1600,
+    "h": 1200
+   }
+  ]
+ },
+ "web-7": {
+  "w": 2268,
+  "h": 1701,
+  "alt": "Food products website showing chutney jars",
+  "variants": [
+   {
+    "w": 480,
+    "h": 360
+   },
+   {
+    "w": 960,
+    "h": 720
+   },
+   {
+    "w": 1440,
+    "h": 1080
+   },
+   {
+    "w": 1600,
+    "h": 1200
+   }
+  ]
+ },
+ "web-8": {
+  "w": 2268,
+  "h": 1701,
+  "alt": "Hospital health assessment package web banner",
+  "variants": [
+   {
+    "w": 480,
+    "h": 360
+   },
+   {
+    "w": 960,
+    "h": 720
+   },
+   {
+    "w": 1440,
+    "h": 1080
+   },
+   {
+    "w": 1600,
+    "h": 1200
+   }
+  ]
+ },
+ "app-1": {
+  "w": 800,
+  "h": 580,
+  "alt": "AMD Retail Connect app login screen",
+  "variants": [
+   {
+    "w": 480,
+    "h": 348
+   },
+   {
+    "w": 800,
+    "h": 580
+   },
+   {
+    "w": 1400,
+    "h": 1015
+   }
+  ]
+ },
+ "app-2": {
+  "w": 800,
+  "h": 580,
+  "alt": "WRI India app login screen on a green background",
+  "variants": [
+   {
+    "w": 480,
+    "h": 348
+   },
+   {
+    "w": 800,
+    "h": 580
+   },
+   {
+    "w": 1400,
+    "h": 1015
+   }
+  ]
+ },
+ "app-3": {
+  "w": 800,
+  "h": 580,
+  "alt": "Uniwood app login screen with phone number field",
+  "variants": [
+   {
+    "w": 480,
+    "h": 348
+   },
+   {
+    "w": 800,
+    "h": 580
+   },
+   {
+    "w": 1400,
+    "h": 1015
+   }
+  ]
+ },
+ "app-4": {
+  "w": 800,
+  "h": 580,
+  "alt": "Pixcam app welcome and login screen",
+  "variants": [
+   {
+    "w": 480,
+    "h": 348
+   },
+   {
+    "w": 800,
+    "h": 580
+   },
+   {
+    "w": 1400,
+    "h": 1015
+   }
+  ]
+ },
+ "social-1": {
+  "w": 600,
+  "h": 600,
+  "alt": "Social media post for a processor brand showing a racing team",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "social-2": {
+  "w": 600,
+  "h": 600,
+  "alt": "Sponsored social post for laptop processors",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "social-3": {
+  "w": 600,
+  "h": 600,
+  "alt": "Sponsored social post about helping your team rise",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "social-4": {
+  "w": 600,
+  "h": 600,
+  "alt": "Social post preview for a performance flyer",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "social-5": {
+  "w": 600,
+  "h": 600,
+  "alt": "Social carousel post for a processor brand",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 600,
+    "h": 600
+   },
+   {
+    "w": 1200,
+    "h": 1200
+   }
+  ]
+ },
+ "social-6": {
+  "w": 769,
+  "h": 756,
+  "alt": "Best tractor of the year social post",
+  "variants": [
+   {
+    "w": 480,
+    "h": 472
+   },
+   {
+    "w": 769,
+    "h": 756
+   },
+   {
+    "w": 1400,
+    "h": 1376
+   }
+  ]
+ },
+ "social-7": {
+  "w": 749,
+  "h": 741,
+  "alt": "Tractor finance scheme social post",
+  "variants": [
+   {
+    "w": 480,
+    "h": 475
+   },
+   {
+    "w": 749,
+    "h": 741
+   },
+   {
+    "w": 1400,
+    "h": 1385
+   }
+  ]
+ },
+ "social-8": {
+  "w": 616,
+  "h": 600,
+  "alt": "Facebook post about a kabaddi practice session",
+  "variants": [
+   {
+    "w": 480,
+    "h": 468
+   },
+   {
+    "w": 616,
+    "h": 600
+   },
+   {
+    "w": 1232,
+    "h": 1200
+   }
+  ]
+ },
+ "social-9": {
+  "w": 600,
+  "h": 603,
+  "alt": "Search advertisement for engineered wood flooring",
+  "variants": [
+   {
+    "w": 480,
+    "h": 482
+   },
+   {
+    "w": 600,
+    "h": 603
+   },
+   {
+    "w": 1200,
+    "h": 1206
+   }
+  ]
+ },
+ "content-1": {
+  "w": 751,
+  "h": 743,
+  "alt": "Jewellery brand video thumbnail with a woman in a pink gown on a beach",
+  "variants": [
+   {
+    "w": 480,
+    "h": 475
+   },
+   {
+    "w": 751,
+    "h": 743
+   },
+   {
+    "w": 1400,
+    "h": 1385
+   }
+  ]
+ },
+ "content-2": {
+  "w": 600,
+  "h": 588,
+  "alt": "Facebook post for a modular kitchen brand",
+  "variants": [
+   {
+    "w": 480,
+    "h": 470
+   },
+   {
+    "w": 600,
+    "h": 588
+   },
+   {
+    "w": 1200,
+    "h": 1176
+   }
+  ]
+ },
+ "content-3": {
+  "w": 600,
+  "h": 589,
+  "alt": "Instagram grid of branded posts for a wood products brand",
+  "variants": [
+   {
+    "w": 480,
+    "h": 471
+   },
+   {
+    "w": 600,
+    "h": 589
+   },
+   {
+    "w": 1200,
+    "h": 1178
+   }
+  ]
+ },
+ "content-4": {
+  "w": 441,
+  "h": 440,
+  "alt": "Hospital blood donation awareness social post",
+  "variants": [
+   {
+    "w": 441,
+    "h": 440
+   },
+   {
+    "w": 882,
+    "h": 880
+   }
+  ]
+ },
+ "content-5": {
+  "w": 1080,
+  "h": 1080,
+  "alt": "Hardwood engineered flooring social post",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 960,
+    "h": 960
+   },
+   {
+    "w": 1080,
+    "h": 1080
+   }
+  ]
+ },
+ "content-6": {
+  "w": 518,
+  "h": 515,
+  "alt": "Hospital patient review social post",
+  "variants": [
+   {
+    "w": 480,
+    "h": 477
+   },
+   {
+    "w": 518,
+    "h": 515
+   },
+   {
+    "w": 1036,
+    "h": 1030
+   }
+  ]
+ },
+ "contact-bg": {
+  "w": 1920,
+  "h": 1100,
+  "alt": "Colleagues in a meeting around a table",
+  "variants": [
+   {
+    "w": 480,
+    "h": 275
+   },
+   {
+    "w": 960,
+    "h": 550
+   },
+   {
+    "w": 1440,
+    "h": 825
+   },
+   {
+    "w": 1600,
+    "h": 917
+   }
+  ]
+ },
+ "banner-app": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Hand holding a smartphone on a white desk next to a coffee cup and notebooks",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-web": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "MacBook showing website code on a bright designer desk by a window",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-digital": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Laptop on a sunny desk showing a marketing analytics chart",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-brand": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Brand identity stationery set with an orange logo card, letterheads and business cards",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "svc-app": {
+  "w": 1600,
+  "h": 1067,
+  "alt": "Team sketching website and app wireframes on paper with sticky notes",
+  "variants": [
+   {
+    "w": 480,
+    "h": 320
+   },
+   {
+    "w": 960,
+    "h": 640
+   },
+   {
+    "w": 1600,
+    "h": 1067
+   }
+  ]
+ },
+ "svc-digital": {
+  "w": 1600,
+  "h": 1067,
+  "alt": "Marketing team working together around a table of laptops",
+  "variants": [
+   {
+    "w": 480,
+    "h": 320
+   },
+   {
+    "w": 960,
+    "h": 640
+   },
+   {
+    "w": 1600,
+    "h": 1067
+   }
+  ]
+ },
+ "svc-brand": {
+  "w": 1600,
+  "h": 1067,
+  "alt": "Brand identity collateral: logo tags, stickers and cards laid out on an open magazine",
+  "variants": [
+   {
+    "w": 480,
+    "h": 320
+   },
+   {
+    "w": 960,
+    "h": 640
+   },
+   {
+    "w": 1600,
+    "h": 1067
+   }
+  ]
+ },
+ "smol-hero": {
+  "w": 1080,
+  "h": 1080,
+  "alt": "A home seller smiling as she packs an order in her kitchen",
+  "variants": [
+   {
+    "w": 480,
+    "h": 480
+   },
+   {
+    "w": 960,
+    "h": 960
+   },
+   {
+    "w": 1080,
+    "h": 1080
+   }
+  ]
+ },
+ "smol-how": {
+  "w": 1080,
+  "h": 1350,
+  "alt": "A home seller packing jars of pickle into a paper bag",
+  "variants": [
+   {
+    "w": 480,
+    "h": 600
+   },
+   {
+    "w": 960,
+    "h": 1200
+   },
+   {
+    "w": 1080,
+    "h": 1350
+   }
+  ]
+ },
+ "smol-logo": {
+  "w": 2460,
+  "h": 1116,
+  "alt": "Smolgoodi logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 218
+   },
+   {
+    "w": 960,
+    "h": 436
+   }
+  ]
+ },
+ "cl-c-amd": {
+  "w": 68,
+  "h": 75,
+  "alt": "AMD logo",
+  "variants": [
+   {
+    "w": 68,
+    "h": 75
+   }
+  ]
+ },
+ "cl-c-interface": {
+  "w": 1513,
+  "h": 440,
+  "alt": "ICPL India logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 140
+   }
+  ]
+ },
+ "cl-c-yubi": {
+  "w": 106,
+  "h": 61,
+  "alt": "Yubi logo",
+  "variants": [
+   {
+    "w": 106,
+    "h": 61
+   }
+  ]
+ },
+ "cl-c-spice-story": {
+  "w": 1910,
+  "h": 1093,
+  "alt": "Spice Story logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 275
+   }
+  ]
+ },
+ "cl-c-biotraptor": {
+  "w": 403,
+  "h": 116,
+  "alt": "Bio Traptor logo",
+  "variants": [
+   {
+    "w": 403,
+    "h": 116
+   }
+  ]
+ },
+ "cl-c-chungath": {
+  "w": 958,
+  "h": 280,
+  "alt": "Chungath Jewellery logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 140
+   }
+  ]
+ },
+ "cl-c-wri": {
+  "w": 147,
+  "h": 39,
+  "alt": "WRI India logo",
+  "variants": [
+   {
+    "w": 147,
+    "h": 39
+   }
+  ]
+ },
+ "cl-c-leroc": {
+  "w": 122,
+  "h": 53,
+  "alt": "Leroc logo",
+  "variants": [
+   {
+    "w": 122,
+    "h": 53
+   }
+  ]
+ },
+ "cl-logo-lenkara": {
+  "w": 576,
+  "h": 110,
+  "alt": "Lenkara logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 92
+   }
+  ]
+ },
+ "cl-logo-hbc": {
+  "w": 549,
+  "h": 548,
+  "alt": "HBC rainbow logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 479
+   }
+  ]
+ },
+ "cl-logo-arab": {
+  "w": 533,
+  "h": 292,
+  "alt": "Arab Air Conditioning and Refrigeration logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 263
+   }
+  ]
+ },
+ "cl-logo-vibe": {
+  "w": 552,
+  "h": 296,
+  "alt": "Vibe wordmark logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 257
+   }
+  ]
+ },
+ "cl-logo-indus": {
+  "w": 532,
+  "h": 204,
+  "alt": "Indus Motors logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 184
+   }
+  ]
+ },
+ "cl-logo-grand-marine": {
+  "w": 545,
+  "h": 328,
+  "alt": "Grand Marine Foods logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 289
+   }
+  ]
+ },
+ "cl-logo-decor-club": {
+  "w": 553,
+  "h": 487,
+  "alt": "Decor Club illustrated logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 423
+   }
+  ]
+ },
+ "cl-logo-uniwood": {
+  "w": 533,
+  "h": 161,
+  "alt": "Uniwood kitchens, wardrobes, living logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 145
+   }
+  ]
+ },
+ "cl-logo-francoat": {
+  "w": 517,
+  "h": 111,
+  "alt": "Francoat italic wordmark logo",
+  "variants": [
+   {
+    "w": 480,
+    "h": 103
+   }
+  ]
+ },
+ "ind-jewellery": {
+  "w": 1600,
+  "h": 1600,
+  "alt": "Gold necklace and earrings displayed on a teal jewellery bust",
+  "variants": [
+   {
+    "w": 640,
+    "h": 640
+   },
+   {
+    "w": 1024,
+    "h": 1024
+   },
+   {
+    "w": 1600,
+    "h": 1600
+   }
+  ]
+ },
+ "ind-paint": {
+  "w": 1600,
+  "h": 1600,
+  "alt": "Colour wheel of paint swatches on a concrete surface",
+  "variants": [
+   {
+    "w": 640,
+    "h": 640
+   },
+   {
+    "w": 1024,
+    "h": 1024
+   },
+   {
+    "w": 1600,
+    "h": 1600
+   }
+  ]
+ },
+ "ind-tech": {
+  "w": 2000,
+  "h": 976,
+  "alt": "Close-up of a colourful electronic circuit board",
+  "variants": [
+   {
+    "w": 640,
+    "h": 312
+   },
+   {
+    "w": 1024,
+    "h": 500
+   },
+   {
+    "w": 1600,
+    "h": 781
+   },
+   {
+    "w": 2000,
+    "h": 976
+   }
+  ]
+ },
+ "ind-food": {
+  "w": 1600,
+  "h": 1600,
+  "alt": "Steaming cup of tea on a saucer against a dark background",
+  "variants": [
+   {
+    "w": 640,
+    "h": 640
+   },
+   {
+    "w": 1024,
+    "h": 1024
+   },
+   {
+    "w": 1600,
+    "h": 1600
+   }
+  ]
+ },
+ "ind-health": {
+  "w": 1600,
+  "h": 1600,
+  "alt": "Black stethoscope on a light blue background",
+  "variants": [
+   {
+    "w": 640,
+    "h": 640
+   },
+   {
+    "w": 1024,
+    "h": 1024
+   },
+   {
+    "w": 1600,
+    "h": 1600
+   }
+  ]
+ },
+ "banner-managing": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Smartphone screen with a Social Media folder of app icons",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-content": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Content creator desk with laptop, camera and editing controls",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-logo": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Hand sketching a logo design on tracing paper",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-brochures": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Design books and printed brochures laid out on a white surface",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-leaflets": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Hands exchanging a printed flyer on the street",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-magazine": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Magazines displayed on a rack",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-package": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Pink and green product packaging boxes arranged in rows",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-inshop": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Bright modern retail store interior with display counters",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-outdoor": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Roadside billboard at sunset above a city road",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-tvc": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Film camera and stage light in a dark studio",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "svc-web": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "MacBook showing website code on a bright designer desk by a window",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1600,
+    "h": 900
+   }
+  ]
+ },
+ "site-proarc": {
+  "w": 2732,
+  "h": 1708,
+  "alt": "Homepage of the Proarc website, designed and developed by Pixelbrahma",
+  "variants": [
+   {
+    "w": 640,
+    "h": 400
+   },
+   {
+    "w": 1024,
+    "h": 640
+   },
+   {
+    "w": 1536,
+    "h": 960
+   },
+   {
+    "w": 1920,
+    "h": 1200
+   }
+  ]
+ },
+ "site-biotraptor": {
+  "w": 2732,
+  "h": 1708,
+  "alt": "Homepage of the BioTraptor website, designed and developed by Pixelbrahma",
+  "variants": [
+   {
+    "w": 640,
+    "h": 400
+   },
+   {
+    "w": 1024,
+    "h": 640
+   },
+   {
+    "w": 1536,
+    "h": 960
+   },
+   {
+    "w": 1920,
+    "h": 1200
+   }
+  ]
+ },
+ "site-ebisu": {
+  "w": 2732,
+  "h": 1708,
+  "alt": "Homepage of the Ebisu Ventures website, designed and developed by Pixelbrahma",
+  "variants": [
+   {
+    "w": 640,
+    "h": 400
+   },
+   {
+    "w": 1024,
+    "h": 640
+   },
+   {
+    "w": 1536,
+    "h": 960
+   },
+   {
+    "w": 1920,
+    "h": 1200
+   }
+  ]
+ },
+ "site-spicestory": {
+  "w": 2732,
+  "h": 1708,
+  "alt": "Homepage of the Spice Story website, designed and developed by Pixelbrahma",
+  "variants": [
+   {
+    "w": 640,
+    "h": 400
+   },
+   {
+    "w": 1024,
+    "h": 640
+   },
+   {
+    "w": 1536,
+    "h": 960
+   },
+   {
+    "w": 1920,
+    "h": 1200
+   }
+  ]
+ },
+ "site-icpl": {
+  "w": 2732,
+  "h": 1708,
+  "alt": "Homepage of the ICPL India website, designed and developed by Pixelbrahma",
+  "variants": [
+   {
+    "w": 640,
+    "h": 400
+   },
+   {
+    "w": 1024,
+    "h": 640
+   },
+   {
+    "w": 1536,
+    "h": 960
+   },
+   {
+    "w": 1920,
+    "h": 1200
+   }
+  ]
+ },
+ "site-saivishram": {
+  "w": 2732,
+  "h": 1708,
+  "alt": "Homepage of the Sai Vishram website, designed and developed by Pixelbrahma",
+  "variants": [
+   {
+    "w": 640,
+    "h": 400
+   },
+   {
+    "w": 1024,
+    "h": 640
+   },
+   {
+    "w": 1536,
+    "h": 960
+   },
+   {
+    "w": 1920,
+    "h": 1200
+   }
+  ]
+ },
+ "site-uniwood": {
+  "w": 2732,
+  "h": 1708,
+  "alt": "Homepage of the Uniwood Products website, designed and developed by Pixelbrahma",
+  "variants": [
+   {
+    "w": 640,
+    "h": 400
+   },
+   {
+    "w": 1024,
+    "h": 640
+   },
+   {
+    "w": 1536,
+    "h": 960
+   },
+   {
+    "w": 1920,
+    "h": 1200
+   }
+  ]
+ },
+ "site-ochri": {
+  "w": 2732,
+  "h": 1708,
+  "alt": "Homepage of the Ochri website, designed and developed by Pixelbrahma",
+  "variants": [
+   {
+    "w": 640,
+    "h": 400
+   },
+   {
+    "w": 1024,
+    "h": 640
+   },
+   {
+    "w": 1536,
+    "h": 960
+   },
+   {
+    "w": 1920,
+    "h": 1200
+   }
+  ]
+ },
+ "site-promac": {
+  "w": 2732,
+  "h": 1708,
+  "alt": "Homepage of the Promac India website, designed and developed by Pixelbrahma",
+  "variants": [
+   {
+    "w": 640,
+    "h": 400
+   },
+   {
+    "w": 1024,
+    "h": 640
+   },
+   {
+    "w": 1536,
+    "h": 960
+   },
+   {
+    "w": 1920,
+    "h": 1200
+   }
+  ]
+ },
+ "site-chungath": {
+  "w": 2732,
+  "h": 1708,
+  "alt": "Homepage of the Chungath Jewellery website, designed and developed by Pixelbrahma",
+  "variants": [
+   {
+    "w": 640,
+    "h": 400
+   },
+   {
+    "w": 1024,
+    "h": 640
+   },
+   {
+    "w": 1536,
+    "h": 960
+   },
+   {
+    "w": 1920,
+    "h": 1200
+   }
+  ]
+ },
+ "svc-managing": {
+  "w": 1600,
+  "h": 1000,
+  "alt": "Analytics dashboard tiles showing performance metrics on a monitor",
+  "variants": [
+   {
+    "w": 480,
+    "h": 300
+   },
+   {
+    "w": 960,
+    "h": 600
+   },
+   {
+    "w": 1600,
+    "h": 1000
+   }
+  ]
+ },
+ "svc-content": {
+  "w": 1600,
+  "h": 1000,
+  "alt": "Content creator recording at a desk with a microphone and laptop",
+  "variants": [
+   {
+    "w": 480,
+    "h": 300
+   },
+   {
+    "w": 960,
+    "h": 600
+   },
+   {
+    "w": 1600,
+    "h": 1000
+   }
+  ]
+ }
+}

@@ -1,0 +1,57 @@
+/* Design tokens. */
+@font-face {
+  font-family: "General Sans";
+  src: url("/assets/fonts/general-sans-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "General Sans";
+  src: url("/assets/fonts/general-sans-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  /* Colours come only from the logo: graphite grey (#4d4d4f) and white, plus shades and tints of that grey. */
+  --graphite: #4d4d4f;
+  --ink: #1e1e1f;
+  --ink-2: #2b2b2d;
+  --paper: #ffffff;
+  --paper-2: #faf9f5; --cream: #faf9f5;
+  --violet: #4d4d4f;
+  --violet-2: #1e1e1f;
+  --lime: #ffffff;
+  --muted: #5a5a5c;
+  --muted-on-ink: #b8b8ba;
+  --line: #dcdcdc;
+  --line-on-ink: #3b3b3d;
+  --smol: #4d4d4f;
+  --white: #fff;
+
+  --font-display: "General Sans", "Segoe UI", system-ui, sans-serif;
+  --font-text: "General Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  --fs-0: clamp(0.9375rem, 0.92rem + 0.1vw, 1rem);
+  --fs-1: clamp(1.0625rem, 1rem + 0.3vw, 1.1875rem);
+  --fs-2: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
+  --fs-3: clamp(1.625rem, 1.3rem + 1.4vw, 2.5rem);
+  --fs-4: clamp(2.125rem, 1.5rem + 2.8vw, 3.75rem);
+  --fs-5: clamp(2.5rem, 1.4rem + 5vw, 6rem);
+
+  --gutter: clamp(1rem, 4vw, 3rem);
+  --max: 1280px;
+  --max-text: 68ch;
+  --radius: 14px;
+  --header-h: 128px;
+  --dur: 0.45s;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --pixel: 18px;
+}
+@media (max-width: 600px) {
+  :root { --header-h: 100px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur: 0s; }
+}
