@@ -1178,8 +1178,7 @@ main > .pbanner + .section { padding-top: var(--space); }
    ===================================================================== */
 @media (max-width: 700px) {
   .banner { height: auto; min-height: max(100svh, 620px); }
-  .pbanner { height: auto; min-height: 78svh; }
-  .pbanner--short { min-height: 60svh; }
+  .pbanner, .pbanner--short { height: auto; min-height: 100svh; }
   .banner__inner { padding-block: calc(var(--header-h) + 1rem) 1.25rem; }
   .slide { padding: 1.25rem; }
   .slide__actions .btn { width: 100%; justify-content: center; }
@@ -1245,4 +1244,22 @@ main .wrap .phone__note { font-size: 0.55rem; }
   .phone__row { flex-wrap: wrap; gap: 0 0.4rem; }
   .phone__pay { font-size: 0.56rem; padding: 0.25rem 0.5rem; }
   .smol__photo--small { left: 10px; width: 36%; border-width: 4px; }
+}
+
+/* =====================================================================
+   Phones: no white card. Title, text and buttons sit directly on the photo (white text on dark photos, dark text on light ones)
+   ===================================================================== */
+@media (max-width: 700px) {
+  .slide, .pbanner__card { background: transparent; border: 0; box-shadow: none; padding: 0; -webkit-backdrop-filter: none; backdrop-filter: none; border-radius: 0; }
+  .slide__title, .pbanner__card h1 { margin-bottom: 0.5em; }
+  .slide__lead, .pbanner__lead { margin-bottom: 1.1rem; }
+  /* white text everywhere, with a soft dark fade at the bottom of the photo so it reads on any picture */
+  .banner__media::after, .pbanner__media::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(0deg, rgba(20, 20, 22, 0.78) 0%, rgba(20, 20, 22, 0.5) 36%, rgba(20, 20, 22, 0) 68%); }
+  .slide, .pbanner__card { color: #fff; }
+  .slide__title, .slide__lead, .pbanner__card h1, .pbanner__lead { color: #fff; text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35); }
+  .banner .slide a.btn, .pbanner__card .btn { background: #fff; border-color: #fff; color: var(--ink); text-shadow: none; }
+  .banner .slide a.btn--ghost, .pbanner__card .btn--ghost { background: transparent; border-color: #fff; color: #fff; }
+  .pbanner__media, .banner__media { isolation: isolate; }
+  .banner__inner { padding-bottom: 1.5rem; }
+  .pbanner__inner { padding-bottom: 4.75rem; }
 }

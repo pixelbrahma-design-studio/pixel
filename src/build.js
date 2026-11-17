@@ -24,6 +24,9 @@ let TONES = {};
 try { TONES = JSON.parse(fs.readFileSync(path.join(SRC, "assets/img/tones.json"), "utf8")); } catch (e) { /* run scripts/tone-scan.js */ }
 let TONES_M = {};
 try { TONES_M = JSON.parse(fs.readFileSync(path.join(SRC, "assets/img/tones-m.json"), "utf8")); } catch (e) { /* run scripts/tone-scan.js */ }
+let TONES_T = {};
+try { TONES_T = JSON.parse(fs.readFileSync(path.join(SRC, "assets/img/tones-t.json"), "utf8")); } catch (e) { /* run scripts/tone-scan.js */ }
+const textOn = (key) => (TONES_T[key] === "dark" ? "dark" : "light");
 const toneMOf = (key) => (TONES_M[key] === "dark" ? "dark" : "light");
 const toneOf = (p) => (p.kind === "home" ? "dark" : p.banner && TONES[p.banner] === "dark" ? "dark" : "light");
 
@@ -211,7 +214,7 @@ function pbanner(p) {
   const crumbs = "";
   const lead = p.lead ? `<p class="pbanner__lead">${t(p.lead)}</p>` : "";
   const actions = p.compact ? "" : `<div class="pbanner__actions"><a class="btn" href="/contact-us/">Start a project</a><a class="btn btn--ghost" href="tel:${site.phones[0].tel}">Call ${site.phones[0].display}</a></div>`;
-  return `<section class="pbanner pbanner--${bv}${p.compact ? " pbanner--short" : ""}" id="top" data-tone="${tone}" data-tone-m="${toneMOf(p.banner)}">
+  return `<section class="pbanner pbanner--${bv}${p.compact ? " pbanner--short" : ""}" id="top" data-tone="${tone}" data-tone-m="${toneMOf(p.banner)}" data-text="${textOn(p.banner)}">
 <div class="pbanner__media">${IMG.pic(p.banner, { sizes: BANNER_SIZES, loading: "eager", priority: true })}</div>
 <div class="wrap pbanner__inner"><div class="pbanner__card"><h1>${t(p.h1)}</h1>${lead}${actions}${crumbs}</div></div></section>`;
 }
@@ -280,7 +283,7 @@ const BANNER = [
 
 function banner() {
   const bgs = BANNER.map((sl, i) => `<div class="banner__bg banner__bg--${i + 1}${i === 0 ? " is-active" : ""}">${IMG.pic(sl.img, { sizes: BANNER_SIZES, loading: i === 0 ? "eager" : "lazy", priority: i === 0, alt: "", defer: i > 0 })}</div>`).join("");
-  const slides = BANNER.map((sl, i) => `<article class="slide${i === 0 ? " is-active" : ""}" id="slide-${i + 1}" role="group" aria-roledescription="slide" data-header="${sl.dark ? "dark" : "light"}" data-header-m="${toneMOf(sl.img)}" aria-label="${i + 1} of ${BANNER.length}: ${esc(sl.h)}">
+  const slides = BANNER.map((sl, i) => `<article class="slide${i === 0 ? " is-active" : ""}" id="slide-${i + 1}" role="group" aria-roledescription="slide" data-header="${sl.dark ? "dark" : "light"}" data-header-m="${toneMOf(sl.img)}" data-text="${textOn(sl.img)}" aria-label="${i + 1} of ${BANNER.length}: ${esc(sl.h)}">
 <h2 class="slide__title">${t(sl.h)}</h2><p class="slide__lead">${t(sl.p)}</p>
 <div class="slide__actions"><a class="btn" href="${sl.href}">Explore ${t(sl.h)}</a></div></article>`).join("");
   const dots = BANNER.map((sl, i) => `<button class="slider__dot${i === 0 ? " is-active" : ""}" type="button" data-slide="${i}" aria-label="0${i + 1}: ${esc(sl.h)}"${i === 0 ? ' aria-current="true"' : ""}>0${i + 1}</button>`).join("");
