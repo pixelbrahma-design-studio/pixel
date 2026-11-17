@@ -1178,3 +1178,20 @@ main > .pbanner + .section { padding-top: var(--space); }
 .mega__secondary { display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem; margin-top: clamp(1rem, 3vh, 1.75rem) !important; }
 .mega__secondary a { font: 500 0.95rem/1.4 var(--font-text); letter-spacing: 0; color: var(--muted); text-decoration: none; padding: 0.25rem 0; }
 .mega__secondary a:hover, .mega__secondary a[aria-current="page"] { color: var(--ink); }
+
+/* =====================================================================
+   Phones: banners show the whole photo on top, text below (no overlay, nothing cropped)
+   ===================================================================== */
+@media (max-width: 700px) {
+  .banner, .pbanner { height: auto; min-height: 0; margin-top: 0; display: block; background: #fff; color: var(--ink); overflow: visible; }
+  .banner__media, .pbanner__media { position: relative; inset: auto; left: auto; width: 100%; aspect-ratio: 16 / 9; background: #f2f0ea; overflow: hidden; }
+  .banner__inner, .pbanner__inner { display: block; padding-block: 1.25rem 2rem; }
+  .pbanner__inner { padding-bottom: 0.5rem; }
+  .banner__slides { align-items: start; }
+  .slide { max-width: none; box-shadow: none; border: 1px solid var(--line); background: #fff; }
+  .slider__controls { margin-top: 1.25rem; }
+  .pbanner--d, .pbanner--c, .pbanner--b { background: #fff; }
+  .pbanner__card, .pbanner--c .pbanner__card { display: block; background: transparent; box-shadow: none; padding: 0; max-width: none; border-radius: 0; }
+  .pbanner__card h1 { max-width: none; }
+}
+@media (max-width: 700px) { .js .slide { align-self: start; } }

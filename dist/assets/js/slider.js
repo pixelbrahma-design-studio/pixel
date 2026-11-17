@@ -34,8 +34,13 @@
       if (on) s.removeAttribute("aria-hidden"); else s.setAttribute("aria-hidden", "true");
       s.inert = !on;
     });
-    bgs.forEach(function (b, k) { b.classList.toggle("is-active", k === index); });
     loadBg(bgs[index]);
+    loadBg(bgs[(index + 1) % bgs.length]);
+    /* show the new photo only once it has loaded, so a slow connection never shows an empty banner */
+    var want = index, img = bgs[want].querySelector("img");
+    function activate() { if (want !== index) return; bgs.forEach(function (b, k) { b.classList.toggle("is-active", k === want); }); }
+    if (!img || (img.complete && img.naturalWidth > 0 && !img.getAttribute("data-src")) || (img.complete && img.naturalWidth > 1)) activate();
+    else { img.addEventListener("load", activate, { once: true }); img.addEventListener("error", activate, { once: true }); }
     /* tell the header whether the photo behind it is dark (white logo) or light (original logo) */
     if (slides[index].getAttribute("data-header") === "dark") root.setAttribute("data-tone", "dark"); else root.removeAttribute("data-tone");
     window.dispatchEvent(new Event("pb:tone"));
