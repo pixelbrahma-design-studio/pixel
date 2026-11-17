@@ -1,0 +1,332 @@
+{
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.pixelbrahma.com"
+        }
+      ],
+      "destination": "https://pixelbrahma.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/app-web-development",
+      "destination": "/app-development/",
+      "permanent": true
+    },
+    {
+      "source": "/app-web-development/",
+      "destination": "/app-development/",
+      "permanent": true
+    },
+    {
+      "source": "/digital-media",
+      "destination": "/digital-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/digital-media/",
+      "destination": "/digital-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/app",
+      "destination": "/app-development/",
+      "permanent": true
+    },
+    {
+      "source": "/app/",
+      "destination": "/app-development/",
+      "permanent": true
+    },
+    {
+      "source": "/vehicle-branding",
+      "destination": "/outdoor/",
+      "permanent": true
+    },
+    {
+      "source": "/vehicle-branding/",
+      "destination": "/outdoor/",
+      "permanent": true
+    },
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home-final",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home-final/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/new-home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/new-home/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/dummy",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/dummy/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sample-page",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sample-page/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wri",
+      "destination": "/app-development/",
+      "permanent": true
+    },
+    {
+      "source": "/wri/",
+      "destination": "/app-development/",
+      "permanent": true
+    },
+    {
+      "source": "/pixcam",
+      "destination": "/app-development/",
+      "permanent": true
+    },
+    {
+      "source": "/pixcam/",
+      "destination": "/app-development/",
+      "permanent": true
+    },
+    {
+      "source": "/uniwood-products",
+      "destination": "/app-development/",
+      "permanent": true
+    },
+    {
+      "source": "/uniwood-products/",
+      "destination": "/app-development/",
+      "permanent": true
+    },
+    {
+      "source": "/amd-retail-connect",
+      "destination": "/app-development/",
+      "permanent": true
+    },
+    {
+      "source": "/amd-retail-connect/",
+      "destination": "/app-development/",
+      "permanent": true
+    },
+    {
+      "source": "/shop",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/shop/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/cart",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/cart/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/checkout",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/checkout/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/my-account",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/my-account/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/feed",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/feed/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-admin",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-admin/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-login.php",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-login.php/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/xmlrpc.php",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/xmlrpc.php/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/author/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/feed/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/comments/feed/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-admin/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-includes/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-json/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p"
+        }
+      ],
+      "destination": "/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'sha256-Du+OJKJSbdUgz5nrHeWWINvez6XKDDU/tyj/5c2uvwo=' https://www.googletagmanager.com; style-src 'self' 'sha256-YwZ7gq9Idyn06YpD3N5G8Tgxj+yMbTa8RZGbt6xzRpI='; img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com; font-src 'self'; connect-src 'self' https://formspree.io https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; frame-src https://www.google.com; form-action 'self' https://formspree.io; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).(html|xml|txt)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ]
+}

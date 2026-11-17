@@ -1,0 +1,52 @@
+# Pixelbrahma
+
+> Pixelbrahma Design Studio Pvt Ltd is a design and technology studio with offices in Bengaluru, Kochi and Brampton (Canada). It builds apps and websites, runs digital marketing and creates brands. Tagline: Code, Pixels and Brands. 20+ years creating delightful customer experiences.
+
+## Main pages
+- [Home](https://pixelbrahma.com/): Pixelbrahma is a web design, app development, digital marketing and branding agency in Bengaluru, Kochi and Brampton, Canada, with 20+ years of experience.
+- [Web, app, marketing and branding services under one roof](https://pixelbrahma.com/services/): Explore Pixelbrahma services: website design, mobile app development, digital marketing and branding for businesses in Bengaluru, Kochi and Canada.
+- [Work we are proud of, across web, app and brand](https://pixelbrahma.com/work/): See websites, apps, social media posts, logos, brochures, leaflets, packaging and outdoor work created by Pixelbrahma for brands in India and Canada.
+- [A design and technology studio with 20+ years of experience](https://pixelbrahma.com/about/): Pixelbrahma Design Studio has created customer experiences for more than 20 years from offices in Bengaluru, Kochi and Brampton, Canada. Meet the studio.
+- [Let us talk about your project](https://pixelbrahma.com/contact-us/): Start a project with Pixelbrahma. Call or email our offices in Bengaluru, Kochi and Brampton, Canada, or send a brief using the contact form.
+
+## App & Web Development
+- [Mobile app development for iOS, Android and the web](https://pixelbrahma.com/app-development/): Cross-platform mobile app development with custom UI/UX and strong data security. Pixelbrahma builds iOS, Android and web apps in Bengaluru, Kochi, Canada.
+- [Website design and development that earns attention](https://pixelbrahma.com/website/): Custom website design and development with user-friendly flow, fast performance, SEO-ready code and advanced security from Pixelbrahma in India and Canada.
+
+## Digital Marketing
+- [Digital marketing that builds awareness and drives action](https://pixelbrahma.com/digital-marketing/): Pixelbrahma runs social and digital campaigns and creates the content behind them, helping brands in India and Canada grow awareness, traffic and sales.
+- [Digital media managing, from strategy to monthly insight](https://pixelbrahma.com/digital-media-managing/): Digital media managing from Pixelbrahma: strategy, platform management, campaign optimisation and monthly analytics for brands in India and Canada.
+- [Content creation that tells your brand story on every platform](https://pixelbrahma.com/digital-media-content-creation/): Pixelbrahma creates on-brand content for digital channels: creative development, storytelling, video production and platform-specific posts in India, Canada.
+
+## Branding
+- [Unleash your distinctiveness. Stand apart with strategic branding.](https://pixelbrahma.com/branding/): Unleash your distinctiveness. Pixelbrahma creates strategic branding, from logos and packaging to outdoor and TV, for brands in Bengaluru, Kochi and Canada.
+- [Logo design that gives your brand a face](https://pixelbrahma.com/logo/): Pixelbrahma designs memorable, versatile logos and identity systems for startups and established brands in Bengaluru, Kochi and Canada. Start your brand mark.
+- [Brochure design that presents your story with confidence](https://pixelbrahma.com/brochures/): Brochure design from Pixelbrahma: clear layouts, persuasive copy and print-ready artwork that present your products and company with confidence.
+- [Leaflet design that gets read, not tossed](https://pixelbrahma.com/leaftlets/): Eye-catching leaflet and flyer design from Pixelbrahma. Simple, focused print pieces that promote offers, events and launches across India and Canada.
+- [Magazine design with a strong editorial voice](https://pixelbrahma.com/magazine/): Magazine and editorial layout design from Pixelbrahma: grids, typography and consistent templates for print and digital issues, from one-off to monthly.
+- [Package design that makes your product stand out on the shelf](https://pixelbrahma.com/package-designs/): Packaging and label design by Pixelbrahma that makes products stand out on shelves and online. Boxes, pouches, bottles and labels for brands in India, Canada.
+- [In-shop branding that turns a store into a brand experience](https://pixelbrahma.com/inshop-branding/): In-shop branding from Pixelbrahma: signage, displays, wall graphics and point-of-sale materials that turn your store into a consistent brand experience.
+- [Outdoor branding built to be understood in three seconds](https://pixelbrahma.com/outdoor/): Outdoor branding by Pixelbrahma: hoardings, banners, vehicle graphics and signage designed for instant impact and legibility from a distance.
+- [TVCs that tell your brand's story in thirty seconds](https://pixelbrahma.com/tvc/): Television commercial concept, scripting and production support from Pixelbrahma. Story-led TVCs and video ads for broadcast and digital in India and Canada.
+
+## Legal
+- [Privacy Policy](https://pixelbrahma.com/privacy-policy/): How Pixelbrahma Design Studio Pvt Ltd collects, uses and protects personal information submitted through its website, contact form and optional analytics.
+- [Terms of Use](https://pixelbrahma.com/terms-of-service/): The terms that apply when you use the Pixelbrahma website, including content ownership, acceptable use, third-party links and limitation of liability.
+
+## Locations
+- Bengaluru, India: Kasturinagar, Bengaluru, Karnataka, 560043, India. Phone +91-97470 90058.
+- Kochi, India: Kadavanthara, Kochi, Kerala, 682020, India. Phone +91-97470 90058.
+- Brampton, Canada: 105, 430 McMurchy Ave S, Brampton, Ontario, Canada. Phone +1 (437) 983-8387.
+
+## Contact
+- Email: hello@pixelbrahma.com
+- India: +91-97470 90058
+- Canada: +1 (437) 983-8387
+- Facebook: https://www.facebook.com/pixelbrahma
+- YouTube: https://www.youtube.com/@PIXELBRAHMA
+
+## Related product
+- [Smolgoodi](https://smolgoodi.in): a product built by Pixelbrahma for home sellers in India.
+
+## Optional
+- [Full content](https://pixelbrahma.com/llms-full.txt)
