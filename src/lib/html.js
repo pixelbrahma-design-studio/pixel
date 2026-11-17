@@ -73,7 +73,7 @@ function mega(site, cur) {
   const offices = site.offices.map((o) => `<p class="mega__office"><strong>${o.city}</strong><a href="tel:${o.phone}">${o.phoneDisplay}</a></p>`).join("");
   return `<div class="mega" id="mega" role="dialog" aria-modal="true" aria-label="Site menu">
   <div class="wrap mega__inner">
-    <nav class="mega__primary" aria-label="Main menu"><h2 class="mega__label">Menu</h2><ul>${primary}</ul></nav>
+    <nav class="mega__primary" aria-label="Main menu"><h2 class="mega__label">Menu</h2><ul>${primary}</ul><ul class="mega__secondary"><li><a href="/privacy-policy/"${"/privacy-policy/" === cur ? ' aria-current="page"' : ""}>Privacy Policy</a></li><li><a href="/terms-of-service/"${"/terms-of-service/" === cur ? ' aria-current="page"' : ""}>Terms of Service</a></li></ul></nav>
     <div class="mega__services"><h2 class="mega__label">Services</h2><div class="mega__groups">${groups}</div></div>
     <aside class="mega__side" aria-label="Featured product and contact">
       <a class="smolcard" href="${site.smolgoodi.url}" target="_blank" rel="noopener"><span class="smolcard__tag">Our product</span><span class="smolcard__title">Smolgoodi</span><span class="smolcard__text">A shareable shop link for home sellers in India, with orders on WhatsApp.</span></a>
