@@ -8,7 +8,7 @@ const puppeteer = require("puppeteer-core");
       await pg.goto("http://localhost:4173" + path, { waitUntil: "networkidle0" });
       const r = await pg.evaluate(() => {
         const size = (el) => getComputedStyle(el).fontSize;
-        const big = [...document.querySelectorAll("h1, h2, .slide__title, .svc__body h3")].filter((e) => !e.closest(".mega") && !e.closest(".footer") && (e.offsetParent !== null || e.closest(".slide"))).map((e) => size(e));
+        const big = [...document.querySelectorAll("h1, h2, .slide__title, .svc__body h3")].filter((e) => !e.closest(".mega") && !e.closest(".footer") && (e.offsetParent !== null || e.closest(".slide")) && !(window.innerWidth <= 700 && e.matches(".slide__title, .pbanner h1"))).map((e) => size(e));
         const h3 = [...document.querySelectorAll("h3")].filter((e) => !e.closest(".svc__body") && !e.closest(".slide") && !e.closest(".mega")).map((e) => size(e));
         return { big: [...new Set(big)], h3: [...new Set(h3)] };
       });

@@ -1184,7 +1184,7 @@ main > .pbanner + .section { padding-top: var(--space); }
   .slide { padding: 1.25rem; }
   .slide__actions .btn { width: 100%; justify-content: center; }
   .pbanner__card { padding: 1.25rem; }
-  .pbanner__card h1 { max-width: none; }
+  .pbanner__card h1, .slide__title { font-size: clamp(1.5rem, 6.6vw, 1.9rem); line-height: 1.15; max-width: none; }
   .pbanner__actions .btn { flex: 1 1 100%; justify-content: center; }
   /* keep each photo's subject in view in the tall phone crop */
   .banner__bg--1 img { object-position: 64% 50%; }

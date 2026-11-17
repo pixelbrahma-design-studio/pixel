@@ -28,8 +28,8 @@ function rel(prefix, u) {
 }
 
 function rewriteHtml(html, prefix) {
-  html = html.replace(/\s(href|src)="(\/[^"]*)"/g, (m, a, u) => ` ${a}="${rel(prefix, u)}"`);
-  html = html.replace(/\s(srcset|imagesrcset)="([^"]*)"/g, (m, a, v) => ` ${a}="${v.split(",").map((part) => {
+  html = html.replace(/\s(href|src|data-src)="(\/[^"]*)"/g, (m, a, u) => ` ${a}="${rel(prefix, u)}"`);
+  html = html.replace(/\s(srcset|imagesrcset|data-srcset)="([^"]*)"/g, (m, a, v) => ` ${a}="${v.split(",").map((part) => {
     const t = part.trim().split(/\s+/);
     t[0] = rel(prefix, t[0]);
     return t.join(" ");

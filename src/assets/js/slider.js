@@ -40,7 +40,8 @@
     var want = index, img = bgs[want].querySelector("img");
     function activate() { if (want !== index) return; bgs.forEach(function (b, k) { b.classList.toggle("is-active", k === want); }); }
     if (!img || (img.complete && img.naturalWidth > 0 && !img.getAttribute("data-src")) || (img.complete && img.naturalWidth > 1)) activate();
-    else { img.addEventListener("load", activate, { once: true }); img.addEventListener("error", activate, { once: true }); }
+
+    if (!(img && img.complete)) window.setTimeout(activate, 2500);
     /* tell the header whether the photo behind it is dark (white logo) or light (original logo) */
     if (slides[index].getAttribute("data-header") === "dark") root.setAttribute("data-tone", "dark"); else root.removeAttribute("data-tone");
     root.setAttribute("data-tone-m", slides[index].getAttribute("data-header-m") || "light");
