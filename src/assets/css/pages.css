@@ -1135,9 +1135,6 @@ main > .pbanner + .section { padding-top: var(--space); }
    ===================================================================== */
 @media (max-width: 700px) {
   /* floating call / WhatsApp buttons: smaller and in a row so they cover less text */
-  .fab { display: flex; flex-direction: row-reverse; right: 0.75rem; bottom: 0.75rem; gap: 0.5rem; }
-  .fab__btn { width: 46px; height: 46px; }
-  .fab__btn svg { width: 22px; height: 22px; }
 
   /* sections */
   .section { padding-block: clamp(3rem, 14vw, 4.5rem); }
@@ -1254,12 +1251,39 @@ main .wrap .phone__note { font-size: 0.55rem; }
   .slide__title, .pbanner__card h1 { margin-bottom: 0.5em; }
   .slide__lead, .pbanner__lead { margin-bottom: 1.1rem; }
   /* white text everywhere, with a soft dark fade at the bottom of the photo so it reads on any picture */
-  .banner__media::after, .pbanner__media::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(0deg, rgba(20, 20, 22, 0.78) 0%, rgba(20, 20, 22, 0.5) 36%, rgba(20, 20, 22, 0) 68%); }
+  .banner__media::after, .pbanner__media::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(0deg, rgba(14, 14, 16, 0.86) 0%, rgba(14, 14, 16, 0.62) 40%, rgba(14, 14, 16, 0.25) 72%, rgba(14, 14, 16, 0.18) 100%); }
   .slide, .pbanner__card { color: #fff; }
-  .slide__title, .slide__lead, .pbanner__card h1, .pbanner__lead { color: #fff; text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35); }
+  .slide__title, .slide__lead, .pbanner__card h1, .pbanner__lead { color: #fff; text-shadow: 0 1px 14px rgba(0, 0, 0, 0.55), 0 0 2px rgba(0, 0, 0, 0.3); }
   .banner .slide a.btn, .pbanner__card .btn { background: #fff; border-color: #fff; color: var(--ink); text-shadow: none; }
   .banner .slide a.btn--ghost, .pbanner__card .btn--ghost { background: transparent; border-color: #fff; color: #fff; }
   .pbanner__media, .banner__media { isolation: isolate; }
   .banner__inner { padding-bottom: 1.5rem; }
   .pbanner__inner { padding-bottom: 4.75rem; }
 }
+
+/* =====================================================================
+   Floating WhatsApp + Call: vertical stack, bigger, white ring and a soft pulse so visitors notice them
+   ===================================================================== */
+.fab { display: grid; gap: 0.85rem; right: 1.1rem; bottom: 1.4rem; }
+.fab__btn { position: relative; width: 62px; height: 62px; border: 3px solid #fff; box-shadow: 0 10px 26px rgba(0, 0, 0, 0.28); }
+.fab__btn svg { width: 31px; height: 31px; }
+.fab__btn--wa { background: #25d366; animation: fab-pulse-wa 2.4s ease-out infinite; }
+.fab__btn--call { background: #1a73e8; animation: fab-pulse-call 2.4s ease-out 1.2s infinite; }
+.fab__btn--wa:hover { background: #1ebe5b; }
+.fab__btn--call:hover { background: #155ec0; }
+.fab__btn:hover, .fab__btn:focus-visible { transform: scale(1.1); animation-play-state: paused; }
+@keyframes fab-pulse-wa { 0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6), 0 10px 26px rgba(0, 0, 0, 0.28); } 70%, 100% { box-shadow: 0 0 0 20px rgba(37, 211, 102, 0), 0 10px 26px rgba(0, 0, 0, 0.28); } }
+@keyframes fab-pulse-call { 0% { box-shadow: 0 0 0 0 rgba(26, 115, 232, 0.6), 0 10px 26px rgba(0, 0, 0, 0.28); } 70%, 100% { box-shadow: 0 0 0 20px rgba(26, 115, 232, 0), 0 10px 26px rgba(0, 0, 0, 0.28); } }
+@media (prefers-reduced-motion: reduce) { .fab__btn--wa, .fab__btn--call { animation: none; } }
+/* name label slides out on desktop hover or keyboard focus */
+@media (min-width: 900px) {
+  .fab__btn::after { content: attr(data-label); position: absolute; right: calc(100% + 12px); top: 50%; transform: translate(8px, -50%); padding: 0.45rem 0.9rem; border-radius: 999px; background: var(--ink); color: #fff; font: 500 0.9rem/1 var(--font-text); white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity 0.25s var(--ease), transform 0.25s var(--ease); }
+  .fab__btn:hover::after, .fab__btn:focus-visible::after { opacity: 1; transform: translate(0, -50%); }
+}
+@media (max-width: 700px) {
+  .fab { gap: 0.6rem; right: 10px; bottom: 10px; }
+  .fab__btn { width: 54px; height: 54px; border-width: 2px; }
+  .fab__btn svg { width: 27px; height: 27px; }
+}
+/* phones: keep the banner buttons clear of the vertical WhatsApp / Call stack */
+@media (max-width: 700px) { .slide__actions, .pbanner__actions, .slider__controls { max-width: calc(100% - 66px); } }

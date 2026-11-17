@@ -19,7 +19,7 @@ const keys = Object.keys(manifest).filter((k) => k.startsWith("banner-") || k ==
     const cw = Math.round(info.height * 0.5), x0 = Math.round((info.width - cw) / 2), H2 = Math.round(info.height * 0.12);
     let s2 = 0, n2 = 0;
     for (let y = 0; y < H2; y++) for (let x = x0; x < x0 + cw; x++) { const u = x - x0; if (u < cw * 0.3 || u > cw * 0.82) { s2 += data[y * info.width + x]; n2++; } }
-    outM[k] = s2 / n2 / 255 < 0.64 ? "dark" : "light";
+    outM[k] = s2 / n2 / 255 < 0.78 ? "dark" : "light";
     /* where the title and buttons sit on a phone (bottom ~45% of the crop): "dark" photo = white text */
     let s3 = 0, n3 = 0;
     for (let y = Math.round(info.height * 0.55); y < info.height; y++) for (let x = x0; x < x0 + cw; x++) { s3 += data[y * info.width + x]; n3++; }
