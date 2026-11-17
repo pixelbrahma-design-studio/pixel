@@ -1232,3 +1232,17 @@ main > .pbanner + .section { padding-top: var(--space); }
 }
 /* phones: two-column picture tiles never leave one picture alone on the last row */
 @media (max-width: 700px) { .gtiles:not(.gtiles--4) .gtile:last-child:nth-child(odd), .gtiles--4 .gtile:last-child:nth-child(odd) { display: none; } }
+
+/* Smolgoodi phone mockup: keep its tiny text tiny (the page-wide paragraph size must not reach it) and fit it on phones */
+main .wrap .phone__note { font-size: 0.55rem; }
+@media (max-width: 700px) {
+  .smol__visual { padding-bottom: 3.5rem; }
+  .phone { right: 10px; top: 38%; width: 44%; aspect-ratio: 9 / 13.5; border-width: 5px; padding: 0.5rem; border-radius: 24px; gap: 0.35rem; }
+  .phone__top { font-size: 0.58rem; padding-inline: 0.1rem; }
+  .phone__top span:last-child { display: none; }
+  .phone__chat { padding: 0.45rem; font-size: 0.58rem; gap: 0.4rem; border-radius: 14px; }
+  .phone__bubble { padding: 0.4rem 0.5rem; }
+  .phone__row { flex-wrap: wrap; gap: 0 0.4rem; }
+  .phone__pay { font-size: 0.56rem; padding: 0.25rem 0.5rem; }
+  .smol__photo--small { left: 10px; width: 36%; border-width: 4px; }
+}
