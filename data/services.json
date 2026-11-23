@@ -261,8 +261,8 @@
         "a": "We choose the stack that fits your product, using cross-platform frameworks where they give you one codebase for iOS and Android and native code where performance demands it."
       },
       {
-        "q": "Do you build apps for startups in Bengaluru, Kochi and Canada?",
-        "a": "Yes. Our teams in Bengaluru, Kochi and Brampton work with startups and established brands, and most projects run through video calls with regular demos."
+        "q": "Do you build apps for startups in Bengaluru and Kochi?",
+        "a": "Yes. Our teams in Bengaluru and Kochi work with startups and established brands, and most projects run through video calls with regular demos."
       }
     ],
     "related": [
@@ -573,11 +573,11 @@
     "group": "digital",
     "title": "Digital Marketing Agency in Bengaluru, Kochi & Canada",
     "description": "Pixelbrahma runs social and digital campaigns and creates the content behind them, helping brands in India and Canada grow awareness, traffic and sales.",
-    "keywords": "digital marketing agency, digital marketing company Bengaluru, digital marketing Kochi, digital marketing Brampton, digital marketing agency Bengaluru, digital marketing agency Kochi, digital marketing agency Canada",
+    "keywords": "digital marketing agency, digital marketing company Bengaluru, digital marketing Kochi, digital marketing agency Bengaluru, digital marketing agency Kochi, digital marketing agency Canada",
     "h1": "Digital marketing that builds awareness and drives action",
     "eyebrow": "Services / Digital Marketing",
     "lead": "Strategy, management and creative from one team, so every post, ad and video points toward the same business goal.",
-    "answer": "Pixelbrahma is a digital marketing agency with offices in Bengaluru, Kochi and Brampton that plans and manages your online channels and produces the content that makes them work.",
+    "answer": "Pixelbrahma is a digital marketing agency with offices in Bengaluru and Kochi that plans and manages your online channels and produces the content that makes them work.",
     "glyph": "signal",
     "schema": {
       "name": "Digital Marketing",
@@ -677,7 +677,7 @@
           {
             "id": "why-4",
             "h": "Local insight in India and Canada",
-            "p": "Our offices in Bengaluru, Kochi and Brampton help us tune timing, language and tone for each market."
+            "p": "Our offices in Bengaluru and Kochi help us tune timing, language and tone for each market."
           }
         ],
         "v": "whyx"
@@ -791,7 +791,7 @@
     "group": "digital",
     "parent": "digital-marketing",
     "title": "Social Media Management & Ad Campaigns | Pixelbrahma",
-    "description": "Digital media managing from Pixelbrahma: strategy, platform management, campaign optimisation and monthly analytics for brands in India and Canada.",
+    "description": "Digital media managing from Pixelbrahma: strategy, platform management, campaign optimisation and monthly analytics for brands across India.",
     "keywords": "social media management services, social media marketing agency Bengaluru, campaign management Kochi, social media management company Bengaluru, social media management company Kochi, social media management company Canada",
     "h1": "Digital media managing, from strategy to monthly insight",
     "eyebrow": "Digital Marketing / Digital Media Managing",

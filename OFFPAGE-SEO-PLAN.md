@@ -5,11 +5,11 @@ Goal: build real, verifiable authority for Pixelbrahma in India and Canada. Do n
 ## Consistent entity data (use everywhere)
 
 - **Name:** Pixelbrahma Design Studio Pvt Ltd (brand: Pixelbrahma)
-- **Description:** Pixelbrahma is a design and technology studio with offices in Bengaluru, Kochi and Brampton that builds apps and websites, runs digital marketing and creates brands.
+- **Description:** Pixelbrahma is a design and technology studio with offices in Bengaluru and Kochi that builds apps and websites, runs digital marketing and creates brands.
 - **Website:** https://pixelbrahma.com/
 - **Email:** hello@pixelbrahma.com (confirm, see TODO.md)
 - **Phones:** India +91-97470 90058, Canada +1 (437) 983-8387
-- **Offices:** Kasturinagar, Bengaluru 560043; Kadavanthara, Kochi 682020; 105, 430 McMurchy Ave S, Brampton, Canada
+- **Offices:** Kasturinagar, Bengaluru 560043; Kadavanthara, Kochi 682020; 105, 430 McMurchy Ave S, Canada
 - **Profiles:** facebook.com/pixelbrahma, youtube.com/@PIXELBRAHMA
 
 Name, address and phone (NAP) must match character for character on every listing.
@@ -18,7 +18,7 @@ Name, address and phone (NAP) must match character for character on every listin
 
 1. **Search Console and Bing Webmaster Tools.** Verify the domain and submit `sitemap.xml`. Record a baseline: indexed pages, top queries, top pages.
 2. **Rankings baseline.** Record positions for each primary keyword in SEO-STRATEGY.md (before migration if the old site is still live).
-3. **Google Business Profile for each office** (Bengaluru, Kochi, Brampton). Verification is required, so start now because postcards or video calls can take days.
+3. **Google Business Profile for each office** (Bengaluru, Kochi). Verification is required, so start now because postcards or video calls can take days.
    - Primary category: *Website designer* or *Marketing agency*. Add secondary categories such as *Graphic designer*, *Advertising agency* and *Software company* only where they truly apply to that office.
    - Services: list the three services and the 12 sub-services.
    - Hours, phone and website URL (use the contact page or home page, consistently).
@@ -53,7 +53,6 @@ Rules: ask every client, never offer incentives, never write reviews for them, a
 | LinkedIn Company Page | Global | 1 | | | | |
 | Yelp Canada | CA | 2 | | | | |
 | Yellow Pages Canada | CA | 2 | | | | |
-| Canadian Chamber / Brampton Board of Trade (membership dependent) | CA | 3 | | | | |
 | Kerala / Bengaluru local business associations | IN | 3 | | | | |
 | Behance | Global | 2 | | | | |
 | Dribbble | Global | 3 | | | | |

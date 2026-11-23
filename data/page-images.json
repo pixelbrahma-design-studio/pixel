@@ -174,34 +174,41 @@
   ],
   "work": [
     {
+      "key": "app-1",
+      "h": "AMD Retail Connect",
+      "p": "A role-based platform linking retail marketing agencies and enterprise sales teams.",
+      "href": "/amd-retail-connect/"
+    },
+    {
+      "key": "social-6",
+      "h": "VST Tractors social media",
+      "p": "Campaign posts for a tractor brand.",
+      "href": "/digital-media-managing/"
+    },
+    {
+      "key": "pack-3",
+      "h": "HBC Sleek packaging",
+      "p": "Paint tin design that stands out on the shelf.",
+      "href": "/package-designs/"
+    },
+    {
+      "key": "uw-1",
+      "h": "Uniwood app",
+      "p": "Flooring quote and lead management app, our latest design.",
+      "href": "/uniwood-products/"
+    },
+    {
+      "key": "smol-hero",
+      "h": "Smolgoodi",
+      "p": "A shop link for home sellers, with orders on WhatsApp.",
+      "href": "https://smolgoodi.in",
+      "ext": true
+    },
+    {
       "key": "web-6",
       "h": "Website design and development",
       "p": "Business websites for kitchens, travel, tech and more.",
       "href": "/website/#our-work"
-    },
-    {
-      "key": "pack-3",
-      "h": "Package design",
-      "p": "Paint tins and product packaging that stand out on shelves.",
-      "href": "/package-designs/"
-    },
-    {
-      "key": "leaflet-chungath",
-      "h": "Leaflet and poster design",
-      "p": "Campaign leaflets and posters for retail and jewellery brands.",
-      "href": "/leaftlets/"
-    },
-    {
-      "key": "app-1",
-      "h": "Mobile app design",
-      "p": "Login and onboarding screens for business apps.",
-      "href": "/app-development/#our-work"
-    },
-    {
-      "key": "logo-enigma",
-      "h": "Logo design and brand identity",
-      "p": "Logos that make businesses recognisable.",
-      "href": "/logo/"
     },
     {
       "key": "brochure-5",
@@ -214,18 +221,6 @@
       "h": "Outdoor advertising",
       "p": "Hoardings, vehicle branding and shop signage.",
       "href": "/outdoor/"
-    },
-    {
-      "key": "magazine-5",
-      "h": "Magazine design",
-      "p": "Editorial layouts for print and digital.",
-      "href": "/magazine/"
-    },
-    {
-      "key": "social-6",
-      "h": "Social media marketing",
-      "p": "Campaign posts for social channels.",
-      "href": "/digital-media-managing/"
     }
   ]
 }

@@ -4,7 +4,7 @@
 const fs = require("fs"), path = require("path"), sharp = require("sharp");
 const dir = path.resolve(__dirname, "../src/assets/img");
 const manifest = JSON.parse(fs.readFileSync(path.join(dir, "manifest.json"), "utf8"));
-const keys = Object.keys(manifest).filter((k) => k.startsWith("banner-") || k === "contact-bg");
+const keys = Object.keys(manifest).filter((k) => k.startsWith("banner-") || k === "contact-bg" || /^(uw|amd|pix|wri)-1$/.test(k) || k.startsWith("why-") || k.startsWith("site-"));
 (async () => {
   const out = {}, outM = {}, outT = {};
   for (const k of keys) {

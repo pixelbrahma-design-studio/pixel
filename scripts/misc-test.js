@@ -31,12 +31,12 @@ const puppeteer = require("puppeteer-core");
   ok(w0.prev && !w1.prev && w1.left > w0.left + 200, `work slider: next arrow scrolls (${Math.round(w0.left)} -> ${Math.round(w1.left)}px), previous arrow enables`);
   await pg.click('[data-work="-1"]'); await new Promise(r => setTimeout(r, 900));
   ok((await pg.evaluate(() => document.querySelector(".work-track").scrollLeft)) < 5, "work slider: previous arrow scrolls back");
-  const cards = await pg.evaluate(() => document.querySelectorAll(".work-track .wk").length); ok(cards === 9, "work slider has 9 projects");
+  const cards = await pg.evaluate(() => document.querySelectorAll(".work-track .wk").length); ok(cards === 8, "work slider has 8 projects");
   /* textarea still scrolls natively and the page does not hijack it */
   const html = await pg.content();
   ok(!/Last updated/.test(html), "no 'Last updated' strip on the home page");
   ok(!/class="eyebrow"/.test(html), "no eyebrow sub-headings on the home page");
-  ok(!/smol__logo|smol-logo/.test(html.replace(/<picture[\s\S]*?<\/picture>/g, "")), "Smolgoodi logo image removed from the page");
+  ok(/smol-logo/.test(html), "Smolgoodi logo is shown in its section");
   ok((html.match(/<h1[ >]/g) || []).length === 1, "exactly one H1");
   const order = await pg.evaluate(() => [...document.querySelectorAll("main > section")].map((s) => s.id || s.className.split(" ")[0]));
   ok(order.indexOf("services") + 1 === order.indexOf("smolgoodi") && order[order.length - 1] === "brands" && !order.includes("locations"), "order: services then Smolgoodi; brands is the last section -> " + order.join(" > "));

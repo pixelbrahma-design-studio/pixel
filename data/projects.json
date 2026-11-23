@@ -1,0 +1,318 @@
+[
+  {
+    "slug": "amd-retail-connect",
+    "name": "AMD Retail Connect",
+    "tag": "Role-based platform for retail marketing and enterprise sales",
+    "cover": "app-1",
+    "banner": "banner-pj-amd",
+    "title": "AMD Retail Connect: Role-Based Sales Platform | Pixelbrahma",
+    "description": "Pixelbrahma designed AMD Retail Connect, a role-based platform that links retail marketing agencies with enterprise sales teams for in-store marketing orders.",
+    "keywords": "AMD Retail Connect, retail marketing platform, enterprise sales app, role-based platform, app development Bengaluru",
+    "h1": "AMD Retail Connect: bridging retail marketing and enterprise sales",
+    "lead": "A role-based platform that links retail marketing agencies with enterprise sales teams.",
+    "answer": "AMD Retail Connect is a role-based platform designed by Pixelbrahma that connects retail marketing agencies with enterprise sales teams, so in-store marketing elements can be chosen, approved, ordered and tracked in one place.",
+    "featuresH": "What Retail Connect simplifies",
+    "featuresIntro": "How the platform simplifies the process for agencies and sales teams.",
+    "features": [
+      "Streamlined in-store element selection: choose the marketing elements needed for each store.",
+      "Effortless approval workflow: requests move to the right approver without email chains.",
+      "Order fulfilment tracking: follow each order until it reaches the store.",
+      "Budget control and regional allocation: keep spend within budget and divided by region.",
+      "Detailed reporting: see orders, budgets and approvals in clear reports."
+    ],
+    "tech": [],
+    "images": [
+      "amd-1",
+      "amd-2",
+      "amd-3",
+      "amd-4",
+      "amd-5",
+      "amd-6",
+      "amd-7"
+    ],
+    "imagesH": "Screens from AMD Retail Connect",
+    "faq": [
+      {
+        "q": "What is AMD Retail Connect?",
+        "a": "AMD Retail Connect is a role-based platform that connects retail marketing agencies with enterprise sales teams for selecting, approving and tracking in-store marketing elements."
+      },
+      {
+        "q": "Can Pixelbrahma build an app like AMD Retail Connect for my business?",
+        "a": "Yes. Tell us what your team or customers need, and we will suggest a scope, a technology choice and a written estimate."
+      },
+      {
+        "q": "Which technology do you use for mobile apps?",
+        "a": "We choose the stack that fits the product. Many of our apps use Flutter for iOS and Android from one codebase, with Firebase or a custom back end behind them."
+      },
+      {
+        "q": "Who uses the platform?",
+        "a": "Retail marketing agencies and enterprise sales teams use it, each with the access that fits their role."
+      }
+    ],
+    "aboutH": "About the AMD Retail Connect platform",
+    "about": [
+      "Without one shared platform, ordering in-store marketing material means long email threads and spreadsheets, and enterprise sales teams struggle to see what has been requested, approved and delivered. Retail Connect brings the whole flow into a single role-based platform.",
+      "Retail marketing agencies choose the in-store elements they need, approvers review them in a clear workflow, and everyone can follow order fulfilment, budgets and regional allocation in detailed reports.",
+      "Pixelbrahma designed the screens and flows around each role, so every person who signs in sees only what they need. If your team needs a similar role-based platform for orders, approvals or reporting, we can plan it with you, from first wireframe to release."
+    ],
+    "facts": [
+      [
+        "Project",
+        "AMD Retail Connect"
+      ],
+      [
+        "Type",
+        "Role-based platform"
+      ],
+      [
+        "Used by",
+        "Retail marketing agencies and enterprise sales teams"
+      ],
+      [
+        "Designed and built by",
+        "Pixelbrahma"
+      ]
+    ]
+  },
+  {
+    "slug": "uniwood-products",
+    "name": "Uniwood",
+    "tag": "Flooring quote and lead management app",
+    "cover": "app-3",
+    "banner": "banner-pj-uniwood",
+    "title": "Uniwood Flooring Quote & Lead Management App | Pixelbrahma",
+    "description": "Pixelbrahma built Uniwood, a flooring quote and lead management app made with Flutter and Firebase for a hardwood flooring brand in India and beyond.",
+    "keywords": "Uniwood app, flooring quote app, lead management app, Flutter app development, Firebase app, app development Kochi",
+    "h1": "Uniwood: a flooring quote and lead management app",
+    "lead": "A mobile app that helps a flooring brand prepare quotes and keep track of its leads.",
+    "answer": "Uniwood is a flooring quote and lead management app designed and developed by Pixelbrahma using Flutter and Firebase.",
+    "featuresH": "What the app is for",
+    "featuresIntro": "The two jobs the Uniwood app takes care of.",
+    "features": [
+      "Flooring quotes: prepare and share quotes for flooring projects from a phone.",
+      "Lead management: record leads and follow them up in one place."
+    ],
+    "tech": [
+      "Flutter 3.3",
+      "Firebase 2.4.1"
+    ],
+    "images": [
+      "uw-1",
+      "uw-2",
+      "uw-3",
+      "uw-4",
+      "uw-5"
+    ],
+    "imagesH": "Screens from the Uniwood app",
+    "faq": [
+      {
+        "q": "What is the Uniwood app?",
+        "a": "Uniwood is a flooring quote and lead management app designed and developed by Pixelbrahma using Flutter and Firebase."
+      },
+      {
+        "q": "Can Pixelbrahma build an app like the Uniwood app for my business?",
+        "a": "Yes. Tell us what your team or customers need, and we will suggest a scope, a technology choice and a written estimate."
+      },
+      {
+        "q": "Which technology do you use for mobile apps?",
+        "a": "We choose the stack that fits the product. Many of our apps use Flutter for iOS and Android from one codebase, with Firebase or a custom back end behind them."
+      }
+    ],
+    "aboutH": "About the Uniwood quote and lead app",
+    "about": [
+      "Flooring sales depend on quick, accurate quotes and on following up every lead. The Uniwood app puts both jobs on one phone: prepare a quote for a flooring project, and keep track of each lead until the sale is closed.",
+      "Pixelbrahma designed the screens for everyday use by a sales team and built the app with Flutter and Firebase, so it can run on Android and iOS from one codebase while data is stored safely in the cloud.",
+      "If your business sells products that need quotes, such as flooring, kitchens, furniture or building materials, a quote and lead management app can save hours every week. We can scope one for your team and show you a clickable prototype first."
+    ],
+    "facts": [
+      [
+        "Project",
+        "Uniwood"
+      ],
+      [
+        "Type",
+        "Quote and lead management app"
+      ],
+      [
+        "Technology",
+        "Flutter 3.3 and Firebase 2.4.1"
+      ],
+      [
+        "Industry",
+        "Flooring"
+      ],
+      [
+        "Designed and built by",
+        "Pixelbrahma"
+      ]
+    ]
+  },
+  {
+    "slug": "pixcam",
+    "name": "Pixcam",
+    "tag": "People counting software with multi-camera integration",
+    "cover": "app-4",
+    "banner": "banner-pj-pixcam",
+    "title": "Pixcam: People Counting Software with Cameras | Pixelbrahma",
+    "description": "Pixcam is people count software with role-based access and multi-camera integration, designed and built by Pixelbrahma for door and zone cameras.",
+    "keywords": "Pixcam, people counting software, multi-camera integration, visitor counting, role-based access software",
+    "h1": "Pixcam: people count software with role-based access and multi-camera integration",
+    "lead": "Count visitors across doors and zones from many cameras, with the right access for each person.",
+    "answer": "Pixcam is people count software built by Pixelbrahma. It brings door and zone cameras together, counts people accurately and gives each user role-based access to the data.",
+    "featuresH": "Key features of Pixcam",
+    "featuresIntro": "What Pixcam offers teams that need to know how many people come and go.",
+    "features": [
+      "Multi-camera integration: connect door and zone cameras in one system.",
+      "Accurate people counting: count visitors reliably at each entrance and zone.",
+      "Real-time monitoring: see counts as they happen.",
+      "Role-based access: each user sees only what their role allows.",
+      "Customised reporting: build reports around the questions you ask.",
+      "Alerts and notifications: be told when something needs attention.",
+      "Scalability: add cameras and locations as you grow.",
+      "User-friendly interface: simple screens for everyday use."
+    ],
+    "extra": "Pixcam suits retail, hospitality, healthcare and event management, and it is designed with data privacy in mind.",
+    "tech": [],
+    "images": [
+      "pix-1",
+      "pix-2",
+      "pix-3",
+      "pix-4",
+      "pix-5",
+      "pix-6",
+      "pix-7",
+      "pix-8",
+      "pix-9",
+      "pix-10",
+      "pix-11"
+    ],
+    "imagesH": "Screens from Pixcam",
+    "faq": [
+      {
+        "q": "What is Pixcam?",
+        "a": "Pixcam is people count software with role-based access and multi-camera integration, counting visitors through door and zone cameras."
+      },
+      {
+        "q": "Can Pixelbrahma build an app like Pixcam for my business?",
+        "a": "Yes. Tell us what your team or customers need, and we will suggest a scope, a technology choice and a written estimate."
+      },
+      {
+        "q": "Which technology do you use for mobile apps?",
+        "a": "We choose the stack that fits the product. Many of our apps use Flutter for iOS and Android from one codebase, with Firebase or a custom back end behind them."
+      },
+      {
+        "q": "Which industries can use Pixcam?",
+        "a": "Pixcam suits retail, hospitality, healthcare and event management."
+      }
+    ],
+    "aboutH": "About the Pixcam people counting software",
+    "about": [
+      "Knowing how many people enter a shop, hotel, hospital or event helps teams plan staff, measure campaigns and understand peak hours. Pixcam counts people through door and zone cameras and brings the numbers into one dashboard.",
+      "Several cameras can be connected at once, counts update in real time, and role-based access means each user sees only the locations and reports that suit their role. Teams can build their own reports and receive alerts when something needs attention.",
+      "Pixelbrahma designed the interface to be simple for everyday use and built the software to grow with you as cameras and locations are added. It suits retail, hospitality, healthcare and event management, and it is designed with data privacy in mind."
+    ],
+    "facts": [
+      [
+        "Project",
+        "Pixcam"
+      ],
+      [
+        "Type",
+        "People counting software"
+      ],
+      [
+        "Key features",
+        "Multi-camera integration and role-based access"
+      ],
+      [
+        "Industries",
+        "Retail, hospitality, healthcare and event management"
+      ],
+      [
+        "Designed and built by",
+        "Pixelbrahma"
+      ]
+    ]
+  },
+  {
+    "slug": "wri",
+    "name": "WRI",
+    "tag": "Offline survey app for rural resource research",
+    "cover": "app-2",
+    "banner": "banner-pj-wri",
+    "title": "WRI Offline Survey App for Rural Research | Pixelbrahma",
+    "description": "Pixelbrahma built an offline survey app for World Resource Institute that lets field teams collect rural resource data without internet, in English and Hindi.",
+    "keywords": "WRI survey app, offline survey app, rural resource research app, Flutter app, field data collection app",
+    "h1": "WRI: an offline survey app for rural resource research",
+    "lead": "Field teams collect data without a connection and upload it once they are back online.",
+    "answer": "This offline survey app, built by Pixelbrahma for World Resource Institute (WRI), lets field teams collect rural resource data without a connection and upload it once they are online.",
+    "featuresH": "Built for work in the field",
+    "featuresIntro": "What the survey app is designed to handle.",
+    "features": [
+      "Offline first: surveys are filled in without a network connection.",
+      "Upload once online: collected data is sent when a connection is available.",
+      "Maps and location: location and map features support field surveys.",
+      "English and Hindi: the app is available in both languages."
+    ],
+    "tech": [
+      "Flutter 3.3",
+      "Firebase 2.13.0",
+      "google_maps_flutter 2.2.7",
+      "Geolocator 9.0.2",
+      "Localisation: English and Hindi"
+    ],
+    "images": [
+      "wri-1",
+      "wri-2",
+      "wri-3",
+      "wri-4"
+    ],
+    "imagesH": "Screens from the WRI survey app",
+    "faq": [
+      {
+        "q": "What is the WRI survey app?",
+        "a": "It is an offline survey app built by Pixelbrahma for World Resource Institute to support rural resource research, with data uploaded once the device is online."
+      },
+      {
+        "q": "Can Pixelbrahma build an app like the WRI survey app for my business?",
+        "a": "Yes. Tell us what your team or customers need, and we will suggest a scope, a technology choice and a written estimate."
+      },
+      {
+        "q": "Which technology do you use for mobile apps?",
+        "a": "We choose the stack that fits the product. Many of our apps use Flutter for iOS and Android from one codebase, with Firebase or a custom back end behind them."
+      },
+      {
+        "q": "Does the app work without internet?",
+        "a": "Yes. Surveys can be filled in offline, and the data is uploaded once the device is online."
+      }
+    ],
+    "aboutH": "About the WRI offline survey app",
+    "about": [
+      "Rural resource research happens far from reliable networks. This survey app, built for World Resource Institute (WRI), lets field teams fill in surveys offline and upload the collected data once they are back online, so no responses are lost.",
+      "The app uses maps and location services to support field surveys and is available in English and Hindi, so teams can work in the language they are most comfortable with.",
+      "Pixelbrahma built the app with Flutter, Firebase, Google Maps and Geolocator. If your organisation collects data in the field, whether for research, inspections or audits, an offline-first mobile app can make the work faster and the data cleaner. We can plan one with you."
+    ],
+    "facts": [
+      [
+        "Project",
+        "WRI offline survey app"
+      ],
+      [
+        "Client",
+        "World Resource Institute (WRI)"
+      ],
+      [
+        "Technology",
+        "Flutter 3.3, Firebase 2.13.0, google_maps_flutter 2.2.7, Geolocator 9.0.2"
+      ],
+      [
+        "Languages",
+        "English and Hindi"
+      ],
+      [
+        "Designed and built by",
+        "Pixelbrahma"
+      ]
+    ]
+  }
+]

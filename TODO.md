@@ -10,7 +10,7 @@ Search the source for `TODO` to find each marker (they are HTML comments in `dat
 
 - [ ] **Email address.** The old site used `hello@pixelbrahama.com` (probable typo). The new site uses `hello@pixelbrahma.com`, set once in `site.config.json` (`email`). Confirm the mailbox exists.
 - [ ] **Contact form endpoint.** `site.config.json` `formEndpoint` is `https://formspree.io/f/TODO_REPLACE_WITH_ENDPOINT`. Until replaced, the form shows a "not connected" message. Create a form endpoint (Formspree, Basin, your own server, etc.) and update the value. If you use another origin, the CSP `connect-src` and `form-action` update automatically at build time.
-- [ ] **Full office addresses.** Only locality was given for Bengaluru (Kasturinagar, 560043) and Kochi (Kadavanthara, 682020). Brampton has no postal code. Add building/road and postal code in `site.config.json`.
+- [ ] **Full office addresses.** Only locality was given for Bengaluru (Kasturinagar, 560043) and Kochi (Kadavanthara, 682020). Add building/road and postal code in `site.config.json`.
 - [ ] **Opening hours** for each office (contact page and schema). Schema currently omits `openingHours` on purpose.
 - [ ] **Geo coordinates** for each office (schema `geo`). Omitted on purpose; add real values only.
 - [ ] **Logo files.** The live logo (`2024/12/pixelbrahma_LOGO.png`) is used. Its hexagon mark is cropped for the header and the full stacked logo is used in the footer and menu, with a light version made automatically. A vector (SVG) version would be sharper. Please supply it if you have one.

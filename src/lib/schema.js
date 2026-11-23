@@ -11,7 +11,7 @@ function organization(site) {
     name: site.name,
     legalName: site.legalName,
     url: site.url + "/",
-    description: "Pixelbrahma is a design and technology studio with offices in Bengaluru, Kochi and Brampton that builds apps and websites, runs digital marketing and creates brands.",
+    description: "Pixelbrahma is a design and technology studio with offices in Bengaluru and Kochi that builds apps and websites, runs digital marketing and creates brands.",
     slogan: site.tagline,
     logo: { "@type": "ImageObject", "@id": id(site, "logo"), url: site.url + "/assets/img/logo-512.png", width: 512, height: 512 },
     image: site.url + "/assets/og/home.png",
@@ -21,7 +21,7 @@ function organization(site) {
     contactPoint: site.phones.map((p) => ({
       "@type": "ContactPoint",
       contactType: "sales",
-      telephone: p.display.startsWith("+91") ? "+91-9747090058" : "+1-437-983-8387",
+      telephone: "+91-9747090058",
       email: site.email,
       areaServed: p.region,
       availableLanguage: ["English"]
@@ -37,7 +37,7 @@ function website(site) {
 
 function offices(site) {
   return site.offices.map((o) => {
-    const addr = { "@type": "PostalAddress", streetAddress: o.street, addressLocality: o.locality, addressRegion: o.region, addressCountry: o.countryCode };
+    const addr = { "@type": "PostalAddress", ...(o.street ? { streetAddress: o.street } : {}), addressLocality: o.locality, addressRegion: o.region, addressCountry: o.countryCode };
     if (o.postal) addr.postalCode = o.postal;
     return {
       "@type": ["ProfessionalService", "LocalBusiness"],
@@ -46,7 +46,7 @@ function offices(site) {
       parentOrganization: { "@id": id(site, "organization") },
       url: site.url + "/contact-us/",
       image: site.url + "/assets/og/home.png",
-      telephone: o.phoneDisplay.replace(/[()]/g, "").replace(/\s/g, "-"),
+      ...(o.phoneDisplay ? { telephone: o.phoneDisplay.replace(/[()]/g, "").replace(/\s/g, "-") } : {}),
       email: site.email,
       address: addr,
       areaServed: o.country,
@@ -81,7 +81,7 @@ function service(site, page, ctx) {
     description: page.description,
     url,
     provider: { "@id": id(site, "organization") },
-    areaServed: [{ "@type": "Country", name: "India" }, { "@type": "Country", name: "Canada" }, { "@type": "City", name: "Bengaluru" }, { "@type": "City", name: "Kochi" }, { "@type": "City", name: "Brampton" }],
+    areaServed: [{ "@type": "Country", name: "India" }, { "@type": "Country", name: "Canada" }, { "@type": "City", name: "Bengaluru" }, { "@type": "City", name: "Kochi" }],
     availableChannel: { "@type": "ServiceChannel", serviceUrl: url, availableLanguage: ["English", "Hindi", "Malayalam", "Kannada"] },
     audience: { "@type": "BusinessAudience", audienceType: "Businesses, start-ups and brands" },
     ...(page.bannerUrl ? { image: page.bannerUrl } : {}),

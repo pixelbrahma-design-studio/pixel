@@ -54,7 +54,7 @@
 .work__item p { margin: 0; color: var(--muted); }
 
 /* ---------- Smolgoodi showcase ---------- */
-.smol { background: var(--paper-2); color: var(--ink); position: relative; overflow: hidden; }
+.smol { background: var(--paper-2); color: var(--ink); position: relative; overflow: clip; }
 .smol__grid { display: grid; gap: 3rem; align-items: center; }
 @media (min-width: 960px) { .smol__grid { grid-template-columns: 1fr 1.05fr; gap: 5rem; } }
 .smol__brand { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.25rem; }
@@ -975,7 +975,6 @@ main > .pbanner + .section { padding-top: var(--space); }
 .theme-2 .shead2 { grid-template-columns: 1fr; text-align: center; justify-items: center; }
 .theme-2 .shead2 h2 { max-width: 26ch; } .theme-2 .shead2 .shead__intro { max-width: 56ch; }
 .theme-2 .factors { direction: rtl; } .theme-2 .factors > * { direction: ltr; }
-.theme-3 .shead2 h2::after { content: ""; display: block; width: 3.5rem; height: 4px; margin-top: 1rem; background: var(--ink); border-radius: 4px; }
 .theme-3 .whyx { direction: rtl; } .theme-3 .whyx > * { direction: ltr; }
 .theme-3 .feature { direction: rtl; } .theme-3 .feature > * { direction: ltr; }
 @media (min-width: 900px) { .theme-1 .shead2, .theme-2 .shead2 { margin-bottom: clamp(2rem, 4vw, 3rem); } }
@@ -1222,7 +1221,6 @@ main > .pbanner + .section { padding-top: var(--space); }
   .fab { right: 10px; bottom: 10px; }
   .rel { padding: 1.25rem 1.25rem 4.5rem; }
   .rel__go { right: 10px; bottom: 10px; }
-  .panel__n { display: none; }
   .feature__img { margin-right: 10px; margin-bottom: 10px; }
   .feature__img img { box-shadow: 10px 10px 0 var(--paper-2); }
 }
@@ -1287,3 +1285,158 @@ main .wrap .phone__note { font-size: 0.55rem; }
 }
 /* phones: keep the banner buttons clear of the vertical WhatsApp / Call stack */
 @media (max-width: 700px) { .slide__actions, .pbanner__actions, .slider__controls { max-width: calc(100% - 66px); } }
+
+/* =====================================================================
+   Slider dots without numbers; Smolgoodi slide; project cards; Smolgoodi logo
+   ===================================================================== */
+.slider__dot { position: relative; width: 12px; height: 12px; min-width: 0; padding: 0; font-size: 0; line-height: 0; border-radius: 999px; transition: width 0.3s var(--ease), background 0.3s var(--ease); }
+.slider__dot::after { content: ""; position: absolute; inset: -16px -5px; }
+.slider__dot.is-active { width: 34px; }
+.slider__dots { align-items: center; gap: 0.6rem; }
+.banner__bg--s img { object-position: 55% 50%; }
+@media (max-width: 700px) { .banner__bg--s img { object-position: 56% 50%; } }
+
+.smol__brand { margin-bottom: 1.25rem; }
+.smol__brand img { display: block; width: clamp(120px, 14vw, 170px); height: auto; }
+
+.projects { list-style: none; margin: 0; padding: 0; display: grid; gap: 2rem 1.5rem; grid-template-columns: 1fr; }
+@media (min-width: 640px) { .projects { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1000px) { .projects { grid-template-columns: repeat(3, 1fr); } }
+.pcard { display: grid; gap: 0.5rem; align-content: start; color: var(--ink); text-decoration: none; }
+.pcard__img { margin: 0 0 0.6rem; aspect-ratio: 4 / 3; border-radius: 20px; border: 1px solid #ece9df; background: var(--cream); overflow: hidden; display: grid; place-items: center; }
+.pcard__img picture, .pcard__img img { display: block; width: 100%; height: 100%; object-fit: contain; transition: transform 0.8s var(--ease); }
+.pcard:hover .pcard__img img { transform: scale(1.04); }
+.pcard h3 { margin: 0; }
+.pcard p { margin: 0; color: var(--muted); }
+.pcard__go { font-weight: 500; text-decoration: underline; text-underline-offset: 0.25em; }
+.slider__dots .slider__dot { width: 12px; height: 12px; min-width: 0; min-height: 0; padding: 0; }
+.slider__dots .slider__dot.is-active { width: 34px; }
+@media (max-width: 700px) { .slider__dots .slider__dot { width: 12px; height: 12px; } .slider__dots .slider__dot.is-active { width: 34px; } }
+/* slider: arrows and pause only, no dots */
+.slider__controls { justify-content: flex-start; }
+.slider__dots { display: none; }
+/* two offices: two equal columns */
+@media (min-width: 700px) { .offices { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* =====================================================================
+   Floating buttons: no white border; the pulse runs on the compositor (transform + opacity) so scrolling stays smooth
+   ===================================================================== */
+.fab__btn { border: 0; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.28); animation: none; overflow: visible; }
+.fab__btn--wa, .fab__btn--call { animation: none; }
+.fab__btn::before { content: ""; position: absolute; inset: 0; border-radius: 50%; background: inherit; opacity: 0; z-index: -1; transform: scale(1); animation: fab-ring 2.4s ease-out infinite; pointer-events: none; will-change: transform, opacity; }
+.fab__btn--call::before { animation-delay: 1.2s; }
+@keyframes fab-ring { 0% { transform: scale(1); opacity: 0.55; } 70%, 100% { transform: scale(1.65); opacity: 0; } }
+.fab__btn:hover::before, .fab__btn:focus-visible::before { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) { .fab__btn::before { animation: none; display: none; } }
+@media (max-width: 700px) { .fab__btn { border: 0; } }
+
+/* smoother scrolling: no live blur behind the banner cards (it repaints on every scroll frame) */
+@media (min-width: 701px) { .slide, .pbanner__card { -webkit-backdrop-filter: none; backdrop-filter: none; background: rgba(255, 255, 255, 0.86); } }
+html { scroll-behavior: smooth; }
+body { overflow-x: clip; }
+.fab__btn { isolation: isolate; }
+
+/* =====================================================================
+   Project pages: banner is the picture only; the heading, text and buttons sit centred in the section below
+   ===================================================================== */
+.pbanner--plain { width: 100%; height: min(56.25vw, 90svh); min-height: 0; aspect-ratio: auto; background: var(--cream); display: block; }
+.pbanner--plain .pbanner__media { position: absolute; inset: 0; }
+.pbanner--plain .pbanner__media::after { display: none; }
+.phead { text-align: center; }
+.phead h1 { max-width: 22ch; margin: 0 auto 0.6em; }
+.phead__lead { max-width: 56ch; margin: 0 auto 1.75rem; color: var(--muted); }
+.phead__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; }
+@media (max-width: 700px) {
+  .pbanner.pbanner--plain { width: 100%; height: 62vw; min-height: 0; }
+  .phead__actions .btn { flex: 1 1 100%; justify-content: center; }
+}
+
+/* Smolgoodi slide: text sits straight on the cream backdrop (desktop) */
+@media (min-width: 701px) { .slide--plain { background: transparent; box-shadow: none; padding: 0; -webkit-backdrop-filter: none; backdrop-filter: none; } }
+.smol__brand img { width: clamp(190px, 22vw, 280px); }
+
+/* =====================================================================
+   Round: page-width scrollers, Smolgoodi slide on ink, Smolgoodi section (logo aligned, picture sticks)
+   ===================================================================== */
+/* picture scroller stays inside the page width and is polished */
+.sec-gscroll .gscroll { overflow-x: auto; scroll-snap-type: x proximity; padding: 0 0 1.25rem; margin: 0; scrollbar-width: thin; }
+.sec-gscroll .gscroll__list { padding: 0; gap: 18px; }
+.sec-gscroll .gscroll__item { border-radius: 22px; border: 1px solid #e6e4dc; background: #fff; box-shadow: 0 14px 34px rgba(30, 30, 31, 0.07); transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease); }
+.sec-gscroll .gscroll__item:hover { transform: translateY(-4px); box-shadow: 0 22px 44px rgba(30, 30, 31, 0.13); }
+.sec-gscroll .gscroll__item picture, .sec-gscroll .gscroll__item img { height: clamp(280px, 28vw, 400px); width: auto; }
+.sec-gscroll .gscroll__item--wide picture, .sec-gscroll .gscroll__item--wide img { height: auto; width: clamp(300px, 48vw, 640px); }
+.sec-gscroll .gscroll__head { margin-bottom: 0; }
+.sec-gscroll .work-nav { margin-bottom: clamp(2rem, 4vw, 3.5rem); }
+@media (max-width: 700px) { .sec-gscroll .gscroll__item--wide picture, .sec-gscroll .gscroll__item--wide img { width: 82vw; } }
+
+/* Smolgoodi slide: ink background like the buttons; text and button turn light; picture reaches the right edge */
+@media (min-width: 701px) {
+  .slide--plain .slide__title, .slide--plain .slide__lead { color: #fff; }
+  .slide--plain a.btn { background: #fff; border-color: #fff; color: var(--ink); }
+  .banner:has(.slide--plain.is-active) .slider__btn { background: rgba(255, 255, 255, 0.12); border-color: rgba(255, 255, 255, 0.5); color: #fff; }
+  .banner:has(.slide--plain.is-active) .slider__controls { border-top-color: rgba(255, 255, 255, 0.25); }
+}
+
+/* Smolgoodi section: logo smaller and level with the top of the picture; the picture stays in view while the section scrolls */
+.smol__grid { align-items: start; }
+.smol__brand img { width: clamp(130px, 13vw, 180px); }
+@media (min-width: 960px) { .smol__visual { position: sticky; top: 7rem; align-self: start; } }
+
+/* =====================================================================
+   Page intro: a cream panel with the text on the left and a checklist or fact card on the right (differs from the heading-left sections below it)
+   ===================================================================== */
+.pintro2 { display: grid; gap: clamp(1.75rem, 4vw, 3.5rem); padding: clamp(1.5rem, 4vw, 3.5rem); border-radius: 30px; background: var(--cream); border: 1px solid #ece9df; align-items: start; }
+@media (min-width: 960px) { .pintro2 { grid-template-columns: 1.45fr 1fr; } }
+.pintro2--solo { grid-template-columns: 1fr; }
+.pintro2__main h2 { margin: 0 0 1.25rem; max-width: 22ch; }
+.pintro2__main .intro__statement { margin: 0 0 1rem; max-width: 62ch; padding: 0; color: var(--ink); }
+.pintro2__main .intro__statement--more { color: var(--muted); }
+.pintro2__main .intro__statement:last-child { margin-bottom: 0; }
+.pintro2__side { padding: clamp(1.25rem, 2.5vw, 2rem); border-radius: 22px; background: #fff; border: 1px solid #ece9df; display: grid; gap: 1rem; align-content: start; }
+.pintro2__side h3 { margin: 0; }
+.pintro2__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.7rem; }
+.pintro2__list li { display: grid; grid-template-columns: 1.6rem 1fr; gap: 0.8rem; align-items: center; }
+.pintro2__list li svg { width: 1.6rem; height: 1.6rem; padding: 0.38rem; border-radius: 50%; background: var(--ink); color: #fff; }
+.pintro2__list a { color: var(--ink); font-weight: 500; text-decoration: underline; text-underline-offset: 0.25em; }
+.pintro2__side .btn { width: fit-content; }
+.pintro2__facts { margin: 0; display: grid; gap: 0; }
+.pintro2__facts div { display: grid; gap: 0.15rem; padding: 0.8rem 0; border-bottom: 1px solid #ece9df; }
+.pintro2__facts div:last-child { border-bottom: 0; padding-bottom: 0; }
+.pintro2__facts dt { margin: 0; color: var(--muted); font-size: 0.85rem; letter-spacing: 0.04em; }
+.pintro2__facts dd { margin: 0; font-weight: 500; }
+
+/* =====================================================================
+   Icons instead of big outline numbers (lists, panels, bento tiles, why lists)
+   ===================================================================== */
+.nlist__item { grid-template-columns: 3.4rem 1fr; align-items: center; }
+.nlist__ico { display: grid; place-items: center; width: 3.2rem; height: 3.2rem; border-radius: 14px; background: var(--cream); border: 1px solid #ece9df; color: var(--ink); transition: background 0.3s var(--ease), color 0.3s var(--ease); }
+.nlist__ico svg { width: 1.45rem; height: 1.45rem; }
+.nlist__item:hover .nlist__ico { background: var(--ink); color: #fff; border-color: var(--ink); }
+.nlist--3 .nlist__item { grid-template-columns: 1fr; gap: 0.9rem; }
+.section--cream .nlist__ico { background: var(--cream); }
+
+.panel__ico { display: grid; place-items: center; width: 3.4rem; height: 3.4rem; border-radius: 50%; background: var(--ink); color: #fff; margin-bottom: 1.1rem; }
+.panel__ico svg { width: 1.5rem; height: 1.5rem; }
+.panel h3 { max-width: none; }
+
+.gbento__ico { display: grid; place-items: center; width: 2.9rem; height: 2.9rem; border-radius: 14px; background: var(--cream); border: 1px solid #ece9df; color: var(--ink); margin-bottom: 0.4rem; }
+.gbento__ico svg { width: 1.4rem; height: 1.4rem; }
+.gbento__tile--1 .gbento__ico { background: rgba(255, 255, 255, 0.12); border-color: rgba(255, 255, 255, 0.22); color: #fff; }
+
+.whyx__n { border: 0; background: var(--cream); border-radius: 14px; color: var(--ink); width: 3.2rem; height: 3.2rem; }
+.whyx__n svg { width: 1.45rem; height: 1.45rem; }
+.section--cream .whyx__n { background: #fff; }
+
+/* Smolgoodi slide: white header logo, so a soft dark fade sits behind it at the top of the photo */
+.banner__bg--s::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, rgba(14, 14, 16, 0.55) 0%, rgba(14, 14, 16, 0.25) 14%, rgba(14, 14, 16, 0) 32%); }
+
+/* =====================================================================
+   Banner photo fills the full height of its section on every page
+   ===================================================================== */
+.pbanner { height: auto; min-height: max(100svh, 560px); }
+.pbanner--plain { height: max(100svh, 560px); }
+.banner { height: max(100svh, 580px); }
+@media (max-width: 700px) { .pbanner.pbanner--plain { width: 100%; height: max(100svh, 560px); } }
+
+/* no full-width coloured bands: sections are white */
+.section--cream { background: #fff; }

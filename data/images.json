@@ -493,7 +493,8 @@
     "widths": [
       480,
       960
-    ]
+    ],
+    "trim": true
   },
   "cl-c-amd": {
     "src": "external:local",
@@ -1110,10 +1111,10 @@
   },
   "banner-p-web": {
     "src": "external:unsplash",
-    "file": "banner-p-web.jpg",
-    "alt": "Two monitors on a wooden desk in a web design workspace",
-    "credit": "Unsplash contributor (photo id 1487338875411-8880f74114a2)",
-    "source": "https://images.unsplash.com/photo-1487338875411-8880f74114a2",
+    "file": "banner-web2.jpg",
+    "alt": "Website design on a large monitor beside a laptop and tablet showing code and a digital products site",
+    "credit": "Unsplash contributor (photo id 1547658719-da2b51169166)",
+    "source": "https://images.unsplash.com/photo-1547658719-da2b51169166",
     "widths": [
       640,
       1024,
@@ -1166,10 +1167,10 @@
   },
   "banner-contact": {
     "src": "external:unsplash",
-    "file": "banner-contact.jpg",
-    "alt": "Smiling customer support colleague wearing a headset at a computer",
-    "credit": "Unsplash contributor (photo id 1766066014237-00645c74e9c6)",
-    "source": "https://images.unsplash.com/photo-1766066014237-00645c74e9c6",
+    "file": "banner-contact2.jpg",
+    "alt": "Smiling customer support team wearing headsets in a bright office",
+    "credit": "Unsplash contributor (photo id 1626863905121-3b0c0ed7b94c)",
+    "source": "https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c",
     "widths": [
       640,
       1024,
@@ -1312,6 +1313,398 @@
       640,
       1024,
       1600
+    ]
+  },
+  "uw-1": {
+    "src": "external:local",
+    "file": "uw-1.png",
+    "alt": "Uniwood flooring quote app, screen 1",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "uw-2": {
+    "src": "external:local",
+    "file": "uw-2.png",
+    "alt": "Uniwood flooring quote app, screen 2",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "uw-3": {
+    "src": "external:local",
+    "file": "uw-3.png",
+    "alt": "Uniwood flooring quote app, screen 3",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "uw-4": {
+    "src": "external:local",
+    "file": "uw-4.png",
+    "alt": "Uniwood flooring quote app, screen 4",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "uw-5": {
+    "src": "external:local",
+    "file": "uw-5.png",
+    "alt": "Uniwood flooring quote app, screen 5",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "amd-1": {
+    "src": "external:local",
+    "file": "amd-1.png",
+    "alt": "AMD Retail Connect app, screen 1",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "amd-2": {
+    "src": "external:local",
+    "file": "amd-2.png",
+    "alt": "AMD Retail Connect app, screen 2",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "amd-3": {
+    "src": "external:local",
+    "file": "amd-3.png",
+    "alt": "AMD Retail Connect app, screen 3",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "amd-4": {
+    "src": "external:local",
+    "file": "amd-4.png",
+    "alt": "AMD Retail Connect app, screen 4",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "amd-5": {
+    "src": "external:local",
+    "file": "amd-5.png",
+    "alt": "AMD Retail Connect app, screen 5",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "amd-6": {
+    "src": "external:local",
+    "file": "amd-6.png",
+    "alt": "AMD Retail Connect app, screen 6",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "amd-7": {
+    "src": "external:local",
+    "file": "amd-7.png",
+    "alt": "AMD Retail Connect app, screen 7",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "pix-1": {
+    "src": "external:local",
+    "file": "pix-1.png",
+    "alt": "Pixcam people counting software, screen 1",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "pix-2": {
+    "src": "external:local",
+    "file": "pix-2.png",
+    "alt": "Pixcam people counting software, screen 2",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "pix-3": {
+    "src": "external:local",
+    "file": "pix-3.png",
+    "alt": "Pixcam people counting software, screen 3",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "pix-4": {
+    "src": "external:local",
+    "file": "pix-4.png",
+    "alt": "Pixcam people counting software, screen 4",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "pix-5": {
+    "src": "external:local",
+    "file": "pix-5.png",
+    "alt": "Pixcam people counting software, screen 5",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "pix-6": {
+    "src": "external:local",
+    "file": "pix-6.png",
+    "alt": "Pixcam people counting software, screen 6",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "pix-7": {
+    "src": "external:local",
+    "file": "pix-7.png",
+    "alt": "Pixcam people counting software, screen 7",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "pix-8": {
+    "src": "external:local",
+    "file": "pix-8.png",
+    "alt": "Pixcam people counting software, screen 8",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "pix-9": {
+    "src": "external:local",
+    "file": "pix-9.png",
+    "alt": "Pixcam people counting software, screen 9",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "pix-10": {
+    "src": "external:local",
+    "file": "pix-10.png",
+    "alt": "Pixcam people counting software, screen 10",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "pix-11": {
+    "src": "external:local",
+    "file": "pix-11.png",
+    "alt": "Pixcam people counting software, screen 11",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "wri-1": {
+    "src": "external:local",
+    "file": "wri-1.png",
+    "alt": "WRI offline survey app, screen 1",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "wri-2": {
+    "src": "external:local",
+    "file": "wri-2.png",
+    "alt": "WRI offline survey app, screen 2",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "wri-3": {
+    "src": "external:local",
+    "file": "wri-3.png",
+    "alt": "WRI offline survey app, screen 3",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "wri-4": {
+    "src": "external:local",
+    "file": "wri-4.png",
+    "alt": "WRI offline survey app, screen 4",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      480,
+      960,
+      1440
+    ]
+  },
+  "banner-smol": {
+    "src": "external:local",
+    "file": "smol-kitchen.png",
+    "alt": "A smiling Smolgoodi home seller packing a sweet box in her busy kitchen",
+    "credit": "Smolgoodi (smolgoodi.in)",
+    "source": "https://smolgoodi.in",
+    "widths": [
+      640,
+      1024,
+      1536
+    ]
+  },
+  "banner-pj-amd": {
+    "src": "external:local",
+    "file": "banner-pj-amd.jpg",
+    "alt": "Screens from AMD Retail Connect, shown on a soft blurred backdrop",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-pj-uniwood": {
+    "src": "external:local",
+    "file": "banner-pj-uniwood.jpg",
+    "alt": "Screens from Uniwood, shown on a soft blurred backdrop",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-pj-pixcam": {
+    "src": "external:local",
+    "file": "banner-pj-pixcam.jpg",
+    "alt": "Screens from Pixcam, shown on a soft blurred backdrop",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
+    ]
+  },
+  "banner-pj-wri": {
+    "src": "external:local",
+    "file": "banner-pj-wri.jpg",
+    "alt": "Screens from the WRI survey app, shown on a soft blurred backdrop",
+    "credit": "Pixelbrahma project artwork",
+    "source": "https://pixelbrahma.com/",
+    "widths": [
+      640,
+      1024,
+      1536,
+      1920,
+      2400
     ]
   }
 }

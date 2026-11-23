@@ -2016,17 +2016,17 @@
   ]
  },
  "smol-logo": {
-  "w": 2460,
-  "h": 1116,
+  "w": 1334,
+  "h": 974,
   "alt": "Smolgoodi logo",
   "variants": [
    {
     "w": 480,
-    "h": 218
+    "h": 350
    },
    {
     "w": 960,
-    "h": 436
+    "h": 701
    }
   ]
  },
@@ -2957,7 +2957,7 @@
  "banner-p-web": {
   "w": 2400,
   "h": 1350,
-  "alt": "Two monitors on a wooden desk in a web design workspace",
+  "alt": "Website design on a large monitor beside a laptop and tablet showing code and a digital products site",
   "variants": [
    {
     "w": 640,
@@ -3065,7 +3065,7 @@
  "banner-contact": {
   "w": 2400,
   "h": 1350,
-  "alt": "Smiling customer support colleague wearing a headset at a computer",
+  "alt": "Smiling customer support team wearing headsets in a bright office",
   "variants": [
    {
     "w": 640,
@@ -3311,6 +3311,646 @@
    {
     "w": 1600,
     "h": 1280
+   }
+  ]
+ },
+ "uw-1": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Uniwood flooring quote app, screen 1",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "uw-2": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Uniwood flooring quote app, screen 2",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "uw-3": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Uniwood flooring quote app, screen 3",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "uw-4": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Uniwood flooring quote app, screen 4",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "uw-5": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Uniwood flooring quote app, screen 5",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "amd-1": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "AMD Retail Connect app, screen 1",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "amd-2": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "AMD Retail Connect app, screen 2",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "amd-3": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "AMD Retail Connect app, screen 3",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "amd-4": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "AMD Retail Connect app, screen 4",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "amd-5": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "AMD Retail Connect app, screen 5",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "amd-6": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "AMD Retail Connect app, screen 6",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "amd-7": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "AMD Retail Connect app, screen 7",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "pix-1": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Pixcam people counting software, screen 1",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "pix-2": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Pixcam people counting software, screen 2",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "pix-3": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Pixcam people counting software, screen 3",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "pix-4": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Pixcam people counting software, screen 4",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "pix-5": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Pixcam people counting software, screen 5",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "pix-6": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Pixcam people counting software, screen 6",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "pix-7": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Pixcam people counting software, screen 7",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "pix-8": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Pixcam people counting software, screen 8",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "pix-9": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Pixcam people counting software, screen 9",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "pix-10": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Pixcam people counting software, screen 10",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "pix-11": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "Pixcam people counting software, screen 11",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "wri-1": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "WRI offline survey app, screen 1",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "wri-2": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "WRI offline survey app, screen 2",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "wri-3": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "WRI offline survey app, screen 3",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "wri-4": {
+  "w": 1920,
+  "h": 1080,
+  "alt": "WRI offline survey app, screen 4",
+  "variants": [
+   {
+    "w": 480,
+    "h": 270
+   },
+   {
+    "w": 960,
+    "h": 540
+   },
+   {
+    "w": 1440,
+    "h": 810
+   }
+  ]
+ },
+ "banner-smol": {
+  "w": 1829,
+  "h": 860,
+  "alt": "A smiling Smolgoodi home seller packing a sweet box in her busy kitchen",
+  "variants": [
+   {
+    "w": 640,
+    "h": 301
+   },
+   {
+    "w": 1024,
+    "h": 481
+   },
+   {
+    "w": 1536,
+    "h": 722
+   }
+  ]
+ },
+ "banner-pj-amd": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Screens from AMD Retail Connect, shown on a soft blurred backdrop",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-pj-uniwood": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Screens from Uniwood, shown on a soft blurred backdrop",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-pj-pixcam": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Screens from Pixcam, shown on a soft blurred backdrop",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
+   }
+  ]
+ },
+ "banner-pj-wri": {
+  "w": 2400,
+  "h": 1350,
+  "alt": "Screens from the WRI survey app, shown on a soft blurred backdrop",
+  "variants": [
+   {
+    "w": 640,
+    "h": 360
+   },
+   {
+    "w": 1024,
+    "h": 576
+   },
+   {
+    "w": 1536,
+    "h": 864
+   },
+   {
+    "w": 1920,
+    "h": 1080
+   },
+   {
+    "w": 2400,
+    "h": 1350
    }
   ]
  }

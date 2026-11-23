@@ -18,12 +18,6 @@
       "display": "+91-97470 90058",
       "tel": "+919747090058",
       "region": "IN"
-    },
-    {
-      "label": "Canada",
-      "display": "+1 (437) 983-8387",
-      "tel": "+14379838387",
-      "region": "CA"
     }
   ],
   "socials": {
@@ -56,19 +50,6 @@
       "phone": "+919747090058",
       "phoneDisplay": "+91-97470 90058",
       "addressNeedsConfirmation": "Full street address (building, road) not provided."
-    },
-    {
-      "id": "brampton",
-      "city": "Brampton",
-      "country": "Canada",
-      "countryCode": "CA",
-      "street": "105, 430 McMurchy Ave S",
-      "locality": "Brampton",
-      "region": "Ontario",
-      "postal": "",
-      "phone": "+14379838387",
-      "phoneDisplay": "+1 (437) 983-8387",
-      "addressNeedsConfirmation": "Postal code not provided."
     }
   ],
   "smolgoodi": {

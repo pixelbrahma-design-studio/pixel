@@ -13,7 +13,7 @@ const stripComments = (s) => String(s).replace(/<!--[\s\S]*?-->/g, "").replace(/
 
 const SHORT = {
   "/app-development/": "App Development",
-  "/website/": "Website Design",
+  "/website/": "Website Development",
   "/digital-media-managing/": "Digital Media Managing",
   "/digital-media-content-creation/": "Content Creation",
   "/logo/": "Logo",
@@ -27,7 +27,7 @@ const SHORT = {
 };
 const GROUPS = [
   { id: "app", label: "App Development", href: "/app-development/", items: [] },
-  { id: "web", label: "Website Design", href: "/website/", items: [] },
+  { id: "web", label: "Website Development", href: "/website/", items: [] },
   { id: "digital", label: "Digital Marketing", href: "/digital-marketing/", items: ["/digital-media-managing/", "/digital-media-content-creation/"] },
   { id: "branding", label: "Branding", href: "/branding/", wide: true, items: ["/logo/", "/brochures/", "/leaftlets/", "/magazine/", "/package-designs/", "/inshop-branding/", "/outdoor/", "/tvc/"] }
 ];
@@ -70,7 +70,7 @@ function mega(site, cur) {
 <div class="mega__grouphead"><a class="mega__grouplink${g.items.includes(cur) ? " is-active" : ""}" href="${g.href}">${t(g.label)}</a><button class="mega__toggle" type="button" aria-expanded="false" aria-controls="mg-${g.id}"><span aria-hidden="true">+</span><span class="sr-only">Show ${t(g.label)} pages</span></button></div>
 <ul id="mg-${g.id}">${lis}</ul></div>`;
   }).join("");
-  const offices = site.offices.map((o) => `<p class="mega__office"><strong>${o.city}</strong><a href="tel:${o.phone}">${o.phoneDisplay}</a></p>`).join("");
+  const offices = site.offices.map((o) => `<p class="mega__office"><strong>${o.city}</strong>${o.phone ? `<a href="tel:${o.phone}">${o.phoneDisplay}</a>` : `<span>${esc(o.country)}</span>`}</p>`).join("");
   return `<div class="mega" id="mega" role="dialog" aria-modal="true" aria-label="Site menu">
   <div class="wrap mega__inner">
     <nav class="mega__primary" aria-label="Main menu"><h2 class="mega__label">Menu</h2><ul>${primary}</ul><ul class="mega__secondary"><li><a href="/privacy-policy/"${"/privacy-policy/" === cur ? ' aria-current="page"' : ""}>Privacy Policy</a></li><li><a href="/terms-of-service/"${"/terms-of-service/" === cur ? ' aria-current="page"' : ""}>Terms of Service</a></li></ul></nav>
@@ -89,7 +89,7 @@ function footer(site, pages) {
   const core = [["Home", "/"], ["Our Services", "/services/"], ["Our Work", "/work/"], ["About Us", "/about/"], ["Contact Us", "/contact-us/"]]
     .map(([l, h]) => `<li><a href="${h}">${t(l)}</a></li>`).join("");
   const svc = GROUPS.map((g) => `<li class="footer__sub"><a href="${g.href}">${t(g.label)}</a>${g.items.length ? `<ul>${g.items.map((h) => `<li><a href="${h}">${SHORT[h]}</a></li>`).join("")}</ul>` : ""}</li>`).join("");
-  const offices = site.offices.map((o) => `<address><strong>${o.city}</strong>${esc(address(o))}<br><a href="tel:${o.phone}">${o.phoneDisplay}</a></address>`).join("");
+  const offices = site.offices.map((o) => `<address><strong>${o.city}</strong>${esc(address(o))}${o.phone ? `<br><a href="tel:${o.phone}">${o.phoneDisplay}</a>` : ""}</address>`).join("");
   return `<footer class="footer" data-tone="dark">
   <div class="wrap">
     <div class="footer__grid">
@@ -109,7 +109,7 @@ function footer(site, pages) {
   <a class="fab__btn fab__btn--call" href="tel:${site.phones[0].tel}" aria-label="Call Pixelbrahma on ${site.phones[0].display}" data-label="Call us now"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.6 21 3 13.4 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg></a>
 </div>
 <div class="consent" id="consent" role="region" aria-label="Cookie consent" hidden>
-  <p>We use essential storage to remember this choice. With your consent we also use anonymous analytics. The map loads only when you ask for it. See our <a href="/privacy-policy/">Privacy Policy</a>.</p>
+  <p>We use essential storage to remember this choice. With your consent we also use anonymous analytics. See our <a href="/privacy-policy/">Privacy Policy</a>.</p>
   <div class="consent__actions"><button class="btn" type="button" data-consent="accept">Accept analytics</button><button class="btn btn--ghost" type="button" data-consent="decline">Essential only</button></div>
 </div>`;
 }
@@ -129,19 +129,65 @@ const { motif, ICONS } = require("./motifs");
 const pad2 = (n) => String(n + 1).padStart(2, "0");
 const headSplit = (h, intro, idAttr = "") => `<div class="shead2 reveal"><h2${idAttr}>${t(h)}</h2>${intro ? `<p class="shead__intro">${t(intro)}</p>` : ""}</div>`;
 const pts = (a) => (a && a.length ? `<ul class="ticks">${a.map((p) => `<li>${t(p)}</li>`).join("")}</ul>` : "");
+
+/* a fitting line icon for an item, chosen from its words; otherwise a rotating set so neighbours never repeat */
+const ICON_RULES = [
+  [/print|pdf|bleed|file|export|format/i, "doc"], [/photo|image|picture|retouch|illustrat|visual/i, "image"],
+  [/layout|typograph|design|ui|ux|prototype|wireframe|interface|identity|logo|brand/i, "layers"], [/copy|text|content|writing|edit|headline|caption/i, "type"],
+  [/secur|privacy|protect|encrypt|safe|access|permission/i, "shield"], [/budget|cost|price|fee|spend|payment|upi/i, "coin"],
+  [/report|analytic|track|measure|kpi|insight|monitor/i, "chart"], [/launch|release|publish|deliver|handover|upload|share|send|store/i, "send"],
+  [/plan|strategy|research|discover|goal|audit|competitor|idea|concept|outline/i, "target"], [/quote|lead|order|sales|retail|shop|product|customer/i, "cart"],
+  [/message|comment|community|reply|chat|notification|alert|support/i, "chat"], [/team|user|people|role|agency|client|audience/i, "users"],
+  [/time|calendar|schedule|timeline|weekly|monthly|offline|real-time/i, "clock"]
+];
+const ICON_CYCLE = ["layers", "target", "doc", "pen", "chart", "users", "send", "shield"];
+let _prevIcon = "";
+function icoFor(text, k) {
+  const s = String(text); const hit = ICON_RULES.find(([re]) => re.test(s));
+  let name = hit ? hit[1] : ICON_CYCLE[k % ICON_CYCLE.length];
+  if (name === _prevIcon) name = ICON_CYCLE[(k + 3) % ICON_CYCLE.length] === name ? ICON_CYCLE[(k + 1) % ICON_CYCLE.length] : ICON_CYCLE[(k + 3) % ICON_CYCLE.length];
+  _prevIcon = name;
+  return ICONS[name];
+}
 const INDUSTRY_ICONS = [ICONS.gem, ICONS.paint, ICONS.food, ICONS.chip, ICONS.heart, ICONS.home];
 const PLATFORM_ICONS = [ICONS.phone, ICONS.android, ICONS.browser];
-const CITIES = [["Bengaluru", "bengaluru", ""], ["Kochi", "kochi", ""], ["Brampton", "brampton", ", Canada"]];
+const CITIES = [["Bengaluru", "bengaluru", ""], ["Kochi", "kochi", ""]];
+
+
+/* section intro (right of the heading): the block's own line plus one more sentence that fits the kind of section */
+const INTRO_MORE = {
+  mistakes: "Each lesson comes with a better way to do it, so you can plan ${ph} with confidence and avoid costly rework.",
+  industries: "Whatever your sector, we start by learning how your customers buy, then shape the work to fit.",
+  steps: "A clear process keeps ${ph} on schedule: you always know what is happening, what we need from you and when to expect the next draft.",
+  list: "Every project is scoped in writing first, so you know exactly what is included before any work begins.",
+  chips: "If your situation looks different, tell us. We shape the work around your goals, not around a template.",
+  kpis: "We agree these numbers with you at the start and report on them in plain language.",
+  sections: "We keep the work simple to follow, with clear goals, clear steps and plain-language updates.",
+  gallery: "Selected work from our portfolio, created for brands in different industries and of different sizes.",
+  related: "Most projects combine more than one service, so our team plans them together and the result feels like one brand.",
+  screens: "Use the arrows or swipe sideways to move through the app screens, from sign-in to the main views.",
+  projects: "Each project page shows the screens, the technology and what the app does for its users.",
+  sites: "Every site is built to load fast, read clearly and be found, and each one links to the live website.",
+  cards: "Each option is explained in plain language, with what you get and how we work with you.",
+  deliverables: "Pick one format, or combine several so your logo, print, packaging and signage all look like one brand."
+};
+function X(b, kind) {
+  const k = kind || (b.id === "screens" ? "screens" : b.id === "industries" ? "industries" : b.id === "mistakes" ? "mistakes" : b.id === "use-cases" ? "chips" : b.t === "table" ? "kpis" : b.t);
+  const more = (INTRO_MORE[k] || "").replace("${ph}", b.ph || "your project");
+  const own = b.intro || "";
+  if (own && own.length > 110) return own;
+  return [own, more].filter(Boolean).join(" ");
+}
 
 const blocks = {
   /* cards: platforms (icon columns) or services with photos (two big tiles) */
   cards(b) {
     if (b.items.some((i) => i.img)) {
       const items = b.items.map((i) => `<li><a class="duo__item reveal" href="${i.href || "#"}"><figure class="duo__img">${IMG.pic(i.img, { sizes: "(min-width: 900px) 45vw, 100vw" })}</figure><div class="duo__body"><h3>${t(i.h)}</h3><p>${t(i.p)}</p><span class="duo__go">${t(i.cta || "Learn more")} &rarr;</span></div></a></li>`).join("");
-      return sec("sec-duo", b.id, headSplit(b.h, b.intro) + `<ul class="duo">${items}</ul>`);
+      return sec("sec-duo", b.id, headSplit(b.h, X(b)) + `<ul class="duo">${items}</ul>`);
     }
     const items = b.items.map((i, k) => `<li class="plat__item reveal"><span class="plat__icon">${PLATFORM_ICONS[k % 3]}</span><h3>${t(i.h)}</h3><p>${t(i.p)}</p>${i.href ? `<a class="plat__go" href="${i.href}">${t(i.cta || "Learn more")} &rarr;</a>` : ""}</li>`).join("");
-    return sec("sec-plat", b.id, headSplit(b.h, b.intro) + `<ul class="plat">${items}</ul>`);
+    return sec("sec-plat", b.id, headSplit(b.h, X(b)) + `<ul class="plat">${items}</ul>`);
   },
   /* list: industries (icon tiles), use-cases (chips) or numbered grid */
   list(b) {
@@ -150,32 +196,32 @@ const blocks = {
         const [a, rest] = String(i).split(" that need ");
         return `<li class="itile reveal"><span class="itile__icon">${INDUSTRY_ICONS[k % 6]}</span><h3>${t(a)}</h3></li>`;
       }).join("");
-      return sec("sec-itiles", b.id, headSplit(b.h, b.intro) + `<ul class="itiles">${items}</ul>`);
+      return sec("sec-itiles", b.id, headSplit(b.h, X(b)) + `<ul class="itiles">${items}</ul>`);
     }
     if (b.id === "use-cases") {
-      return sec("sec-chips", b.id, headSplit(b.h, b.intro) + `<ul class="chips chips--${b.items.length}">${b.items.map((i) => `<li class="reveal">${ICONS.check}<span>${t(i)}</span></li>`).join("")}</ul>`);
+      return sec("sec-chips", b.id, headSplit(b.h, X(b)) + `<ul class="chips chips--${b.items.length}">${b.items.map((i) => `<li class="reveal">${ICONS.check}<span>${t(i)}</span></li>`).join("")}</ul>`);
     }
-    return sec("sec-nlist", b.id, headSplit(b.h, b.intro) + `<ol class="nlist${b.items.length >= 6 ? " nlist--3" : ""}">${b.items.map((i, k) => `<li class="nlist__item reveal"><span class="nlist__n" aria-hidden="true">${pad2(k)}</span><p>${t(i)}</p></li>`).join("")}</ol>`);
+    return sec("sec-nlist", b.id, headSplit(b.h, X(b)) + `<ol class="nlist${b.items.length >= 6 ? " nlist--3" : ""}">${b.items.map((i, k) => `<li class="nlist__item reveal"><span class="nlist__ico" aria-hidden="true">${icoFor(i, k)}</span><p>${t(i)}</p></li>`).join("")}</ol>`);
   },
   /* steps: staircase of large numerals */
   steps(b) {
     if (b.id === "process") {
       const rows = b.items.map((i, k) => `<li class="rail__step reveal"><span class="rail__dot" aria-hidden="true">${pad2(k)}</span><div class="rail__card"><h3>${t(i.h)}</h3><div><p>${t(i.p)}</p>${pts(i.points)}</div></div></li>`).join("");
-      return sec("sec-rail", b.id, headSplit(b.h, b.intro) + `<ol class="rail">${rows}</ol>`);
+      return sec("sec-rail", b.id, headSplit(b.h, X(b)) + `<ol class="rail">${rows}</ol>`);
     }
     const n = b.items.length;
     const cards = b.items.map((i, k) => `<li class="stepcards__card reveal"><div class="stepcards__top"><span class="stepcards__n">Step ${k + 1}</span></div><h3>${t(i.h)}</h3><p>${t(i.p)}</p>${pts(i.points)}<span class="stepcards__segs" aria-hidden="true">${b.items.map((_, j) => `<i${j <= k ? ' class="on"' : ""}></i>`).join("")}</span></li>`).join("");
-    return sec("sec-stepcards", b.id, headSplit(b.h, b.intro) + `<ol class="stepcards stepcards--${Math.min(n, 5)}">${cards}</ol>`);
+    return sec("sec-stepcards", b.id, headSplit(b.h, X(b)) + `<ol class="stepcards stepcards--${Math.min(n, 5)}">${cards}</ol>`);
   },
   table(b) {
     const cols = b.head.slice(1);
     const items = b.rows.map((r) => `<li class="kpi reveal"><h3>${t(r[0])}</h3>${r.slice(1).map((c, i) => `<p><span>${t(cols[i])}</span>${t(c)}</p>`).join("")}</li>`).join("");
-    return sec("sec-kpis", b.id, headSplit(b.h, b.intro) + `<ul class="kpis kpis--${Math.min(b.rows.length, 5)}">${items}</ul>`);
+    return sec("sec-kpis", b.id, headSplit(b.h, X(b)) + `<ul class="kpis kpis--${Math.min(b.rows.length, 5)}">${items}</ul>`);
   },
   /* mistakes: each row sets the common mistake beside the better way */
   mistakes(b) {
     const items = b.items.map((i, k) => `<li class="miss reveal"><div class="miss__bad"><span class="miss__tag">Mistake ${k + 1}</span><h3>${t(i.h)}</h3></div><div class="miss__good"><span class="miss__tag miss__tag--ok">Do this instead</span><p>${t(i.p)}</p></div></li>`).join("");
-    return sec("sec-miss", b.id, headSplit(b.h, b.intro) + `<ol class="miss-list">${items}</ol>`);
+    return sec("sec-miss", b.id, headSplit(b.h, X(b)) + `<ol class="miss-list">${items}</ol>`);
   },
   /* prepare: checklist panel */
   prepare(b) {
@@ -185,21 +231,21 @@ const blocks = {
   /* sections: "Why choose" (illustration + numbered points), two-item panels, or a bento grid */
   sections(b) {
     if (b.v === "whyx") {
-      const items = b.items.map((i, k) => `<li class="reveal"><span class="whyx__n" aria-hidden="true">${pad2(k)}</span><div><h3>${t(i.h)}</h3><p>${t(i.p)}</p></div></li>`).join("");
+      const items = b.items.map((i, k) => `<li class="reveal"><span class="whyx__n" aria-hidden="true">${icoFor(i.h + " " + i.p, k)}</span><div><h3>${t(i.h)}</h3><p>${t(i.p)}</p></div></li>`).join("");
       return sec("sec-whyx", b.id, `<div class="whyx"><div class="whyx__side reveal"><h2>${t(b.h)}</h2>${b.intro ? `<p class="shead__intro">${t(b.intro)}</p>` : ""}<figure class="whyx__art"><div class="whyx__photo">${b.banner ? IMG.pic(b.banner, { sizes: "(min-width: 960px) 40vw, 90vw", alt: "" }) : ""}</div>${b.items.slice(0, 3).map((i, k) => `<div class="whyx__chip whyx__chip--${k + 1}">${ICONS.check}<span>${t(i.h)}</span></div>`).join("")}</figure></div><ol class="whyx__list">${items}</ol></div>`);
     }
     if (b.items.length <= 2) {
-      const items = b.items.map((i, k) => `<article class="panel reveal" id="${i.id}"><span class="panel__n" aria-hidden="true">${pad2(k)}</span><h3>${t(i.h)}</h3><p>${t(i.p)}</p>${pts(i.points)}</article>`).join("");
-      return sec("sec-panels", b.id, headSplit(b.h, b.intro) + `<div class="panels">${items}</div>`);
+      const items = b.items.map((i, k) => `<article class="panel reveal" id="${i.id}"><span class="panel__ico" aria-hidden="true">${icoFor(i.h + " " + i.p, k)}</span><h3>${t(i.h)}</h3><p>${t(i.p)}</p>${pts(i.points)}</article>`).join("");
+      return sec("sec-panels", b.id, headSplit(b.h, X(b)) + `<div class="panels">${items}</div>`);
     }
     const n = b.items.length;
-    const items = b.items.map((i, k) => `<li class="gbento__tile gbento__tile--${k + 1} reveal" id="${i.id}"><span class="gbento__n" aria-hidden="true">${pad2(k)}</span><h3>${t(i.h)}</h3><p>${t(i.p)}</p>${pts(i.points)}</li>`).join("");
-    return sec("sec-bento", b.id, headSplit(b.h, b.intro) + `<ul class="gbento gbento--${Math.min(n, 4)}">${items}</ul>`);
+    const items = b.items.map((i, k) => `<li class="gbento__tile gbento__tile--${k + 1} reveal" id="${i.id}"><span class="gbento__ico" aria-hidden="true">${icoFor(i.h + " " + i.p, k)}</span><h3>${t(i.h)}</h3><p>${t(i.p)}</p>${pts(i.points)}</li>`).join("");
+    return sec("sec-bento", b.id, headSplit(b.h, X(b)) + `<ul class="gbento gbento--${Math.min(n, 4)}">${items}</ul>`);
   },
   prose(b) {
     if (b.id === "locations") {
       const items = b.ps.map((p, k) => { const c = CITIES[k] || CITIES[0]; return `<article class="city reveal"><span class="city__pin">${ICONS.pin}</span><h3>${c[0]}${c[2]}</h3><p>${t(p)}</p><a class="city__link" href="/contact-us/#office-${c[1]}">Visit our ${c[0]} office &rarr;</a></article>`; }).join("");
-      return sec("sec-cities", b.id, headSplit(b.h, "One studio, three offices, and teams that can support markets in India and Canada.") + `<div class="cities">${items}</div>`);
+      return sec("sec-cities", b.id, headSplit(b.h, "One studio, two offices, and teams that keep your project moving.") + `<div class="cities">${items}</div>`);
     }
     return sec("sec-callout", b.id, `<div class="callout"><h2 class="reveal">${t(b.h)}</h2><div class="callout__text reveal">${b.ps.map((p) => `<p>${t(p)}</p>`).join("")}</div></div>`);
   },
@@ -209,19 +255,19 @@ const blocks = {
       if (b.logos) {
         const shown = keys.length > 4 ? keys.slice(0, keys.length - (keys.length % 4)) : keys;
         const items = shown.map((k) => `<li class="reveal">${IMG.pic(k, { sizes: "(min-width: 900px) 18vw, 33vw" })}</li>`).join("");
-        return sec("sec-logowall", b.id, headSplit(b.h, b.intro) + `<ul class="logowall">${items}</ul>`);
+        return sec("sec-logowall", b.id, headSplit(b.h, X(b)) + `<ul class="logowall">${items}</ul>`);
       }
       if (keys.length <= 3) {
         const figs = keys.map((k) => `<li class="reveal">${IMG.pic(k, { sizes: "(min-width: 900px) 30vw, 90vw" })}</li>`).join("");
-        return sec("sec-gfew", b.id, headSplit(b.h, b.intro) + `<div class="gfew gfew--${keys.length}"><ul class="gfew__imgs">${figs}</ul><div class="gfew__more reveal"><figure>${motif(b.motif)}</figure><p>Want to see more ${t(b.name || "")} work? Ask us for the full portfolio and we will share relevant examples.</p><a class="btn" href="/contact-us/">Ask for the portfolio</a></div></div>`);
+        return sec("sec-gfew", b.id, headSplit(b.h, X(b)) + `<div class="gfew gfew--${keys.length}"><ul class="gfew__imgs">${figs}</ul><div class="gfew__more reveal"><figure>${motif(b.motif)}</figure><p>Want to see more ${t(b.name || "")} work? Ask us for the full portfolio and we will share relevant examples.</p><a class="btn" href="/contact-us/">Ask for the portfolio</a></div></div>`);
       }
       if (keys.length >= 7) {
         const arrow = (d, label, path) => `<button class="slider__btn" type="button" data-work="${d}" aria-label="${label}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="${path}" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`;
-        const items = keys.map((k) => `<li class="gscroll__item">${IMG.pic(k, { sizes: "(min-width: 900px) 30vw, 70vw" })}</li>`).join("");
-        return `<section class="section sec-gscroll" id="${b.id}" data-work-slider><div class="wrap"><div class="gscroll__head">${headSplit(b.h, b.intro)}<div class="work-nav">${arrow(-1, "Previous pictures", "M15 5l-7 7 7 7")}${arrow(1, "Next pictures", "M9 5l7 7-7 7")}</div></div></div><div class="gscroll" tabindex="0" role="region" aria-label="${esc(stripComments(b.h))}. Scroll sideways to see more."><ul class="gscroll__list">${items}</ul></div></section>`;
+        const items = keys.map((k) => { const m = IMG.manifest[k]; const wide = m && m.w / m.h > 1.4; return `<li class="gscroll__item${wide ? " gscroll__item--wide" : ""}">${IMG.pic(k, { sizes: wide ? "(min-width: 900px) 46vw, 80vw" : "(min-width: 900px) 30vw, 70vw" })}</li>`; }).join("");
+        return `<section class="section sec-gscroll" id="${b.id}" data-work-slider><div class="wrap"><div class="gscroll__head">${headSplit(b.h, X(b, b.id === "screens" ? "screens" : "gallery"))}<div class="work-nav">${arrow(-1, "Previous pictures", "M15 5l-7 7 7 7")}${arrow(1, "Next pictures", "M9 5l7 7-7 7")}</div></div><div class="gscroll" tabindex="0" role="region" aria-label="${esc(stripComments(b.h))}. Scroll sideways to see more."><ul class="gscroll__list">${items}</ul></div></div></section>`;
       }
       const items = keys.map((k) => `<li class="gtile reveal">${IMG.pic(k, { sizes: "(min-width: 1000px) 30vw, 50vw" })}</li>`).join("");
-      return sec("sec-gtiles", b.id, headSplit(b.h, b.intro) + `<ul class="gtiles gtiles--${keys.length}">${items}</ul>`);
+      return sec("sec-gtiles", b.id, headSplit(b.h, X(b)) + `<ul class="gtiles gtiles--${keys.length}">${items}</ul>`);
     }
     const n = b.n || 6;
     const items = Array.from({ length: n }, (_, i) => `<li class="gallery__item gallery__item--ph reveal"><span><!-- TODO: real portfolio image ${i + 1} for ${esc(b.name)} -->Placeholder ${i + 1}: add ${esc(b.name)} project</span></li>`).join("");
@@ -235,7 +281,12 @@ const blocks = {
       const host = i.url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
       return `<li class="site reveal"><a class="site__link" href="${i.url}" target="_blank" rel="noopener"><figure class="site__frame"><div class="site__bar" aria-hidden="true"><i></i><i></i><i></i><span>${esc(host)}</span></div>${IMG.pic(i.key, { sizes: "(min-width: 900px) 45vw, 92vw" })}</figure><div class="site__cap"><h3>${t(i.name)}</h3><span>Visit ${esc(host)} <span class="sr-only">(opens in a new tab)</span>&nearr;</span></div></a></li>`;
     }).join("");
-    return sec("sec-sites", b.id, headSplit(b.h, b.intro) + `<ul class="sites">${items}</ul>`);
+    return sec("sec-sites", b.id, headSplit(b.h, X(b)) + `<ul class="sites">${items}</ul>`);
+  },
+  /* app project cards (screen cover, name, one line, link) */
+  projects(b) {
+    const items = b.items.map((i) => `<li><a class="pcard reveal" href="${i.href}"${i.ext ? ' target="_blank" rel="noopener"' : ""}><figure class="pcard__img">${IMG.pic(i.cover, { sizes: "(min-width: 1000px) 30vw, (min-width: 600px) 45vw, 92vw" })}</figure><h3>${t(i.name)}</h3><p>${t(i.tag)}</p><span class="pcard__go">${i.ext ? "Visit smolgoodi.in" : "View project"} &rarr;${i.ext ? '<span class="sr-only"> (opens in a new tab)</span>' : ""}</span></a></li>`).join("");
+    return sec("sec-projects", b.id, headSplit(b.h, X(b)) + `<ul class="projects">${items}</ul>`);
   },
   /* cost factors: heading and note on the left, plus-marked list on the right */
   factors(b) {
@@ -247,7 +298,7 @@ const blocks = {
       const p = ctx.byPath[h];
       return `<li><a class="dcard reveal" href="${h}"><figure class="dcard__img">${p.thumb ? IMG.pic(p.thumb, { sizes: "(min-width: 900px) 25vw, 50vw" }) : ""}</figure><h3>${t(SHORT[h])}</h3><p>${t(p.cardText)}</p><span class="dcard__go">View ${t(SHORT[h].toLowerCase())} &rarr;</span></a></li>`;
     }).join("");
-    return sec("sec-dgrid", b.id, headSplit(b.h, b.intro) + `<ul class="dgrid">${items}</ul>`);
+    return sec("sec-dgrid", b.id, headSplit(b.h, X(b)) + `<ul class="dgrid">${items}</ul>`);
   }
 };
 
@@ -260,11 +311,11 @@ function faqBlock(faq, h = "Questions we hear often", intro = "Short answers abo
 function relatedBlock(paths, ctx, heading) {
   if (!paths || !paths.length) return "";
   const lis = paths.map((h) => { const p = ctx.byPath[h]; return `<li><a class="rel reveal" href="${h}"><h3>${t(p.navName)}</h3><p>${t(p.lead || p.cardText || "")}</p><span class="rel__go">${ICONS.arrow}</span></a></li>`; }).join("");
-  return sec("sec-rel", "related", headSplit(heading || "Explore related services", "Most projects combine more than one service. These pair well with this one.") + `<ul class="rels">${lis}</ul>`);
+  return sec("sec-rel", "related", headSplit(heading || "Explore related services", "Most projects combine more than one service. These pair well with this one. " + INTRO_MORE.related) + `<ul class="rels">${lis}</ul>`);
 }
 
 function metaStrip(site, page) {
-  return `<div class="wrap"><div class="meta"><span>Last updated: <time datetime="${site.lastUpdated}">${new Date(site.lastUpdated + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })}</time></span><span>Published by ${esc(site.legalName)}, Bengaluru, Kochi and Brampton.</span></div></div>`;
+  return `<div class="wrap"><div class="meta"><span>Last updated: <time datetime="${site.lastUpdated}">${new Date(site.lastUpdated + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })}</time></span><span>Published by ${esc(site.legalName)}, Bengaluru and Kochi.</span></div></div>`;
 }
 
 function ctaBand(site, opts = {}) {
@@ -273,4 +324,4 @@ function ctaBand(site, opts = {}) {
   return `<section class="section" id="start"><div class="wrap"><div class="cta-card"><div class="reveal"><h2>${t(hd)}</h2><p>${t(p)}</p><div class="cta__actions"><a class="btn btn--lime" href="/contact-us/">Start a project</a><a class="btn btn--ghost" href="tel:${site.phones[0].tel}">Call ${site.phones[0].display}</a></div></div></div></div></section>`;
 }
 
-module.exports = { headSplit, esc, t, stripComments, SHORT, GROUPS, PRIMARY, address, header, mega, footer, breadcrumbs, blocks, faqBlock, relatedBlock, metaStrip, ctaBand, socials, sec, head, heroArt, glyph };
+module.exports = { icon: (n) => ICONS[n] || "", headSplit, esc, t, stripComments, SHORT, GROUPS, PRIMARY, address, header, mega, footer, breadcrumbs, blocks, faqBlock, relatedBlock, metaStrip, ctaBand, socials, sec, head, heroArt, glyph };

@@ -2,19 +2,16 @@
 
 Last updated: 2026-11-12
 
-## Web Design, App Development, Digital Marketing and Branding Agency
+## App Development, Website Development, Digital Marketing and Branding Agency
 URL: https://pixelbrahma.com/
 
-Pixelbrahma is a design and technology studio with offices in Bengaluru, Kochi and Brampton that builds apps and websites, runs digital marketing and creates brands. With more than 20 years of experience, we help startups and growing businesses in India and Canada with web design, mobile app development, social media marketing and branding.
+Pixelbrahma is a design and technology studio with offices in Bengaluru and Kochi that builds apps and websites, runs digital marketing and creates brands. With more than 20 years of experience, we help startups and growing businesses in India and Canada with web design, mobile app development, social media marketing and branding.
 
 **What services does Pixelbrahma offer?**
 Pixelbrahma offers website design and development, mobile app development, digital marketing (social media management and content creation) and branding, including logo design, brochures, leaflets, magazines, package design, in-shop branding, outdoor advertising and TV commercials.
 
 **Do you offer web design and app development in Bengaluru and Kochi?**
 Yes. Our studios in Kasturinagar, Bengaluru and Kadavanthara, Kochi design and build websites and mobile apps for businesses across India.
-
-**Do you work with businesses in Canada?**
-Yes. Our Brampton office supports businesses in the Greater Toronto Area and across Canada with web design, app development, digital marketing and branding.
 
 **How much does a website, app or branding project cost?**
 The cost depends on scope, features and timeline. Send a short brief through the contact form and we will reply with questions and a price range once we understand the goal.
@@ -71,8 +68,8 @@ A focused first version usually takes a few months from wireframes to store rele
 **Which technologies do you use for cross-platform app development?**
 We choose the stack that fits your product, using cross-platform frameworks where they give you one codebase for iOS and Android and native code where performance demands it.
 
-**Do you build apps for startups in Bengaluru, Kochi and Canada?**
-Yes. Our teams in Bengaluru, Kochi and Brampton work with startups and established brands, and most projects run through video calls with regular demos.
+**Do you build apps for startups in Bengaluru and Kochi?**
+Yes. Our teams in Bengaluru and Kochi work with startups and established brands, and most projects run through video calls with regular demos.
 
 ---
 
@@ -110,7 +107,7 @@ Yes. We design and develop websites for businesses in Bengaluru, Kochi, the Grea
 ## Digital marketing that builds awareness and drives action
 URL: https://pixelbrahma.com/digital-marketing/
 
-Pixelbrahma is a digital marketing agency with offices in Bengaluru, Kochi and Brampton that plans and manages your online channels and produces the content that makes them work.
+Pixelbrahma is a digital marketing agency with offices in Bengaluru and Kochi that plans and manages your online channels and produces the content that makes them work.
 
 **What does a digital marketing agency do?**
 It plans, runs and measures your online promotion, including social media, paid campaigns, content and search, so more of the right people find and trust your brand.
@@ -217,7 +214,7 @@ A branding project can be as small as a logo or as large as a complete identity 
 **What is included in a brand identity package?**
 Typically a logo with its variations, colour palette, typography, usage guidelines and the first set of applications such as stationery, social templates or packaging.
 
-**Do you offer branding services in Bengaluru, Kochi and Canada?**
+**Do you offer branding services in Bengaluru and Kochi?**
 Yes. We work with start-ups and established companies in India and Canada, and can support print production and installation in each market.
 
 **How long does a branding project take?**
@@ -440,7 +437,7 @@ Yes. We deliver the main film plus cut-downs in the formats you need for YouTube
 ## Let us talk about your project
 URL: https://pixelbrahma.com/contact-us/
 
-You can reach Pixelbrahma by phone, email or the contact form, and visit our offices in Bengaluru, Kochi and Brampton, Canada.
+You can reach Pixelbrahma by phone, email or the contact form, and visit our offices in Bengaluru and Kochi.
 
 **How quickly will you reply to my enquiry?**
 We aim to reply within one business day.
@@ -453,10 +450,83 @@ Yes. Most first conversations happen by video call, and we can arrange an in-per
 
 ---
 
+## AMD Retail Connect: bridging retail marketing and enterprise sales
+URL: https://pixelbrahma.com/amd-retail-connect/
+
+AMD Retail Connect is a role-based platform designed by Pixelbrahma that connects retail marketing agencies with enterprise sales teams, so in-store marketing elements can be chosen, approved, ordered and tracked in one place.
+
+**What is AMD Retail Connect?**
+AMD Retail Connect is a role-based platform that connects retail marketing agencies with enterprise sales teams for selecting, approving and tracking in-store marketing elements.
+
+**Can Pixelbrahma build an app like AMD Retail Connect for my business?**
+Yes. Tell us what your team or customers need, and we will suggest a scope, a technology choice and a written estimate.
+
+**Which technology do you use for mobile apps?**
+We choose the stack that fits the product. Many of our apps use Flutter for iOS and Android from one codebase, with Firebase or a custom back end behind them.
+
+**Who uses the platform?**
+Retail marketing agencies and enterprise sales teams use it, each with the access that fits their role.
+
+---
+
+## Uniwood: a flooring quote and lead management app
+URL: https://pixelbrahma.com/uniwood-products/
+
+Uniwood is a flooring quote and lead management app designed and developed by Pixelbrahma using Flutter and Firebase.
+
+**What is the Uniwood app?**
+Uniwood is a flooring quote and lead management app designed and developed by Pixelbrahma using Flutter and Firebase.
+
+**Can Pixelbrahma build an app like the Uniwood app for my business?**
+Yes. Tell us what your team or customers need, and we will suggest a scope, a technology choice and a written estimate.
+
+**Which technology do you use for mobile apps?**
+We choose the stack that fits the product. Many of our apps use Flutter for iOS and Android from one codebase, with Firebase or a custom back end behind them.
+
+---
+
+## Pixcam: people count software with role-based access and multi-camera integration
+URL: https://pixelbrahma.com/pixcam/
+
+Pixcam is people count software built by Pixelbrahma. It brings door and zone cameras together, counts people accurately and gives each user role-based access to the data.
+
+**What is Pixcam?**
+Pixcam is people count software with role-based access and multi-camera integration, counting visitors through door and zone cameras.
+
+**Can Pixelbrahma build an app like Pixcam for my business?**
+Yes. Tell us what your team or customers need, and we will suggest a scope, a technology choice and a written estimate.
+
+**Which technology do you use for mobile apps?**
+We choose the stack that fits the product. Many of our apps use Flutter for iOS and Android from one codebase, with Firebase or a custom back end behind them.
+
+**Which industries can use Pixcam?**
+Pixcam suits retail, hospitality, healthcare and event management.
+
+---
+
+## WRI: an offline survey app for rural resource research
+URL: https://pixelbrahma.com/wri/
+
+This offline survey app, built by Pixelbrahma for World Resource Institute (WRI), lets field teams collect rural resource data without a connection and upload it once they are online.
+
+**What is the WRI survey app?**
+It is an offline survey app built by Pixelbrahma for World Resource Institute to support rural resource research, with data uploaded once the device is online.
+
+**Can Pixelbrahma build an app like the WRI survey app for my business?**
+Yes. Tell us what your team or customers need, and we will suggest a scope, a technology choice and a written estimate.
+
+**Which technology do you use for mobile apps?**
+We choose the stack that fits the product. Many of our apps use Flutter for iOS and Android from one codebase, with Firebase or a custom back end behind them.
+
+**Does the app work without internet?**
+Yes. Surveys can be filled in offline, and the data is uploaded once the device is online.
+
+---
+
 ## Web, app, marketing and branding services under one roof
 URL: https://pixelbrahma.com/services/
 
-Pixelbrahma is a design and technology studio that offers website design, mobile app development, digital marketing and branding, from offices in Bengaluru, Kochi and Brampton (Canada).
+Pixelbrahma is a design and technology studio that offers website design, mobile app development, digital marketing and branding, from offices in Bengaluru and Kochi.
 
 **Which services does Pixelbrahma offer?**
 We offer website design and development, mobile app development, digital marketing (social media management and content creation) and branding (logo, brochures, leaflets, magazines, packaging, in-shop branding, outdoor and TV commercials).
@@ -466,9 +536,6 @@ Yes. Many clients start with a single project, such as a logo or a website, and 
 
 **Do you offer web design and app development in Bengaluru and Kochi?**
 Yes. Our Kasturinagar studio in Bengaluru and our Kadavanthara team in Kochi design and build websites and apps for local and national clients.
-
-**Do you work with businesses in Canada?**
-Yes. Our Brampton office supports businesses in the Greater Toronto Area and across Canada.
 
 **How do I choose where to start?**
 Tell us your goal on a short call. We usually suggest starting with the service that removes your biggest blocker, whether that is a clear brand, a website or steady marketing.
@@ -497,13 +564,10 @@ Our portfolio spans jewellery, paints and building materials, food, technology, 
 ## A design and technology studio with 20+ years of experience
 URL: https://pixelbrahma.com/about/
 
-Pixelbrahma Design Studio Pvt Ltd is a design and technology studio with offices in Bengaluru, Kochi and Brampton (Canada) that has been creating customer experiences for more than 20 years.
+Pixelbrahma Design Studio Pvt Ltd is a design and technology studio with offices in Bengaluru and Kochi that has been creating customer experiences for more than 20 years.
 
 **What services does Pixelbrahma offer?**
 Pixelbrahma offers website design and development, mobile app development, digital marketing (social media management and content creation) and branding, including logo design, brochures, leaflets, magazines, package design, in-shop branding, outdoor advertising and TV commercials.
-
-**Do you work with businesses in Canada?**
-Yes. Our Brampton office supports businesses in the Greater Toronto Area and across Canada with web design, app development, digital marketing and branding.
 
 **How much does a website, app or branding project cost?**
 The cost depends on scope, features and timeline. Send a short brief through the contact form and we will reply with questions and a price range once we understand the goal.
