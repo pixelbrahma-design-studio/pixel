@@ -31,7 +31,7 @@ const puppeteer = require("puppeteer-core");
   ok(w0.prev && !w1.prev && w1.left > w0.left + 200, `work slider: next arrow scrolls (${Math.round(w0.left)} -> ${Math.round(w1.left)}px), previous arrow enables`);
   await pg.click('[data-work="-1"]'); await new Promise(r => setTimeout(r, 900));
   ok((await pg.evaluate(() => document.querySelector(".work-track").scrollLeft)) < 5, "work slider: previous arrow scrolls back");
-  const cards = await pg.evaluate(() => document.querySelectorAll(".work-track .wk").length); ok(cards === 8, "work slider has 8 projects");
+  const cards = await pg.evaluate(() => document.querySelectorAll(".work-track .wk").length); ok(cards === 7, "work slider has 7 projects");
   /* textarea still scrolls natively and the page does not hijack it */
   const html = await pg.content();
   ok(!/Last updated/.test(html), "no 'Last updated' strip on the home page");
