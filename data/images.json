@@ -1706,5 +1706,18 @@
       1920,
       2400
     ]
+  },
+  "smol-logo-clear": {
+    "src": "external:local",
+    "file": "smol-logo-clear.png",
+    "alt": "Smolgoodi",
+    "credit": "Smolgoodi (smolgoodi.in)",
+    "source": "https://smolgoodi.in",
+    "widths": [
+      480
+    ],
+    "formats": [
+      "webp"
+    ]
   }
 }

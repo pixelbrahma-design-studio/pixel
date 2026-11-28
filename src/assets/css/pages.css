@@ -1440,3 +1440,7 @@ body { overflow-x: clip; }
 
 /* no full-width coloured bands: sections are white */
 .section--cream { background: #fff; }
+
+/* Smolgoodi slide: the product logo stands in for the title text */
+.slide__title--logo { margin-bottom: 0.9rem; }
+.slide__title--logo img { display: block; width: clamp(104px, 8.5vw, 128px); height: auto; }

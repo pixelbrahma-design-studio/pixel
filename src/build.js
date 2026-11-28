@@ -309,7 +309,7 @@ function smolSection() {
 /* on a phone the photo is cropped to the screen height, so it needs far more pixels than the screen is wide */
 const BANNER_SIZES = "(max-width: 700px) 300vw, 100vw";
 const BANNER = [
-  { n: "s", img: "banner-smol", dark: true, darkM: true, h: "Smolgoodi", p: "Sell from your home, right inside WhatsApp. A free shop link with orders and UPI payments for home sellers.", href: site.smolgoodi.url, ext: true, cta: "Open Smolgoodi" },
+  { n: "s", logo: "smol-logo-clear", img: "banner-smol", dark: true, darkM: true, h: "Smolgoodi", p: "Sell from your home, right inside WhatsApp. A free shop link with orders and UPI payments for home sellers.", href: site.smolgoodi.url, ext: true, cta: "Open Smolgoodi" },
   { n: 1, img: "banner-app", dark: true, h: "App Development", p: "Cross-platform apps for iOS, Android and the web, designed around real users and built to protect their data.", href: "/app-development/" },
   { n: 2, img: "banner-web", h: "Website Design & Development", p: "Fast, secure, search-ready websites with a clear flow, custom design and clean code.", href: "/website/" },
   { n: 3, img: "banner-digital", dark: true, h: "Digital Marketing", p: "Strategy, social media management and content that bring the right people to your brand.", href: "/digital-marketing/" },
@@ -319,7 +319,7 @@ const BANNER = [
 function banner() {
   const bgs = BANNER.map((sl, i) => `<div class="banner__bg banner__bg--${sl.n}${i === 0 ? " is-active" : ""}">${IMG.pic(sl.img, { sizes: BANNER_SIZES, loading: i === 0 ? "eager" : "lazy", priority: i === 0, alt: "", defer: i > 0 })}</div>`).join("");
   const slides = BANNER.map((sl, i) => `<article class="slide${sl.plain ? " slide--plain" : ""}${i === 0 ? " is-active" : ""}" id="slide-${i + 1}" role="group" aria-roledescription="slide" data-header="${sl.dark ? "dark" : "light"}" data-header-m="${sl.darkM ? "dark" : toneMOf(sl.img)}" data-text="${textOn(sl.img)}" aria-label="${i + 1} of ${BANNER.length}: ${esc(sl.h)}">
-<h2 class="slide__title">${t(sl.h)}</h2><p class="slide__lead">${t(sl.p)}</p>
+<h2 class="slide__title${sl.logo ? " slide__title--logo" : ""}">${sl.logo ? IMG.thumb(sl.logo, 480, { alt: sl.h }).replace('loading="lazy"', 'loading="eager"') : t(sl.h)}</h2><p class="slide__lead">${t(sl.p)}</p>
 <div class="slide__actions"><a class="btn" href="${sl.href}"${sl.ext ? ' target="_blank" rel="noopener"' : ""}>${sl.cta ? t(sl.cta) : "Explore " + t(sl.h)}${sl.ext ? '<span class="sr-only"> (opens in a new tab)</span>' : ""}</a></div></article>`).join("");
   const arrow = (d, label, path) => `<button class="slider__btn" type="button" data-dir="${d}" aria-label="${label}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="${path}" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`;
   return `<section class="banner" id="top" data-tone="dark" data-tone-m="${BANNER[0].darkM ? "dark" : toneMOf(BANNER[0].img)}" aria-roledescription="carousel" aria-label="Our services">
